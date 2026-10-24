@@ -7,6 +7,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# Proza limits its title field to 50 characters. These full names occur in the
+# same work's body; the source's truncated title remains in sources[].title.
+TITLE_FROM_BODY = {
+    'proza-2021-09-10-466': 'Робот, которому грустно, и Актуальность моей работы',
+    'proza-2021-09-15-625': 'Робот, которому грустно, и Робот, которому хочется убивать',
+    'proza-2022-09-20-670': 'Робот, которому грустно, и Председатель земного шара',
+    'proza-2024-02-02-724': 'Робот, которому грустно, и Робот, который ест загрязнения',
+    'proza-2024-03-04-854': 'Робот, которому грустно, и Робот, который возвращает былое величие',
+    'proza-2024-03-14-704': 'Робот, которому грустно, и Джордж Даос Мартин Какаос',
+}
+
 
 def clean(text):
     text = text.replace('\xa0', ' ')
@@ -50,6 +61,7 @@ def main():
                 continue
             kind = 'canon' if 'канон' in title.casefold() else 'extra' if (not title.startswith('Робот, которому грустно') or 'Мета.' in title) else 'dialogue'
             sid = post['id'] if source == 'proza' else f'tg-{post["id"]:03d}'
+            title = TITLE_FROM_BODY.get(sid, title)
             story = {'id': sid, 'date': post['date'][:10], 'kind': kind, 'title': {'ru': title},
                      'text': {'ru': text}, 'sources': [{'platform': source, 'url': post['url'], 'date': post['date'], 'title': source_title}],
                      'images': post['images'], 'tags': [], 'arcs': [], 'translation': {'status': 'pending'}}
