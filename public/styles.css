@@ -11,3 +11,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.sidebar,.topbar,.footer,.reader-toolbar,.reading-pagination,.reading-meta,.reading-progress,.draft-notice,.reading-sources button{display:none!important}.page{margin:0;padding:0}.reading-header h1{font-size:30px}.story-body{font-size:13pt;line-height:1.7}.reading-illustration{break-inside:avoid;max-width:80%;margin:20px auto}.reading-sources{font-size:10px}body{background:#fff;color:#000}.reading-sources a:after{content:' (' attr(href) ')';font-size:8pt}}
 .hero-art img{width:100%;height:auto}
+@media(max-width:700px){.hero{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}.hero-copy{min-width:0}.hero h1{font-size:clamp(36px,11.5vw,57px);letter-spacing:-2px}}
