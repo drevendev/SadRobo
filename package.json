@@ -1,0 +1,13 @@
+{
+  "name": "sadrobo-reader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A bilingual, independent archive of The Robot Who Is Sad",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

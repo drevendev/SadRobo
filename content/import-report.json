@@ -1,0 +1,37 @@
+{
+  "prozaWorks": 244,
+  "telegramMessages": 55,
+  "uniqueWorks": 294,
+  "excluded": [
+    {
+      "source": "https://t.me/sadrobo/1",
+      "reason": "service message, pin or archive announcement"
+    },
+    {
+      "source": "https://t.me/sadrobo/2",
+      "reason": "service message, pin or archive announcement"
+    },
+    {
+      "source": "https://t.me/sadrobo/7",
+      "reason": "service message, pin or archive announcement"
+    },
+    {
+      "source": "https://t.me/sadrobo/9",
+      "reason": "service message, pin or archive announcement"
+    },
+    {
+      "source": "https://t.me/sadrobo/10",
+      "reason": "service message, pin or archive announcement"
+    }
+  ],
+  "duplicatePolicy": "Identical normalized bodies only; title similarity never merges distinct stories.",
+  "vk": {
+    "status": "blocked",
+    "reason": "Public endpoint returned access restriction; browser safety policy also blocks vk.ru. No VK completeness claim."
+  },
+  "limitations": [
+    "Proza dates are mirror publication dates, not verified original VK dates.",
+    "VK-only texts and illustrations may be missing.",
+    "Proza contains no story illustrations."
+  ]
+}
