@@ -209,6 +209,37 @@ class VKExportTests(unittest.TestCase):
         self.assertEqual(state['posts'], {})
         self.assertEqual(state['last_scan']['reported_count'], 0)
 
+    def test_access_check_reads_first_last_pages_and_a_real_image(self):
+        posts = [post(number) for number in range(250)]
+        posts[-1]['attachments'] = [photo(7)]
+        client = FixtureClient(posts)
+        result = vk.check_access(client)
+        self.assertEqual(client.offsets, [0, 150])
+        self.assertEqual(result['sampled_posts'], 200)
+        self.assertEqual(result['photo']['sha256'], hashlib.sha256(PNG).hexdigest())
+        self.assertEqual(result['photo']['format'], 'png')
+        self.assertEqual(len(client.downloads), 1)
+        self.assertFalse((self.root / 'export.json').exists())
+
+    def test_access_check_cannot_report_success_for_empty_wall_or_html_photo(self):
+        with self.assertRaises(vk.ExportError):
+            vk.check_access(FixtureClient([]))
+        client = FixtureClient([post(1, [photo(7)])], {'https://example.invalid/7.png': b'<html>login</html>'})
+        with self.assertRaises(vk.ExportError):
+            vk.check_access(client)
+        self.assertIsNone(vk.check_access(FixtureClient([post(1)]))['photo'])
+
+    def test_community_token_error_stops_without_retry_or_secret_echo(self):
+        calls = []
+        def opener(request, timeout):
+            calls.append(request)
+            return FakeResponse({'error': {'error_code': 27, 'error_msg': 'TEST_ONLY_SECRET'}})
+        client = vk.VKClient('TEST_ONLY_SECRET', opener=opener, sleep=lambda _: None)
+        with self.assertRaisesRegex(vk.ExportError, 'user or service access key') as raised:
+            vk.check_access(client)
+        self.assertNotIn('TEST_ONLY_SECRET', str(raised.exception))
+        self.assertEqual(len(calls), 1)
+
 
 if __name__ == '__main__':
     unittest.main()

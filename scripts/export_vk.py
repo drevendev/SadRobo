@@ -1,4 +1,6 @@
-"""Export an authorized VK wall to an ignored local cache. Python 3.10+, stdlib only.
+"""Export a VK wall directly using a user or application service access key.
+
+Python 3.10+, stdlib only. Community tokens are not supported by wall.get.
 
 The token is entered privately at runtime; it is never included in URLs, saved
 responses, command-line arguments, or diagnostic output. See docs/vk-export.md.
@@ -88,7 +90,9 @@ class VKClient:
                      14: 'VK requires a CAPTCHA; automated export stopped.',
                      15: 'This token does not have access to the wall.',
                      27: 'wall.get does not support community tokens, even with wall permission. '
-                         'Use a user/service token or import an external dataset; see docs/vk-export.md.'}
+                         'Use a VK API user or service access key; see docs/vk-export.md.',
+                     28: 'Application authorization failed. Check your VK API user or service access key.',
+                     1051: 'This token profile type cannot call wall.get. Use a VK API user or service access key.'}
             # Do not print error_msg / request_params: VK may echo credentials.
             safe_code = code if isinstance(code, int) else 'unknown'
             raise ExportError(f'VK API error {safe_code}. '
@@ -311,11 +315,41 @@ def export_wall(client, destination, domain='sadrobo', progress=print):
     return state
 
 
+def check_access(client, domain='sadrobo'):
+    """Read first/last wall pages and verify one available photo, without saving files.
+
+    This is a live access check, not proof of completeness of the full archive.
+    """
+    first = validate_page(client.wall_page(domain, 0))
+    if not first['count'] or not first['items']:
+        raise ExportError('VK exposed no posts; access to this archive has not been verified.')
+    last = (validate_page(client.wall_page(domain, max(0, first['count'] - 100)))
+            if first['count'] > 100 else first)
+    if not last['items']:
+        raise ExportError('VK did not expose the final page; access to old posts has not been verified.')
+    samples = {object_id(post): post for post in first['items'] + last['items']}
+    result = {'reported_count': first['count'], 'sampled_posts': len(samples),
+              'count_unchanged': first['count'] == last['count'], 'photo': None}
+    for post in samples.values():
+        _, photos = normalize_post(post)
+        for photo_id, photo in photos.items():
+            if not photo['image']:
+                continue
+            data = client.photo_bytes(photo['image']['url'])
+            extension = image_extension(data)
+            result['photo'] = {'id': photo_id, 'format': extension[1:], 'bytes': len(data),
+                               'sha256': hashlib.sha256(data).hexdigest()}
+            return result
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--domain', default='sadrobo', help='VK short address (default: sadrobo)')
     parser.add_argument('--output', type=Path, default=ROOT / '.cache' / 'vk-export')
     parser.add_argument('--interval', type=float, default=0.5, help='Request interval; minimum 0.4 seconds')
+    parser.add_argument('--check', action='store_true',
+                        help='Verify first/last wall pages and one photo without saving an export')
     args = parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9_.-]+', args.domain):
         parser.error('--domain must be a short address, not a full URL')
@@ -323,10 +357,24 @@ def main():
         # Refuse getpass's echoing fallback (e.g. a redirected, non-interactive shell).
         with warnings.catch_warnings():
             warnings.simplefilter('error', getpass.GetPassWarning)
-            token = getpass.getpass('VK API token (hidden; not saved): ').strip()
+            token = getpass.getpass('VK API user or service access key (hidden; not saved): ').strip()
         if not token:
             raise ExportError('No token entered.')
-        state = export_wall(VKClient(token, args.interval), args.output, args.domain)
+        client = VKClient(token, args.interval)
+        if args.check:
+            result = check_access(client, args.domain)
+            print(f'Wall read OK: {result["sampled_posts"]} posts sampled; '
+                  f'VK reports {result["reported_count"]} posts.')
+            if not result['count_unchanged']:
+                print('Wall count changed during the check; repeat the check before exporting.')
+            if result['photo']:
+                photo = result['photo']
+                print(f'Photo download OK: {photo["format"]}, {photo["bytes"]} bytes.')
+                print('Access check passed. Full archive coverage still requires a complete export and comparison.')
+                return 0 if result['count_unchanged'] else 2
+            print('No downloadable photo in the sampled pages; image access is not verified.')
+            return 2
+        state = export_wall(client, args.output, args.domain)
         print(f'Export saved: {args.output.resolve()}')
         if not state['complete']:
             print('Some photos could not be downloaded. Run the same command to retry.', file=sys.stderr)

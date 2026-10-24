@@ -50,11 +50,18 @@ export async function loadArchive({ requireTranslations = true } = {}) {
     tags: ['culture'], arcs: [], translation: { status: 'source-english' },
     contentNote: { ru: 'Сохранилась английская публикация. Русский оригинал пока не восстановлен.', en: 'Preserved from the original English edition. The Russian original has not yet been recovered.' },
     sources: [{ platform: 'tumblr', url: flame.url, date: flame.date }] });
+  for (const story of stories) {
+    for (const source of story.sources) source.role = source.platform === 'vk' ? 'primary' : 'mirror';
+  }
   const report = await readJSON('content/import-report.json');
   return { stories, tags: taxonomy.tags.map(({ pattern, ...tag }) => tag), arcs: taxonomy.arcs,
     meta: { ...report, uniqueWorks: stories.length, englishDrafts: translations.size,
       illustrations: new Set(stories.flatMap(s => s.images.map(i => i.sha256))).size,
       updated: '2026-10-24', author: 'drevendev и FreeSlave / Робот, которому грустно',
       authors: [{ name: 'drevendev', url: 'https://github.com/drevendev' }, { name: 'FreeSlave', url: 'https://github.com/FreeSlave' }],
+      primarySource: { platform: 'vk', url: 'https://vk.ru/sadrobo' },
+      mirrorSources: [{ platform: 'telegram', url: 'https://t.me/sadrobo' },
+        { platform: 'proza', url: 'https://proza.ru/avtor/sadrobo' },
+        { platform: 'tumblr', url: 'https://therobotwhoissad.tumblr.com/' }],
       license: 'CC-BY-4.0' } };
 }
