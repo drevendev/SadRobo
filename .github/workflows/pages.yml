@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: '22'
       - run: npm test
+      - name: Check VK exporter offline
+        run: python -m unittest discover -s test -p test_vk_export.py
       - run: npm run build
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'

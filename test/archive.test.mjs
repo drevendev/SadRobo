@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { loadArchive, root } from '../scripts/archive.mjs';
 import { filterStories, normalize } from '../public/search.mjs';
+import { illustratedEntries, selectIllustration } from '../public/featured.mjs';
 
 const archive = await loadArchive();
 
@@ -85,4 +86,19 @@ test('new translations and original editions are stored separately', async () =>
   const vikings=archive.stories.find(s=>s.id==='proza-2017-07-12-553');
   assert.ok(vikings.translation.adaptationNote);
   assert.notEqual(vikings.text.en,oldEnglish.find(s=>s.matchedStoryId===vikings.id).text);
+});
+
+test('each random homepage illustration opens the dialogue that owns it', () => {
+  const entries = illustratedEntries(archive.stories);
+  assert.equal(entries.length, 59);
+  for (let i = 0; i < entries.length; i++) {
+    const selected = selectIllustration(archive.stories, '', () => (i + .5) / entries.length);
+    assert.ok(selected.story.images.some(image => image.path === selected.image.path));
+    assert.equal(selected.key, entries[i].key);
+    const another = selectIllustration(archive.stories, selected.key, () => 0);
+    assert.notEqual(another.key, selected.key);
+  }
+  assert.equal(selectIllustration([]), null);
+  const only = [archive.stories.find(story => story.images.length === 1)];
+  assert.equal(selectIllustration(only, illustratedEntries(only)[0].key).story.id, only[0].id);
 });

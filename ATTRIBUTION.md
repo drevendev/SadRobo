@@ -45,3 +45,8 @@ Tumblr сохранены в `content/tumblr.json`.
 
 Код читалки и скрипты: MIT, см. `LICENSE-CODE`. Литературный контент и изображения
 не становятся MIT только потому, что находятся в том же репозитории.
+
+Шрифт Russo One: Jovanny Lemonad, SIL Open Font License 1.1. Локальная копия
+лицензии: `public/fonts/OFL.txt`. Источник:
+https://github.com/google/fonts/tree/main/ofl/russoone.
+Векторная схема робота в оформлении читалки — новый графический элемент проекта.

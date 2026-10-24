@@ -22,8 +22,12 @@ await writeFile(path.join(root, 'dist', archiveFile), serialized);
 const search = await readFile(path.join(root, 'public/search.mjs'), 'utf8');
 const searchFile = `search-${fingerprint(search)}.mjs`;
 await writeFile(path.join(root, 'dist', searchFile), search);
+const featured = await readFile(path.join(root, 'public/featured.mjs'), 'utf8');
+const featuredFile = `featured-${fingerprint(featured)}.mjs`;
+await writeFile(path.join(root, 'dist', featuredFile), featured);
 const app = (await readFile(path.join(root, 'public/app.mjs'), 'utf8'))
-  .replace('./search.mjs', './' + searchFile).replace('./archive.json', './' + archiveFile);
+  .replace('./search.mjs', './' + searchFile).replace('./featured.mjs', './' + featuredFile)
+  .replace('./archive.json', './' + archiveFile);
 const appFile = `app-${fingerprint(app)}.mjs`;
 await writeFile(path.join(root, 'dist', appFile), app);
 const css = await readFile(path.join(root, 'public/styles.css'), 'utf8');
