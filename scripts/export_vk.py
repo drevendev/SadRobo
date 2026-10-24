@@ -86,7 +86,9 @@ class VKClient:
             hints = {5: 'Token is invalid or expired.', 6: 'Rate limit reached.',
                      9: 'Flood control; stop and try again later.',
                      14: 'VK requires a CAPTCHA; automated export stopped.',
-                     15: 'This token does not have access to the wall.'}
+                     15: 'This token does not have access to the wall.',
+                     27: 'wall.get does not support community tokens, even with wall permission. '
+                         'Use a user/service token or import an external dataset; see docs/vk-export.md.'}
             # Do not print error_msg / request_params: VK may echo credentials.
             safe_code = code if isinstance(code, int) else 'unknown'
             raise ExportError(f'VK API error {safe_code}. '
