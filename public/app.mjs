@@ -133,7 +133,11 @@ function about() {
 }
 
 function render({scroll = true} = {}) {
+  const previousView = route?.view;
   parseRoute();
+  if (route.view==='home' && (previousView!=='home' || !featured)) {
+    featured = selectIllustration(archive.stories, featured?.key);
+  }
   const content = route.view==='home'?home():route.view==='catalog'||route.view==='saved'?catalog(route.view==='saved'):route.view==='arcs'?arcs():route.view==='read'?reader():route.view==='about'?about():`<section class="empty-state"><h1>404</h1><a href="${href()}">${t('homeLink')}</a></section>`;
   $('#app').innerHTML = shell(content);
   document.documentElement.lang = lang;
