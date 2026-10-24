@@ -45,7 +45,7 @@ export async function loadArchive({ requireTranslations = true } = {}) {
   if (requireTranslations && missing.length) throw new Error(`Missing English translations (${missing.length}): ${missing.join(', ')}`);
   // The Olympic Flame survives in the old English edition, without a recovered Russian original.
   const flame = tumblr.find(post => post.title.includes('Olympic Flame'));
-  stories.push({ id: 'tumblr-' + flame.id, order: stories.length + 1, date: '2022-06-09', kind: 'extra',
+  stories.push({ id: 'tumblr-' + flame.id, order: stories.length + 1, date: new Date(flame.date).toISOString().slice(0,10), kind: 'extra',
     title: { ru: 'Робот, которому грустно, и Олимпийский огонь', en: flame.title }, text: { en: flame.text }, images: flame.images,
     tags: ['culture'], arcs: [], translation: { status: 'source-english' },
     contentNote: { ru: 'Сохранилась английская публикация. Русский оригинал пока не восстановлен.', en: 'Preserved from the original English edition. The Russian original has not yet been recovered.' },
