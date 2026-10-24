@@ -38,7 +38,18 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": [
+      {
+        "path": "images/vk-f039c62ef6b6c4980a22f01ca5ce95732446df8818b31ced4499588c49bf58b3.jpg",
+        "sha256": "f039c62ef6b6c4980a22f01ca5ce95732446df8818b31ced4499588c49bf58b3",
+        "width": 909,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_314952175",
+        "platform": "vk",
+        "photoId": "-62019209_314952175"
+      }
+    ]
   },
   {
     "id": "proza-2017-07-11-545",
@@ -85,7 +96,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_2",
     "timestamp": 1385614549,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-08082adf38bfd56555ccf2e246d6df308abecd2af0c2d5a63630e60597d5be0d.jpg",
+        "sha256": "08082adf38bfd56555ccf2e246d6df308abecd2af0c2d5a63630e60597d5be0d",
+        "width": 1820,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_314952227",
+        "platform": "vk",
+        "photoId": "-62019209_314952227"
+      }
+    ]
   },
   {
     "id": "proza-2017-07-12-553",
@@ -132,7 +154,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_3",
     "timestamp": 1385742717,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-56535488009cbd47baa0c8f396e32be8be0f55dd461a878362c2ea91db932a3d.jpg",
+        "sha256": "56535488009cbd47baa0c8f396e32be8be0f55dd461a878362c2ea91db932a3d",
+        "width": 1773,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_315057281",
+        "platform": "vk",
+        "photoId": "-62019209_315057281"
+      }
+    ]
   },
   {
     "id": "proza-2017-07-13-449",
@@ -179,7 +212,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_4",
     "timestamp": 1385760513,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-da76728323b942e365569509674b60a6a3ee2ac5d00423eda41a2d2fafb113b0.jpg",
+        "sha256": "da76728323b942e365569509674b60a6a3ee2ac5d00423eda41a2d2fafb113b0",
+        "width": 2560,
+        "height": 1839,
+        "url": "https://vk.com/photo-62019209_315080013",
+        "platform": "vk",
+        "photoId": "-62019209_315080013"
+      }
+    ]
   },
   {
     "id": "proza-2017-07-13-469",
@@ -226,7 +270,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_6",
     "timestamp": 1385848872,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-7a8348ec9bbcbc184d191b70e0c1a2584fddc2f8bc94ca80b9853adfedfd7803.jpg",
+        "sha256": "7a8348ec9bbcbc184d191b70e0c1a2584fddc2f8bc94ca80b9853adfedfd7803",
+        "width": 2560,
+        "height": 1859,
+        "url": "https://vk.com/photo-62019209_315151988",
+        "platform": "vk",
+        "photoId": "-62019209_315151988"
+      }
+    ]
   },
   {
     "id": "proza-2017-07-18-1919",
@@ -273,7 +328,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_8",
     "timestamp": 1386010713,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8dd6329cd2bf67a4a8326e16060f5f3424318e321f93754ded7eba64b4b47947.jpg",
+        "sha256": "8dd6329cd2bf67a4a8326e16060f5f3424318e321f93754ded7eba64b4b47947",
+        "width": 640,
+        "height": 400,
+        "url": "https://vk.com/photo-62019209_315287699",
+        "platform": "vk",
+        "photoId": "-62019209_315287699"
+      }
+    ]
   },
   {
     "id": "proza-2017-07-18-1923",
@@ -313,10 +379,7 @@
     "missingPhotoIds": [
       "-62019209_315329847"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "tumblr-687394116303257600",
@@ -362,7 +425,18 @@
     "translation": {
       "status": "source-english"
     },
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ce4337edefabb1a6f23314430f2dac93a8cbcd06a364d68044ccbfadc7c90d09.jpg",
+        "sha256": "ce4337edefabb1a6f23314430f2dac93a8cbcd06a364d68044ccbfadc7c90d09",
+        "width": 640,
+        "height": 492,
+        "url": "https://vk.com/photo-62019209_315434727",
+        "platform": "vk",
+        "photoId": "-62019209_315434727"
+      }
+    ]
   },
   {
     "id": "proza-2017-07-18-1931",
@@ -409,7 +483,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_11",
     "timestamp": 1386269274,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-5f937b8df57f568f6bbe904a38cbf41cc15bca6e277703705193e80fd9401384.jpg",
+        "sha256": "5f937b8df57f568f6bbe904a38cbf41cc15bca6e277703705193e80fd9401384",
+        "width": 2560,
+        "height": 1749,
+        "url": "https://vk.com/photo-62019209_315493409",
+        "platform": "vk",
+        "photoId": "-62019209_315493409"
+      }
+    ]
   },
   {
     "id": "proza-2021-05-20-644",
@@ -456,7 +541,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_12",
     "timestamp": 1386409166,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-265f126c593b188434f28a660a91c60f4724226dc5f956edef8d30e74f9ce00d.jpg",
+        "sha256": "265f126c593b188434f28a660a91c60f4724226dc5f956edef8d30e74f9ce00d",
+        "width": 422,
+        "height": 590,
+        "url": "https://vk.com/photo-62019209_315587738",
+        "platform": "vk",
+        "photoId": "-62019209_315587738"
+      }
+    ]
   },
   {
     "id": "proza-2017-08-03-187",
@@ -503,7 +599,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_13",
     "timestamp": 1386469054,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-56a24131e4af72b466e53c82afd86719f06eaaa6576fbd8a439adc07a8aa364b.jpg",
+        "sha256": "56a24131e4af72b466e53c82afd86719f06eaaa6576fbd8a439adc07a8aa364b",
+        "width": 1482,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_315647762",
+        "platform": "vk",
+        "photoId": "-62019209_315647762"
+      }
+    ]
   },
   {
     "id": "proza-2017-08-03-195",
@@ -550,7 +657,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_14",
     "timestamp": 1386517485,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-a8ddf32bfa12bdac4214f67e28b4db8116ea3e2966d108dfd57957c571704dfd.jpg",
+        "sha256": "a8ddf32bfa12bdac4214f67e28b4db8116ea3e2966d108dfd57957c571704dfd",
+        "width": 2228,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_315690425",
+        "platform": "vk",
+        "photoId": "-62019209_315690425"
+      }
+    ]
   },
   {
     "id": "proza-2017-08-03-196",
@@ -597,7 +715,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_16",
     "timestamp": 1386595109,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-0c680cfe7cf24eb7d93262f4a8772244e3f5ff255946f1a202c48d45e58e8277.jpg",
+        "sha256": "0c680cfe7cf24eb7d93262f4a8772244e3f5ff255946f1a202c48d45e58e8277",
+        "width": 1000,
+        "height": 800,
+        "url": "https://vk.com/photo-62019209_315748931",
+        "platform": "vk",
+        "photoId": "-62019209_315748931"
+      }
+    ]
   },
   {
     "id": "proza-2017-08-22-902",
@@ -644,7 +773,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_17",
     "timestamp": 1386699160,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-611c72966df2376c61c345ba4de2b0256db1606bd627dcddda4504fd85678da8.jpg",
+        "sha256": "611c72966df2376c61c345ba4de2b0256db1606bd627dcddda4504fd85678da8",
+        "width": 2560,
+        "height": 2046,
+        "url": "https://vk.com/photo-62019209_315846786",
+        "platform": "vk",
+        "photoId": "-62019209_315846786"
+      }
+    ]
   },
   {
     "id": "proza-2017-08-22-951",
@@ -691,7 +831,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_18",
     "timestamp": 1387027650,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-dd77efcd986fb233637e5b3c2b13a3b79b1ecd17c403eb7e0c0354c4cdc5d98b.jpg",
+        "sha256": "dd77efcd986fb233637e5b3c2b13a3b79b1ecd17c403eb7e0c0354c4cdc5d98b",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_316101885",
+        "platform": "vk",
+        "photoId": "-62019209_316101885"
+      }
+    ]
   },
   {
     "id": "proza-2020-04-24-1077",
@@ -741,10 +892,17 @@
     "missingPhotoIds": [
       "-62019209_316231310"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/vk-a8b6d12826c86058a7adf7ab178ff1e46665ba6c39fe55680679652cff549927.jpg",
+        "sha256": "a8b6d12826c86058a7adf7ab178ff1e46665ba6c39fe55680679652cff549927",
+        "width": 1886,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_316231311",
+        "platform": "vk",
+        "photoId": "-62019209_316231311"
+      }
+    ]
   },
   {
     "id": "proza-2020-04-24-1087",
@@ -784,10 +942,7 @@
     "missingPhotoIds": [
       "-62019209_316236912"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2020-04-24-1088",
@@ -834,7 +989,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_21",
     "timestamp": 1387296188,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-5f64a2534aacf67af94b2ce728b2611a5e65684eb2b235bf1d0df414c04d6ce2.jpg",
+        "sha256": "5f64a2534aacf67af94b2ce728b2611a5e65684eb2b235bf1d0df414c04d6ce2",
+        "width": 873,
+        "height": 596,
+        "url": "https://vk.com/photo-62019209_316334994",
+        "platform": "vk",
+        "photoId": "-62019209_316334994"
+      }
+    ]
   },
   {
     "id": "proza-2020-04-25-93",
@@ -874,10 +1040,7 @@
     "missingPhotoIds": [
       "-62019209_316476864"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2020-05-01-1104",
@@ -924,7 +1087,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_24",
     "timestamp": 1388234294,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-066d54bfd6be79c4a2ee87a1ef12e0546ba3188d674d81cc210cf2d17c4d101a.jpg",
+        "sha256": "066d54bfd6be79c4a2ee87a1ef12e0546ba3188d674d81cc210cf2d17c4d101a",
+        "width": 2560,
+        "height": 1816,
+        "url": "https://vk.com/photo-62019209_317145362",
+        "platform": "vk",
+        "photoId": "-62019209_317145362"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-03-1256",
@@ -971,7 +1145,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_25",
     "timestamp": 1388357744,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f40439f26d9a8a8707db4285016ac09412c11d92b315a84dc07dfec8ced02d17.jpg",
+        "sha256": "f40439f26d9a8a8707db4285016ac09412c11d92b315a84dc07dfec8ced02d17",
+        "width": 800,
+        "height": 600,
+        "url": "https://vk.com/photo-62019209_317277968",
+        "platform": "vk",
+        "photoId": "-62019209_317277968"
+      }
+    ]
   },
   {
     "id": "vk-62019209-27",
@@ -1007,7 +1192,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_27",
     "timestamp": 1388508192,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-235fdd5d95fa52e4e7ba769defa4541c74fb08a5748342bf63d43f957912bc74.jpg",
+        "sha256": "235fdd5d95fa52e4e7ba769defa4541c74fb08a5748342bf63d43f957912bc74",
+        "width": 590,
+        "height": 393,
+        "url": "https://vk.com/photo-62019209_317433597",
+        "platform": "vk",
+        "photoId": "-62019209_317433597"
+      }
+    ]
   },
   {
     "id": "vk-62019209-28",
@@ -1043,7 +1239,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_28",
     "timestamp": 1389454133,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-bfe8ca5b634abbd798790c61303c7d88c63b14c64b2978d1356111e8036ae36c.jpg",
+        "sha256": "bfe8ca5b634abbd798790c61303c7d88c63b14c64b2978d1356111e8036ae36c",
+        "width": 800,
+        "height": 600,
+        "url": "https://vk.com/photo-62019209_318316430",
+        "platform": "vk",
+        "photoId": "-62019209_318316430"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-04-1935",
@@ -1090,7 +1297,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_30",
     "timestamp": 1390146304,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-44cf9947012515c6990a36540a26577678b2b96464fc9ebb7003f47a5c3614ff.jpg",
+        "sha256": "44cf9947012515c6990a36540a26577678b2b96464fc9ebb7003f47a5c3614ff",
+        "width": 2560,
+        "height": 1957,
+        "url": "https://vk.com/photo-62019209_318943038",
+        "platform": "vk",
+        "photoId": "-62019209_318943038"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-06-89",
@@ -1137,7 +1355,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_31",
     "timestamp": 1391865279,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-44864e6dc6e50f1d000615bf3a82d5cba248b0fb16fccc644e31c107110d6379.jpg",
+        "sha256": "44864e6dc6e50f1d000615bf3a82d5cba248b0fb16fccc644e31c107110d6379",
+        "width": 1765,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_320502458",
+        "platform": "vk",
+        "photoId": "-62019209_320502458"
+      }
+    ]
   },
   {
     "id": "vk-62019209-32",
@@ -1173,7 +1402,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_32",
     "timestamp": 1391939206,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-898b3aa3b83dbc20c30c02d7716882aade269eeadf75ca488b36558f1e6a754a.jpg",
+        "sha256": "898b3aa3b83dbc20c30c02d7716882aade269eeadf75ca488b36558f1e6a754a",
+        "width": 610,
+        "height": 452,
+        "url": "https://vk.com/photo-62019209_318716483",
+        "platform": "vk",
+        "photoId": "-62019209_318716483"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-07-108",
@@ -1220,7 +1460,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_33",
     "timestamp": 1392489118,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-d2a78ba4d5506a4849a0b3304a8d7514d785ca0485f30f736e18819d93f4d04d.jpg",
+        "sha256": "d2a78ba4d5506a4849a0b3304a8d7514d785ca0485f30f736e18819d93f4d04d",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_321116538",
+        "platform": "vk",
+        "photoId": "-62019209_321116538"
+      }
+    ]
   },
   {
     "id": "vk-62019209-35",
@@ -1256,7 +1507,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_35",
     "timestamp": 1392829788,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-274d8cc7c18cfc65854960daef41a3698e6e7de682987345ec9eca6d66ddc6d1.jpg",
+        "sha256": "274d8cc7c18cfc65854960daef41a3698e6e7de682987345ec9eca6d66ddc6d1",
+        "width": 2560,
+        "height": 1860,
+        "url": "https://vk.com/photo-62019209_321398514",
+        "platform": "vk",
+        "photoId": "-62019209_321398514"
+      }
+    ]
   },
   {
     "id": "vk-62019209-38",
@@ -1292,7 +1554,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_38",
     "timestamp": 1392926909,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-edfaa4d9338d4f7dc38057e12e11d9fa4ef8d39f7c1bcf5a879b99f57ea59133.jpg",
+        "sha256": "edfaa4d9338d4f7dc38057e12e11d9fa4ef8d39f7c1bcf5a879b99f57ea59133",
+        "width": 2560,
+        "height": 1912,
+        "url": "https://vk.com/photo-62019209_321482650",
+        "platform": "vk",
+        "photoId": "-62019209_321482650"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-09-1866",
@@ -1339,7 +1612,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_39",
     "timestamp": 1392993446,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-bbf68c4b320cf3f60a0f6b6e59f1b79309401a49e3adc185920ca32d4c56c81d.jpg",
+        "sha256": "bbf68c4b320cf3f60a0f6b6e59f1b79309401a49e3adc185920ca32d4c56c81d",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_321574891",
+        "platform": "vk",
+        "photoId": "-62019209_321574891"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-14-113",
@@ -1379,10 +1663,7 @@
     "missingPhotoIds": [
       "-62019209_321676466"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2020-05-25-736",
@@ -1429,7 +1710,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_48",
     "timestamp": 1393182006,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8bd6467651ff39571d08c952e1bb64a5c48d1c672784a664e94dec3de36ec704.jpg",
+        "sha256": "8bd6467651ff39571d08c952e1bb64a5c48d1c672784a664e94dec3de36ec704",
+        "width": 800,
+        "height": 600,
+        "url": "https://vk.com/photo-62019209_321679534",
+        "platform": "vk",
+        "photoId": "-62019209_321679534"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-28-615",
@@ -1469,10 +1761,7 @@
     "missingPhotoIds": [
       "-62019209_322283659"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2020-05-28-622",
@@ -1519,7 +1808,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_53",
     "timestamp": 1393866900,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-116c145346c443fbebbea123a85b83327f5ef308d823120375a72c55377a2058.jpg",
+        "sha256": "116c145346c443fbebbea123a85b83327f5ef308d823120375a72c55377a2058",
+        "width": 1280,
+        "height": 984,
+        "url": "https://vk.com/photo-62019209_322290008",
+        "platform": "vk",
+        "photoId": "-62019209_322290008"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-28-630",
@@ -1566,7 +1866,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_54",
     "timestamp": 1394385534,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-cba580b9bf2136dbbb023e1647d2d45c2968912f7fb9edcdbbe285b1974548c6.jpg",
+        "sha256": "cba580b9bf2136dbbb023e1647d2d45c2968912f7fb9edcdbbe285b1974548c6",
+        "width": 1729,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_322947205",
+        "platform": "vk",
+        "photoId": "-62019209_322947205"
+      }
+    ]
   },
   {
     "id": "proza-2020-05-31-1874",
@@ -1613,7 +1924,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_55",
     "timestamp": 1394740207,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-550600b90e4c13fec6c7fec392468fea3f371b38ed6fd8d198c2c48cadc87c60.jpg",
+        "sha256": "550600b90e4c13fec6c7fec392468fea3f371b38ed6fd8d198c2c48cadc87c60",
+        "width": 2560,
+        "height": 1429,
+        "url": "https://vk.com/photo-62019209_323283543",
+        "platform": "vk",
+        "photoId": "-62019209_323283543"
+      }
+    ]
   },
   {
     "id": "proza-2020-06-06-699",
@@ -1660,7 +1982,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_56",
     "timestamp": 1394826458,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e77b335d6c31bc6c417b5b38af06b830ed5cf7209e322caafd14a59ea8698f64.jpg",
+        "sha256": "e77b335d6c31bc6c417b5b38af06b830ed5cf7209e322caafd14a59ea8698f64",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_323360965",
+        "platform": "vk",
+        "photoId": "-62019209_323360965"
+      }
+    ]
   },
   {
     "id": "proza-2020-06-08-580",
@@ -1700,10 +2033,7 @@
     "missingPhotoIds": [
       "-62019209_323475410"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2020-06-08-589",
@@ -1750,7 +2080,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_62",
     "timestamp": 1395076201,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-c8df9cecc06f50c3d9d8dea32540387a862dcd25ef74b8bd032576c8cab291cc.jpg",
+        "sha256": "c8df9cecc06f50c3d9d8dea32540387a862dcd25ef74b8bd032576c8cab291cc",
+        "width": 1024,
+        "height": 600,
+        "url": "https://vk.com/photo-62019209_323476420",
+        "platform": "vk",
+        "photoId": "-62019209_323476420"
+      }
+    ]
   },
   {
     "id": "proza-2020-06-08-595",
@@ -1797,7 +2138,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_63",
     "timestamp": 1395169501,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-229e65da91dedcee0d4324ccc4e3c84e89040d7c11c6eea66b08f7e153bd3cc7.jpg",
+        "sha256": "229e65da91dedcee0d4324ccc4e3c84e89040d7c11c6eea66b08f7e153bd3cc7",
+        "width": 922,
+        "height": 540,
+        "url": "https://vk.com/photo-62019209_323478318",
+        "platform": "vk",
+        "photoId": "-62019209_323478318"
+      }
+    ]
   },
   {
     "id": "proza-2020-06-14-1508",
@@ -1844,7 +2196,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_64",
     "timestamp": 1395248404,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-df8e83ac6f67a5b388b90ef0309b0f9948f0c10cd109971a19926d65ac9ceacc.jpg",
+        "sha256": "df8e83ac6f67a5b388b90ef0309b0f9948f0c10cd109971a19926d65ac9ceacc",
+        "width": 2485,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_323480988",
+        "platform": "vk",
+        "photoId": "-62019209_323480988"
+      }
+    ]
   },
   {
     "id": "proza-2020-06-21-440",
@@ -1891,7 +2254,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_65",
     "timestamp": 1395495340,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-71ded0a698efef124d4262ab6566aa79bf8a87c8cbe09a8b9165703bed578c37.jpg",
+        "sha256": "71ded0a698efef124d4262ab6566aa79bf8a87c8cbe09a8b9165703bed578c37",
+        "width": 2164,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_323972819",
+        "platform": "vk",
+        "photoId": "-62019209_323972819"
+      }
+    ]
   },
   {
     "id": "proza-2020-07-04-506",
@@ -1938,7 +2312,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_67",
     "timestamp": 1395588605,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ba3c02dadbaa2f2e8fd665ba5185e2c7e9ac652288e67b22878ce405d6799bc1.jpg",
+        "sha256": "ba3c02dadbaa2f2e8fd665ba5185e2c7e9ac652288e67b22878ce405d6799bc1",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_324048917",
+        "platform": "vk",
+        "photoId": "-62019209_324048917"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1453",
@@ -1978,10 +2363,7 @@
     "missingPhotoIds": [
       "-62019209_324132850"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2020-11-07-1495",
@@ -2028,7 +2410,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_85",
     "timestamp": 1399065004,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ca1b0a3c69c4d216d904fe3377b22794757c2bf8529ff95b5c3ad3b7db30dcf6.jpg",
+        "sha256": "ca1b0a3c69c4d216d904fe3377b22794757c2bf8529ff95b5c3ad3b7db30dcf6",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_327286689",
+        "platform": "vk",
+        "photoId": "-62019209_327286689"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1497",
@@ -2075,7 +2468,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_86",
     "timestamp": 1399137765,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-d07d74e2429a404f589c5cf3ea95e6cc6211a5bb8dcd4ec74fa78f08d0234946.jpg",
+        "sha256": "d07d74e2429a404f589c5cf3ea95e6cc6211a5bb8dcd4ec74fa78f08d0234946",
+        "width": 2560,
+        "height": 1930,
+        "url": "https://vk.com/photo-62019209_327342716",
+        "platform": "vk",
+        "photoId": "-62019209_327342716"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1499",
@@ -2122,7 +2526,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_87",
     "timestamp": 1399225821,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-a4402e891373e7f1e292637f2bb825cc6be9e6d8a2a0652d35ce528e54a4d6c9.jpg",
+        "sha256": "a4402e891373e7f1e292637f2bb825cc6be9e6d8a2a0652d35ce528e54a4d6c9",
+        "width": 2560,
+        "height": 1985,
+        "url": "https://vk.com/photo-62019209_327433853",
+        "platform": "vk",
+        "photoId": "-62019209_327433853"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1500",
@@ -2169,7 +2584,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_88",
     "timestamp": 1400428043,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-300fe4aa0ea1516a72f99243b95544d5cd91839de7cd306939b29f56dc87c265.jpg",
+        "sha256": "300fe4aa0ea1516a72f99243b95544d5cd91839de7cd306939b29f56dc87c265",
+        "width": 1498,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_328568621",
+        "platform": "vk",
+        "photoId": "-62019209_328568621"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1502",
@@ -2216,7 +2642,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_89",
     "timestamp": 1400927354,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-581c79ae2d9d4161311b8b3136cc4360a1e9cd809234c37061602d69fe7e7999.jpg",
+        "sha256": "581c79ae2d9d4161311b8b3136cc4360a1e9cd809234c37061602d69fe7e7999",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_329034348",
+        "platform": "vk",
+        "photoId": "-62019209_329034348"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1504",
@@ -2263,7 +2700,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_90",
     "timestamp": 1401029209,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-c6fbed18a02c26d003fb65e378e776b5bfb9e253171b92e7a686f77dd7cd97ef.jpg",
+        "sha256": "c6fbed18a02c26d003fb65e378e776b5bfb9e253171b92e7a686f77dd7cd97ef",
+        "width": 2560,
+        "height": 1888,
+        "url": "https://vk.com/photo-62019209_329141756",
+        "platform": "vk",
+        "photoId": "-62019209_329141756"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1506",
@@ -2310,7 +2758,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_91",
     "timestamp": 1401263554,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-7615fcdd1b2b04799e135fc44cfca52a8f9f24bd29e0ecc0dcac2f810298581d.jpg",
+        "sha256": "7615fcdd1b2b04799e135fc44cfca52a8f9f24bd29e0ecc0dcac2f810298581d",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_329376636",
+        "platform": "vk",
+        "photoId": "-62019209_329376636"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1507",
@@ -2350,10 +2809,7 @@
     "missingPhotoIds": [
       "-62019209_329719592"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2020-11-07-1509",
@@ -2400,7 +2856,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_99",
     "timestamp": 1401812452,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-5b1aef63bb4caf304a226e7d0bc4317ddafa20c7596fc28166a9b99c5e2f0791.jpg",
+        "sha256": "5b1aef63bb4caf304a226e7d0bc4317ddafa20c7596fc28166a9b99c5e2f0791",
+        "width": 1024,
+        "height": 600,
+        "url": "https://vk.com/photo-62019209_329928739",
+        "platform": "vk",
+        "photoId": "-62019209_329928739"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1515",
@@ -2447,7 +2914,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_115",
     "timestamp": 1403284838,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8497390d432ad41be5f6fb01e374b2a10e1e9fa67315d124fa89ae3b9a9856ab.jpg",
+        "sha256": "8497390d432ad41be5f6fb01e374b2a10e1e9fa67315d124fa89ae3b9a9856ab",
+        "width": 1000,
+        "height": 678,
+        "url": "https://vk.com/photo-62019209_331301460",
+        "platform": "vk",
+        "photoId": "-62019209_331301460"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1518",
@@ -2494,7 +2972,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_116",
     "timestamp": 1404038246,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-c4d627765608ddb7f0f69fad918555133ad700078a6086fc631dd038fff003b5.jpg",
+        "sha256": "c4d627765608ddb7f0f69fad918555133ad700078a6086fc631dd038fff003b5",
+        "width": 2560,
+        "height": 1892,
+        "url": "https://vk.com/photo-62019209_332002019",
+        "platform": "vk",
+        "photoId": "-62019209_332002019"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1521",
@@ -2541,7 +3030,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_117",
     "timestamp": 1404473319,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ea8afbae6818fc4b469e76923396e244719922b7e273e6d1bc2153542128c9af.jpg",
+        "sha256": "ea8afbae6818fc4b469e76923396e244719922b7e273e6d1bc2153542128c9af",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_332392270",
+        "platform": "vk",
+        "photoId": "-62019209_332392270"
+      }
+    ]
   },
   {
     "id": "proza-2020-11-07-1523",
@@ -2581,10 +3081,7 @@
     "missingPhotoIds": [
       "-62019209_332527125"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-04-28-515",
@@ -2631,7 +3128,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_119",
     "timestamp": 1406544557,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e54b453657edf75ab16ad91037b45d025debb8c598c00e5c51e55a54c3fe65d8.jpg",
+        "sha256": "e54b453657edf75ab16ad91037b45d025debb8c598c00e5c51e55a54c3fe65d8",
+        "width": 2554,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_334169159",
+        "platform": "vk",
+        "photoId": "-62019209_334169159"
+      }
+    ]
   },
   {
     "id": "proza-2021-04-30-976",
@@ -2678,7 +3186,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_121",
     "timestamp": 1410371369,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f014517dd461cc8a138ececa5d5c26aa4b99b1247b881b100986e6d9818d5835.jpg",
+        "sha256": "f014517dd461cc8a138ececa5d5c26aa4b99b1247b881b100986e6d9818d5835",
+        "width": 1590,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_337722913",
+        "platform": "vk",
+        "photoId": "-62019209_337722913"
+      }
+    ]
   },
   {
     "id": "vk-62019209-124",
@@ -2719,7 +3238,18 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": [
+      {
+        "path": "images/vk-6fb0fe670bd77b576bb44e9ae6361605258e1b33f26355e1b1e4a4ee9870784c.jpg",
+        "sha256": "6fb0fe670bd77b576bb44e9ae6361605258e1b33f26355e1b1e4a4ee9870784c",
+        "width": 1735,
+        "height": 1310,
+        "url": "https://vk.com/photo-62019209_338472783",
+        "platform": "vk",
+        "photoId": "-62019209_338472783"
+      }
+    ]
   },
   {
     "id": "proza-2021-05-02-1513",
@@ -2766,7 +3296,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_125",
     "timestamp": 1411745273,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-873aa23d078b3c0a447643f1b9def01020c54dd960313cdf9c3afc21c056c4b9.jpg",
+        "sha256": "873aa23d078b3c0a447643f1b9def01020c54dd960313cdf9c3afc21c056c4b9",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_339050381",
+        "platform": "vk",
+        "photoId": "-62019209_339050381"
+      }
+    ]
   },
   {
     "id": "proza-2021-05-02-1516",
@@ -2813,7 +3354,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_131",
     "timestamp": 1412428815,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-6fe904200d8ad8d74e5d748ccdec2e9e50895563ea4f576621d02c5a55a5c3df.jpg",
+        "sha256": "6fe904200d8ad8d74e5d748ccdec2e9e50895563ea4f576621d02c5a55a5c3df",
+        "width": 1589,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_339748855",
+        "platform": "vk",
+        "photoId": "-62019209_339748855"
+      }
+    ]
   },
   {
     "id": "proza-2021-05-18-1483",
@@ -2853,10 +3405,7 @@
     "missingPhotoIds": [
       "-62019209_341335544"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-05-18-672",
@@ -2903,7 +3452,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_134",
     "timestamp": 1418750449,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e94f70f1e6f60fd2e3236afc8b4e2ac7e8e3a5eadddc8d0c9024383f1cda2f32.jpg",
+        "sha256": "e94f70f1e6f60fd2e3236afc8b4e2ac7e8e3a5eadddc8d0c9024383f1cda2f32",
+        "width": 1452,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_346574654",
+        "platform": "vk",
+        "photoId": "-62019209_346574654"
+      }
+    ]
   },
   {
     "id": "proza-2021-05-19-1703",
@@ -2951,7 +3511,18 @@
     "vkPostId": "-62019209_135",
     "timestamp": 1418837040,
     "titleSource": "mirror",
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-3db925f7501eae98ec0915713a608e625f45f061511a3ea4515e527f67ffd337.jpg",
+        "sha256": "3db925f7501eae98ec0915713a608e625f45f061511a3ea4515e527f67ffd337",
+        "width": 1280,
+        "height": 984,
+        "url": "https://vk.com/photo-62019209_346667394",
+        "platform": "vk",
+        "photoId": "-62019209_346667394"
+      }
+    ]
   },
   {
     "id": "proza-2021-05-22-1533",
@@ -2998,7 +3569,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_136",
     "timestamp": 1418935905,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-0296e4a98fbcf2fd45ae49fc26ec46740983990eca3c17e216edde1d6cc82689.jpg",
+        "sha256": "0296e4a98fbcf2fd45ae49fc26ec46740983990eca3c17e216edde1d6cc82689",
+        "width": 1280,
+        "height": 984,
+        "url": "https://vk.com/photo-62019209_346780739",
+        "platform": "vk",
+        "photoId": "-62019209_346780739"
+      }
+    ]
   },
   {
     "id": "vk-62019209-137",
@@ -3027,10 +3609,7 @@
     "missingPhotoIds": [
       "-62019209_339783758"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-05-27-764",
@@ -3077,7 +3656,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_138",
     "timestamp": 1420383586,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-1bae706afe4315a31d69174e9d9f6310aea64c57157307f337ce7847591063ec.jpg",
+        "sha256": "1bae706afe4315a31d69174e9d9f6310aea64c57157307f337ce7847591063ec",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_348483736",
+        "platform": "vk",
+        "photoId": "-62019209_348483736"
+      }
+    ]
   },
   {
     "id": "vk-62019209-140",
@@ -3113,7 +3703,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_140",
     "timestamp": 1420537167,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-85df34b9f3d0f20e77829752a1019729addd74547482382545938a0a6a035e12.jpg",
+        "sha256": "85df34b9f3d0f20e77829752a1019729addd74547482382545938a0a6a035e12",
+        "width": 2357,
+        "height": 1326,
+        "url": "https://vk.com/photo-62019209_348539970",
+        "platform": "vk",
+        "photoId": "-62019209_348539970"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-01-851",
@@ -3153,10 +3754,7 @@
     "missingPhotoIds": [
       "-62019209_350625161"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-06-06-617",
@@ -3203,7 +3801,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_143",
     "timestamp": 1422556543,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e3dd9d4251e9d86f5879c4408af5f9f57ac4e1667e4fc60f6915d28a29146ec2.jpg",
+        "sha256": "e3dd9d4251e9d86f5879c4408af5f9f57ac4e1667e4fc60f6915d28a29146ec2",
+        "width": 2550,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_351124130",
+        "platform": "vk",
+        "photoId": "-62019209_351124130"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-07-678",
@@ -3250,7 +3859,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_144",
     "timestamp": 1423929394,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-333737a37f511e56ec5b28c9365bf2fae3008099b0e5c7672cfc13e44dc6c20e.jpg",
+        "sha256": "333737a37f511e56ec5b28c9365bf2fae3008099b0e5c7672cfc13e44dc6c20e",
+        "width": 2560,
+        "height": 1892,
+        "url": "https://vk.com/photo-62019209_352780783",
+        "platform": "vk",
+        "photoId": "-62019209_352780783"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-08-600",
@@ -3297,7 +3917,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_145",
     "timestamp": 1424013474,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-30ebea9029394c55bb8c45111124219516ab7021d52cab4eb5a517c224f05485.jpg",
+        "sha256": "30ebea9029394c55bb8c45111124219516ab7021d52cab4eb5a517c224f05485",
+        "width": 1792,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_352888552",
+        "platform": "vk",
+        "photoId": "-62019209_352888552"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-11-819",
@@ -3337,10 +3968,7 @@
     "missingPhotoIds": [
       "-62019209_353127574"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-06-13-1130",
@@ -3387,7 +4015,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_147",
     "timestamp": 1424434043,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-184e29c1038677920e35dc8c93cd593c9bde3b89a0fdaa584e72ded890d34228.jpg",
+        "sha256": "184e29c1038677920e35dc8c93cd593c9bde3b89a0fdaa584e72ded890d34228",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_353386740",
+        "platform": "vk",
+        "photoId": "-62019209_353386740"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-15-732",
@@ -3434,7 +4073,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_148",
     "timestamp": 1425409674,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-552ad1c82109e3fd1f25ad16956820335bda50af28f55d38439d125253b6f809.jpg",
+        "sha256": "552ad1c82109e3fd1f25ad16956820335bda50af28f55d38439d125253b6f809",
+        "width": 2183,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_354638180",
+        "platform": "vk",
+        "photoId": "-62019209_354638180"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-19-926",
@@ -3481,7 +4131,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_149",
     "timestamp": 1425833052,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-9d1220007329f55993024e4d59928df8c0fb27f86590616a0ee2a12f34f37c17.jpg",
+        "sha256": "9d1220007329f55993024e4d59928df8c0fb27f86590616a0ee2a12f34f37c17",
+        "width": 1442,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_355216986",
+        "platform": "vk",
+        "photoId": "-62019209_355216986"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-20-618",
@@ -3528,7 +4189,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_150",
     "timestamp": 1425921223,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f1f8d96b1ae083b272443b2a6f546639cc5ded1be6da86542f8722b03daadbb8.jpg",
+        "sha256": "f1f8d96b1ae083b272443b2a6f546639cc5ded1be6da86542f8722b03daadbb8",
+        "width": 2397,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_355343446",
+        "platform": "vk",
+        "photoId": "-62019209_355343446"
+      }
+    ]
   },
   {
     "id": "proza-2021-06-21-781",
@@ -3568,10 +4240,7 @@
     "missingPhotoIds": [
       "-62019209_355998217"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-06-21-786",
@@ -3611,10 +4280,7 @@
     "missingPhotoIds": [
       "-62019209_356113539"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-06-21-787",
@@ -3661,7 +4327,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_154",
     "timestamp": 1426931993,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e145151ca906ffad2ec8b0ff7a3e38106afca66cd49e05fce5832fba6ca47a60.jpg",
+        "sha256": "e145151ca906ffad2ec8b0ff7a3e38106afca66cd49e05fce5832fba6ca47a60",
+        "width": 1131,
+        "height": 812,
+        "url": "https://vk.com/photo-62019209_356543484",
+        "platform": "vk",
+        "photoId": "-62019209_356543484"
+      }
+    ]
   },
   {
     "id": "proza-2021-07-01-1546",
@@ -3708,7 +4385,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_155",
     "timestamp": 1427013800,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-fb9478407a72704fd057012ea1487c463a08c45a1061f6c223be56d7a81985cf.jpg",
+        "sha256": "fb9478407a72704fd057012ea1487c463a08c45a1061f6c223be56d7a81985cf",
+        "width": 813,
+        "height": 1157,
+        "url": "https://vk.com/photo-62019209_356641789",
+        "platform": "vk",
+        "photoId": "-62019209_356641789"
+      }
+    ]
   },
   {
     "id": "proza-2021-07-02-595",
@@ -3748,10 +4436,7 @@
     "missingPhotoIds": [
       "-62019209_356803503"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-07-03-629",
@@ -3798,7 +4483,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_158",
     "timestamp": 1427212856,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-9a638328b91bce2a44ae497196edf3a3597aee2d6b9919a300892b98c11ccc58.jpg",
+        "sha256": "9a638328b91bce2a44ae497196edf3a3597aee2d6b9919a300892b98c11ccc58",
+        "width": 825,
+        "height": 1159,
+        "url": "https://vk.com/photo-62019209_356911913",
+        "platform": "vk",
+        "photoId": "-62019209_356911913"
+      }
+    ]
   },
   {
     "id": "vk-62019209-159",
@@ -3834,7 +4530,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_159",
     "timestamp": 1428767610,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-d0ddeb02960427ddf7d7c7fe885711e8120b3a1f7a19756f6f5640fc3a5e3a4d.jpg",
+        "sha256": "d0ddeb02960427ddf7d7c7fe885711e8120b3a1f7a19756f6f5640fc3a5e3a4d",
+        "width": 2324,
+        "height": 1440,
+        "url": "https://vk.com/photo-62019209_356850177",
+        "platform": "vk",
+        "photoId": "-62019209_356850177"
+      }
+    ]
   },
   {
     "id": "proza-2021-08-22-927",
@@ -3881,7 +4588,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_160",
     "timestamp": 1429093455,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-c1ea498c1723c25cb78feedf37608026aae2254b61fd218df76cd32a2f50b0bc.jpg",
+        "sha256": "c1ea498c1723c25cb78feedf37608026aae2254b61fd218df76cd32a2f50b0bc",
+        "width": 1152,
+        "height": 882,
+        "url": "https://vk.com/photo-62019209_359199092",
+        "platform": "vk",
+        "photoId": "-62019209_359199092"
+      }
+    ]
   },
   {
     "id": "proza-2021-08-23-521",
@@ -3921,10 +4639,7 @@
     "missingPhotoIds": [
       "-62019209_361593219"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-08-24-609",
@@ -3971,7 +4686,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_162",
     "timestamp": 1429285648,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b25a7d3ec90679f65aea51feb8af380d298256343842ac22375066e933fba927.jpg",
+        "sha256": "b25a7d3ec90679f65aea51feb8af380d298256343842ac22375066e933fba927",
+        "width": 2560,
+        "height": 1886,
+        "url": "https://vk.com/photo-62019209_361679965",
+        "platform": "vk",
+        "photoId": "-62019209_361679965"
+      }
+    ]
   },
   {
     "id": "proza-2021-08-25-580",
@@ -4018,7 +4744,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_164",
     "timestamp": 1429435925,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-a9f27af47eb8a2fcd2e57350de6a60effb633c8adfab61ac67b91ffa32467369.jpg",
+        "sha256": "a9f27af47eb8a2fcd2e57350de6a60effb633c8adfab61ac67b91ffa32467369",
+        "width": 622,
+        "height": 868,
+        "url": "https://vk.com/photo-62019209_361858626",
+        "platform": "vk",
+        "photoId": "-62019209_361858626"
+      }
+    ]
   },
   {
     "id": "proza-2021-08-27-641",
@@ -4058,10 +4795,7 @@
     "missingPhotoIds": [
       "-62019209_362023084"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-08-30-629",
@@ -4101,10 +4835,7 @@
     "missingPhotoIds": [
       "-62019209_362129234"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-08-31-705",
@@ -4151,7 +4882,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_167",
     "timestamp": 1430579617,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-fe9f0cdec584eedcee6bc9b709ed24858826476b38d96830aeb28a67dd475677.jpg",
+        "sha256": "fe9f0cdec584eedcee6bc9b709ed24858826476b38d96830aeb28a67dd475677",
+        "width": 1169,
+        "height": 767,
+        "url": "https://vk.com/photo-62019209_363250710",
+        "platform": "vk",
+        "photoId": "-62019209_363250710"
+      }
+    ]
   },
   {
     "id": "proza-2021-09-02-654",
@@ -4198,7 +4940,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_168",
     "timestamp": 1431629826,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-5ba781ffe3358d67619c74e3269a9fa7f9828f4b1d82fba9936fb8ff21ffd62d.jpg",
+        "sha256": "5ba781ffe3358d67619c74e3269a9fa7f9828f4b1d82fba9936fb8ff21ffd62d",
+        "width": 807,
+        "height": 535,
+        "url": "https://vk.com/photo-62019209_364644720",
+        "platform": "vk",
+        "photoId": "-62019209_364644720"
+      }
+    ]
   },
   {
     "id": "proza-2021-09-06-663",
@@ -4245,7 +4998,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_169",
     "timestamp": 1431717240,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-1fd3b2e9413d6a498ec9d0196d885ab039e519d36058cbd306c0e52caf04e45a.jpg",
+        "sha256": "1fd3b2e9413d6a498ec9d0196d885ab039e519d36058cbd306c0e52caf04e45a",
+        "width": 1458,
+        "height": 1448,
+        "url": "https://vk.com/photo-62019209_364752729",
+        "platform": "vk",
+        "photoId": "-62019209_364752729"
+      }
+    ]
   },
   {
     "id": "proza-2021-09-08-614",
@@ -4285,10 +5049,7 @@
     "missingPhotoIds": [
       "-62019209_368015726"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-09-09-562",
@@ -4335,7 +5096,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_172",
     "timestamp": 1434303951,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ddadd475490ee3bc8e7ccbcea5b550fc5b4c4a4a910e72180009e888c56aafd7.jpg",
+        "sha256": "ddadd475490ee3bc8e7ccbcea5b550fc5b4c4a4a910e72180009e888c56aafd7",
+        "width": 738,
+        "height": 811,
+        "url": "https://vk.com/photo-62019209_368127897",
+        "platform": "vk",
+        "photoId": "-62019209_368127897"
+      }
+    ]
   },
   {
     "id": "proza-2021-09-10-466",
@@ -4382,7 +5154,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_173",
     "timestamp": 1434472424,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e194128a219b39e0c4532755ce7326ec4dd5d4dab54821de4a147e06e19cb1a8.jpg",
+        "sha256": "e194128a219b39e0c4532755ce7326ec4dd5d4dab54821de4a147e06e19cb1a8",
+        "width": 1448,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_368339711",
+        "platform": "vk",
+        "photoId": "-62019209_368339711"
+      }
+    ]
   },
   {
     "id": "proza-2021-09-14-685",
@@ -4422,10 +5205,7 @@
     "missingPhotoIds": [
       "-62019209_368445659"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-09-15-625",
@@ -4472,7 +5252,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_176",
     "timestamp": 1437292840,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-2fb6f6ef1567e1d04b5306b3e5437a7711277ddbfe09421cd439f78edbcaf2b0.jpg",
+        "sha256": "2fb6f6ef1567e1d04b5306b3e5437a7711277ddbfe09421cd439f78edbcaf2b0",
+        "width": 1448,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_371875787",
+        "platform": "vk",
+        "photoId": "-62019209_371875787"
+      }
+    ]
   },
   {
     "id": "proza-2021-09-21-586",
@@ -4519,7 +5310,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_177",
     "timestamp": 1437498343,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-2269860a8f6ab6c8325dbf07c98b7834932cd92361aa6a09551bfb5928856f78.jpg",
+        "sha256": "2269860a8f6ab6c8325dbf07c98b7834932cd92361aa6a09551bfb5928856f78",
+        "width": 2560,
+        "height": 1810,
+        "url": "https://vk.com/photo-62019209_372168444",
+        "platform": "vk",
+        "photoId": "-62019209_372168444"
+      }
+    ]
   },
   {
     "id": "proza-2021-09-23-597",
@@ -4566,7 +5368,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_179",
     "timestamp": 1437768116,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-1758c1d15f10db538ef4211fb5a1978909d60d4a650de4781cd1b1f8e1a1eb44.jpg",
+        "sha256": "1758c1d15f10db538ef4211fb5a1978909d60d4a650de4781cd1b1f8e1a1eb44",
+        "width": 2560,
+        "height": 1867,
+        "url": "https://vk.com/photo-62019209_372526697",
+        "platform": "vk",
+        "photoId": "-62019209_372526697"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-03-468",
@@ -4606,10 +5419,7 @@
     "missingPhotoIds": [
       "-62019209_373203616"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-11-04-624",
@@ -4649,10 +5459,7 @@
     "missingPhotoIds": [
       "-62019209_373386206"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-11-05-816",
@@ -4699,7 +5506,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_182",
     "timestamp": 1439032548,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-42b0606abd1a9baa12916b024a8bc649e9b61d851ebd9570821e4e32cafad725.jpg",
+        "sha256": "42b0606abd1a9baa12916b024a8bc649e9b61d851ebd9570821e4e32cafad725",
+        "width": 1357,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_374151850",
+        "platform": "vk",
+        "photoId": "-62019209_374151850"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-12-732",
@@ -4746,7 +5564,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_183",
     "timestamp": 1439109081,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-55646ecdb13bb76d657d4923acdf37f5f4791b1513c8d921bbd8e651600d63a2.jpg",
+        "sha256": "55646ecdb13bb76d657d4923acdf37f5f4791b1513c8d921bbd8e651600d63a2",
+        "width": 2311,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_374243630",
+        "platform": "vk",
+        "photoId": "-62019209_374243630"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-15-1007",
@@ -4793,7 +5622,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_185",
     "timestamp": 1439224218,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-5c4b655fce91c54ab10afe84fa090462a62b94ca3def6a17ca5343bc9081df8f.jpg",
+        "sha256": "5c4b655fce91c54ab10afe84fa090462a62b94ca3def6a17ca5343bc9081df8f",
+        "width": 2413,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_374331736",
+        "platform": "vk",
+        "photoId": "-62019209_374331736"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-16-871",
@@ -4840,7 +5680,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_186",
     "timestamp": 1439320303,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ffe07666c7c3f0beb636fb5de8e4563f29bf05b911d92dd5e4b91884c7578bdc.jpg",
+        "sha256": "ffe07666c7c3f0beb636fb5de8e4563f29bf05b911d92dd5e4b91884c7578bdc",
+        "width": 2560,
+        "height": 1969,
+        "url": "https://vk.com/photo-62019209_374549334",
+        "platform": "vk",
+        "photoId": "-62019209_374549334"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-19-533",
@@ -4887,7 +5738,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_187",
     "timestamp": 1439404522,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-57d2a2f29f89fc01e5db5ae6999a149105fff7a5e9908c1fdb8f504da895762e.jpg",
+        "sha256": "57d2a2f29f89fc01e5db5ae6999a149105fff7a5e9908c1fdb8f504da895762e",
+        "width": 1503,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_374656841",
+        "platform": "vk",
+        "photoId": "-62019209_374656841"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-22-648",
@@ -4934,7 +5796,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_188",
     "timestamp": 1439489704,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-4e53d3a7b5ca29c1c134fdae3e2a9eae4d04bfe6a9750be314c81dd35c970876.jpg",
+        "sha256": "4e53d3a7b5ca29c1c134fdae3e2a9eae4d04bfe6a9750be314c81dd35c970876",
+        "width": 1453,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_374766698",
+        "platform": "vk",
+        "photoId": "-62019209_374766698"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-25-793",
@@ -4981,7 +5854,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_191",
     "timestamp": 1439569362,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-76c97a03f43fd50543e0eb5202d67925a60ea879c41e068dbac538d86f933f2a.jpg",
+        "sha256": "76c97a03f43fd50543e0eb5202d67925a60ea879c41e068dbac538d86f933f2a",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_374862743",
+        "platform": "vk",
+        "photoId": "-62019209_374862743"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-25-799",
@@ -5028,7 +5912,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_195",
     "timestamp": 1439653380,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ab5b6bcb06d2fc23cfd674fa73812b398e788ce4238d97f769a913272b07cb03.jpg",
+        "sha256": "ab5b6bcb06d2fc23cfd674fa73812b398e788ce4238d97f769a913272b07cb03",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_374863808",
+        "platform": "vk",
+        "photoId": "-62019209_374863808"
+      }
+    ]
   },
   {
     "id": "proza-2021-11-25-804",
@@ -5068,10 +5963,7 @@
     "missingPhotoIds": [
       "-62019209_374863882"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2021-11-26-772",
@@ -5118,7 +6010,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_206",
     "timestamp": 1440332050,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e2bf4bc3c373ee89892a6eea5eb93052942482a77a6eb7e9c7e5983adedd87f6.jpg",
+        "sha256": "e2bf4bc3c373ee89892a6eea5eb93052942482a77a6eb7e9c7e5983adedd87f6",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_375836998",
+        "platform": "vk",
+        "photoId": "-62019209_375836998"
+      }
+    ]
   },
   {
     "id": "proza-2022-02-04-740",
@@ -5158,10 +6061,7 @@
     "missingPhotoIds": [
       "-62019209_375991220"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-02-08-744",
@@ -5208,7 +6108,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_210",
     "timestamp": 1440518439,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-2c4cb3676faad5c7f6265e05532557f45af15413a3797db7ab52d9536e9f80f4.jpg",
+        "sha256": "2c4cb3676faad5c7f6265e05532557f45af15413a3797db7ab52d9536e9f80f4",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_375991476",
+        "platform": "vk",
+        "photoId": "-62019209_375991476"
+      }
+    ]
   },
   {
     "id": "proza-2022-02-09-851",
@@ -5255,7 +6166,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_212",
     "timestamp": 1440604804,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e268697129f001efdf24374c9e51110fbac6cb58d736f97f73e95b893f7b0dd7.jpg",
+        "sha256": "e268697129f001efdf24374c9e51110fbac6cb58d736f97f73e95b893f7b0dd7",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_375991628",
+        "platform": "vk",
+        "photoId": "-62019209_375991628"
+      }
+    ]
   },
   {
     "id": "proza-2022-02-16-894",
@@ -5302,7 +6224,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_213",
     "timestamp": 1440691206,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-bf89aff3e296a6d2111eeb977492b754a1c3a17d2734268ca124bccf0d2e72af.jpg",
+        "sha256": "bf89aff3e296a6d2111eeb977492b754a1c3a17d2734268ca124bccf0d2e72af",
+        "width": 2560,
+        "height": 1815,
+        "url": "https://vk.com/photo-62019209_376119012",
+        "platform": "vk",
+        "photoId": "-62019209_376119012"
+      }
+    ]
   },
   {
     "id": "proza-2022-04-19-637",
@@ -5342,10 +6275,7 @@
     "missingPhotoIds": [
       "-62019209_376846898"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-04-21-714",
@@ -5392,7 +6322,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_221",
     "timestamp": 1441210205,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b3868960b1a36f3095731821ae8622ff1443e9bbbc6d256b7f67ba4a7f9d9918.jpg",
+        "sha256": "b3868960b1a36f3095731821ae8622ff1443e9bbbc6d256b7f67ba4a7f9d9918",
+        "width": 2560,
+        "height": 1938,
+        "url": "https://vk.com/photo-62019209_376972313",
+        "platform": "vk",
+        "photoId": "-62019209_376972313"
+      }
+    ]
   },
   {
     "id": "proza-2022-04-22-846",
@@ -5439,7 +6380,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_222",
     "timestamp": 1441296029,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-85bda572a3f3e0c1e20e5cea3a8ee4f75ab56de8ad52001251206ed703939ac6.jpg",
+        "sha256": "85bda572a3f3e0c1e20e5cea3a8ee4f75ab56de8ad52001251206ed703939ac6",
+        "width": 2560,
+        "height": 1867,
+        "url": "https://vk.com/photo-62019209_376840657",
+        "platform": "vk",
+        "photoId": "-62019209_376840657"
+      }
+    ]
   },
   {
     "id": "proza-2022-04-26-700",
@@ -5479,10 +6431,7 @@
     "missingPhotoIds": [
       "-62019209_376847040"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-04-28-576",
@@ -5529,7 +6478,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_226",
     "timestamp": 1441468816,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-99ce1e41f167231c62e2d7831496f351005251a0348ebd4e358b27235304dafd.jpg",
+        "sha256": "99ce1e41f167231c62e2d7831496f351005251a0348ebd4e358b27235304dafd",
+        "width": 1463,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_376847197",
+        "platform": "vk",
+        "photoId": "-62019209_376847197"
+      }
+    ]
   },
   {
     "id": "proza-2022-06-17-577",
@@ -5576,7 +6536,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_236",
     "timestamp": 1441554849,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-2446a58b9eeaa93e5dcb6d59a49ed64abc53547c022e96dff1374596be4677c1.jpg",
+        "sha256": "2446a58b9eeaa93e5dcb6d59a49ed64abc53547c022e96dff1374596be4677c1",
+        "width": 497,
+        "height": 914,
+        "url": "https://vk.com/photo-62019209_377496331",
+        "platform": "vk",
+        "photoId": "-62019209_377496331"
+      }
+    ]
   },
   {
     "id": "proza-2022-06-17-579",
@@ -5616,10 +6587,7 @@
     "missingPhotoIds": [
       "-62019209_377496502"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-06-18-925",
@@ -5666,7 +6634,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_238",
     "timestamp": 1441728001,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-79db17b3ead2a67345055b8bc50b321fd7c49c00d40cb65b5868cfd97c3951df.jpg",
+        "sha256": "79db17b3ead2a67345055b8bc50b321fd7c49c00d40cb65b5868cfd97c3951df",
+        "width": 1280,
+        "height": 914,
+        "url": "https://vk.com/photo-62019209_377496579",
+        "platform": "vk",
+        "photoId": "-62019209_377496579"
+      }
+    ]
   },
   {
     "id": "proza-2022-06-19-1079",
@@ -5713,7 +6692,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_240",
     "timestamp": 1441815003,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-17cee296265600086448dac59f0d1f163d3eb74bbd56e09da8c68fd221833a9d.jpg",
+        "sha256": "17cee296265600086448dac59f0d1f163d3eb74bbd56e09da8c68fd221833a9d",
+        "width": 766,
+        "height": 914,
+        "url": "https://vk.com/photo-62019209_377496683",
+        "platform": "vk",
+        "photoId": "-62019209_377496683"
+      }
+    ]
   },
   {
     "id": "proza-2022-06-22-524",
@@ -5760,7 +6750,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_242",
     "timestamp": 1441901100,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-5b168ac69d3372f572552ee346dabe6de5f39163924fd14be9c16609d72fe4e3.jpg",
+        "sha256": "5b168ac69d3372f572552ee346dabe6de5f39163924fd14be9c16609d72fe4e3",
+        "width": 1424,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_377508037",
+        "platform": "vk",
+        "photoId": "-62019209_377508037"
+      }
+    ]
   },
   {
     "id": "proza-2022-06-29-545",
@@ -5807,7 +6808,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_243",
     "timestamp": 1441987502,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ee590a9f725fac21f7858bcb051229b93ba5279edd4da8169e6e3eab8d3e1371.jpg",
+        "sha256": "ee590a9f725fac21f7858bcb051229b93ba5279edd4da8169e6e3eab8d3e1371",
+        "width": 1705,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_377508183",
+        "platform": "vk",
+        "photoId": "-62019209_377508183"
+      }
+    ]
   },
   {
     "id": "proza-2022-07-08-642",
@@ -5847,10 +6859,7 @@
     "missingPhotoIds": [
       "-62019209_377781141"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-07-08-645",
@@ -5897,7 +6906,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_245",
     "timestamp": 1442160304,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e14aae54cd1d624edea8f635011785627cc11183847559311b128ffd89b5ee74.jpg",
+        "sha256": "e14aae54cd1d624edea8f635011785627cc11183847559311b128ffd89b5ee74",
+        "width": 2223,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_377930954",
+        "platform": "vk",
+        "photoId": "-62019209_377930954"
+      }
+    ]
   },
   {
     "id": "proza-2022-07-08-650",
@@ -5944,7 +6964,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_249",
     "timestamp": 1442246461,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b73e04cdf39bd0760cabee12d1bc30a3235a07d46608255c15154f7daeaba141.jpg",
+        "sha256": "b73e04cdf39bd0760cabee12d1bc30a3235a07d46608255c15154f7daeaba141",
+        "width": 1998,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_378451376",
+        "platform": "vk",
+        "photoId": "-62019209_378451376"
+      }
+    ]
   },
   {
     "id": "proza-2022-07-12-510",
@@ -5991,7 +7022,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_252",
     "timestamp": 1442332812,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-befa7034dd613399b7de8e4bd6eb0bb78dae176391b86804945de1975de0f8c5.jpg",
+        "sha256": "befa7034dd613399b7de8e4bd6eb0bb78dae176391b86804945de1975de0f8c5",
+        "width": 2560,
+        "height": 1555,
+        "url": "https://vk.com/photo-62019209_378451613",
+        "platform": "vk",
+        "photoId": "-62019209_378451613"
+      }
+    ]
   },
   {
     "id": "proza-2022-07-14-694",
@@ -6031,10 +7073,7 @@
     "missingPhotoIds": [
       "-62019209_378539831"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-07-18-563",
@@ -6081,7 +7120,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_256",
     "timestamp": 1442509292,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b703b116b6a8262d9cf283c8e276aaf3af5b6804ddbeda29c042c7f2e684963a.jpg",
+        "sha256": "b703b116b6a8262d9cf283c8e276aaf3af5b6804ddbeda29c042c7f2e684963a",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_378850495",
+        "platform": "vk",
+        "photoId": "-62019209_378850495"
+      }
+    ]
   },
   {
     "id": "proza-2022-07-22-599",
@@ -6128,7 +7178,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_259",
     "timestamp": 1442595729,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-35a29363a267eee4b38761857b3f962304933ff4c67b8478611720c35efa3f65.jpg",
+        "sha256": "35a29363a267eee4b38761857b3f962304933ff4c67b8478611720c35efa3f65",
+        "width": 552,
+        "height": 730,
+        "url": "https://vk.com/photo-62019209_378960152",
+        "platform": "vk",
+        "photoId": "-62019209_378960152"
+      }
+    ]
   },
   {
     "id": "proza-2022-07-31-653",
@@ -6175,7 +7236,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_260",
     "timestamp": 1442682029,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f688d03f3cc5c745233aed6e659b6fe8ac38ec1bf996f48ecbd9bf4db296ca05.jpg",
+        "sha256": "f688d03f3cc5c745233aed6e659b6fe8ac38ec1bf996f48ecbd9bf4db296ca05",
+        "width": 1463,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_378960264",
+        "platform": "vk",
+        "photoId": "-62019209_378960264"
+      }
+    ]
   },
   {
     "id": "proza-2022-08-01-592",
@@ -6215,10 +7287,7 @@
     "missingPhotoIds": [
       "-62019209_379201254"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-08-02-661",
@@ -6258,10 +7327,7 @@
     "missingPhotoIds": [
       "-62019209_379313074"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-08-08-708",
@@ -6308,7 +7374,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_269",
     "timestamp": 1442941215,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e3631118c7b5f14c4a1afef945c06870b1abfc13ce9d5d2e761a8bcef7b2c30b.jpg",
+        "sha256": "e3631118c7b5f14c4a1afef945c06870b1abfc13ce9d5d2e761a8bcef7b2c30b",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_379271743",
+        "platform": "vk",
+        "photoId": "-62019209_379271743"
+      }
+    ]
   },
   {
     "id": "proza-2022-08-11-611",
@@ -6355,7 +7432,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_270",
     "timestamp": 1443027600,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e8906affbbe5dc578b649e68c61c276b730a2785b4ef563340874a3d81d9b208.jpg",
+        "sha256": "e8906affbbe5dc578b649e68c61c276b730a2785b4ef563340874a3d81d9b208",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_379271834",
+        "platform": "vk",
+        "photoId": "-62019209_379271834"
+      }
+    ]
   },
   {
     "id": "proza-2022-08-12-509",
@@ -6395,10 +7483,7 @@
     "missingPhotoIds": [
       "-62019209_379272040"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-08-20-1110",
@@ -6445,7 +7530,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_281",
     "timestamp": 1443200443,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-1ce24cb62fbace868010ddf37d598613ca0632a3e82c5de6498fb2a3e09de6dc.jpg",
+        "sha256": "1ce24cb62fbace868010ddf37d598613ca0632a3e82c5de6498fb2a3e09de6dc",
+        "width": 1484,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_379273220",
+        "platform": "vk",
+        "photoId": "-62019209_379273220"
+      }
+    ]
   },
   {
     "id": "proza-2022-08-22-21",
@@ -6485,10 +7581,7 @@
     "missingPhotoIds": [
       "-62019209_379639810"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-08-27-1216",
@@ -6535,7 +7628,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_283",
     "timestamp": 1443373249,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-42a1fef04b1f5bb3317e810eb528cbb95ae182cebd91aeb24201e6753637bc76.jpg",
+        "sha256": "42a1fef04b1f5bb3317e810eb528cbb95ae182cebd91aeb24201e6753637bc76",
+        "width": 2560,
+        "height": 1697,
+        "url": "https://vk.com/photo-62019209_379640009",
+        "platform": "vk",
+        "photoId": "-62019209_379640009"
+      }
+    ]
   },
   {
     "id": "proza-2022-08-28-1404",
@@ -6582,7 +7686,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_289",
     "timestamp": 1443459636,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b574be4dee3b58cc9e8e503c60140de8ca05a044aaee7173052e5af729326d74.jpg",
+        "sha256": "b574be4dee3b58cc9e8e503c60140de8ca05a044aaee7173052e5af729326d74",
+        "width": 731,
+        "height": 1024,
+        "url": "https://vk.com/photo-62019209_380127458",
+        "platform": "vk",
+        "photoId": "-62019209_380127458"
+      }
+    ]
   },
   {
     "id": "proza-2022-09-02-45",
@@ -6622,10 +7737,7 @@
     "missingPhotoIds": [
       "-62019209_380135431"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-03-818",
@@ -6672,7 +7784,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_293",
     "timestamp": 1443632511,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-e379da2d309316d81bbaf4dcd7062a1745df7134eddd000fe459f0b7d9fe7c86.jpg",
+        "sha256": "e379da2d309316d81bbaf4dcd7062a1745df7134eddd000fe459f0b7d9fe7c86",
+        "width": 1463,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_380545511",
+        "platform": "vk",
+        "photoId": "-62019209_380545511"
+      }
+    ]
   },
   {
     "id": "proza-2022-09-04-856",
@@ -6712,10 +7835,7 @@
     "missingPhotoIds": [
       "-62019209_380637545"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-05-520",
@@ -6755,10 +7875,7 @@
     "missingPhotoIds": [
       "-62019209_380135724"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-06-606",
@@ -6798,10 +7915,7 @@
     "missingPhotoIds": [
       "-62019209_381020522"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-07-616",
@@ -6841,10 +7955,7 @@
     "missingPhotoIds": [
       "-62019209_381158231"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-08-597",
@@ -6891,7 +8002,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_302",
     "timestamp": 1444064561,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-147b3ea252cb6ad2ce712cec879b31cb5c8d746f2ac54764d28e3246944a69ac.jpg",
+        "sha256": "147b3ea252cb6ad2ce712cec879b31cb5c8d746f2ac54764d28e3246944a69ac",
+        "width": 2546,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_381306254",
+        "platform": "vk",
+        "photoId": "-62019209_381306254"
+      }
+    ]
   },
   {
     "id": "proza-2022-09-09-603",
@@ -6938,7 +8060,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_304",
     "timestamp": 1444151709,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-9fb9ee51eafc99ac619291ffab36a0165a06d11c54da5ab3a1298adebd9dca67.jpg",
+        "sha256": "9fb9ee51eafc99ac619291ffab36a0165a06d11c54da5ab3a1298adebd9dca67",
+        "width": 731,
+        "height": 1024,
+        "url": "https://vk.com/photo-62019209_381413123",
+        "platform": "vk",
+        "photoId": "-62019209_381413123"
+      }
+    ]
   },
   {
     "id": "proza-2022-09-12-603",
@@ -6978,10 +8111,7 @@
     "missingPhotoIds": [
       "-62019209_381558859"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-13-523",
@@ -7028,7 +8158,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_318",
     "timestamp": 1444323785,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-6aca3e25e3650462f6c966de3d513d3f167c4301d42ea7fdf94c2fdbd7218a4a.jpg",
+        "sha256": "6aca3e25e3650462f6c966de3d513d3f167c4301d42ea7fdf94c2fdbd7218a4a",
+        "width": 682,
+        "height": 1024,
+        "url": "https://vk.com/photo-62019209_381680099",
+        "platform": "vk",
+        "photoId": "-62019209_381680099"
+      }
+    ]
   },
   {
     "id": "proza-2022-09-14-672",
@@ -7068,10 +8209,7 @@
     "missingPhotoIds": [
       "-62019209_381724883"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-18-898",
@@ -7118,7 +8256,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_323",
     "timestamp": 1444496513,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-78902c8a7364c022f8e984b3ce37d5217e2bd240e866a0989947d559a66e8e3a.jpg",
+        "sha256": "78902c8a7364c022f8e984b3ce37d5217e2bd240e866a0989947d559a66e8e3a",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_381911361",
+        "platform": "vk",
+        "photoId": "-62019209_381911361"
+      }
+    ]
   },
   {
     "id": "proza-2022-09-19-682",
@@ -7158,10 +8307,7 @@
     "missingPhotoIds": [
       "-62019209_382111868"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2022-09-20-670",
@@ -7208,7 +8354,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_331",
     "timestamp": 1444669438,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-4f2eef58a9f0ef330d4ed590f6af1fd50b2d9cd329c95497452e6498abae1b45.jpg",
+        "sha256": "4f2eef58a9f0ef330d4ed590f6af1fd50b2d9cd329c95497452e6498abae1b45",
+        "width": 1491,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_382194986",
+        "platform": "vk",
+        "photoId": "-62019209_382194986"
+      }
+    ]
   },
   {
     "id": "proza-2022-09-21-692",
@@ -7256,7 +8413,18 @@
     "vkPostId": "-62019209_334",
     "timestamp": 1444755881,
     "titleSource": "mirror",
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-a948ab1496be766c509d6d032c6579c970040ff726a901344eef8ea3c328de47.jpg",
+        "sha256": "a948ab1496be766c509d6d032c6579c970040ff726a901344eef8ea3c328de47",
+        "width": 1476,
+        "height": 1438,
+        "url": "https://vk.com/photo-62019209_382330776",
+        "platform": "vk",
+        "photoId": "-62019209_382330776"
+      }
+    ]
   },
   {
     "id": "proza-2022-10-06-394",
@@ -7303,7 +8471,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_336",
     "timestamp": 1444845744,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-203dda3d6aa39bf13e5afce2103760f98cc3450536dba5d05350580c0b866bdb.jpg",
+        "sha256": "203dda3d6aa39bf13e5afce2103760f98cc3450536dba5d05350580c0b866bdb",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_382464205",
+        "platform": "vk",
+        "photoId": "-62019209_382464205"
+      }
+    ]
   },
   {
     "id": "proza-2023-03-20-785",
@@ -7350,7 +8529,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_341",
     "timestamp": 1444928536,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-3d6b7cd8af19c2f82c32565f96d61ed4567aa8f11755c63951ff5c4caaba2ea6.jpg",
+        "sha256": "3d6b7cd8af19c2f82c32565f96d61ed4567aa8f11755c63951ff5c4caaba2ea6",
+        "width": 731,
+        "height": 1024,
+        "url": "https://vk.com/photo-62019209_382544732",
+        "platform": "vk",
+        "photoId": "-62019209_382544732"
+      }
+    ]
   },
   {
     "id": "proza-2023-03-21-850",
@@ -7397,7 +8587,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_343",
     "timestamp": 1445014926,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-1c2ac42514d4d0dc64f1d93c65979764634a7e2d546e2b2530558480423ee053.jpg",
+        "sha256": "1c2ac42514d4d0dc64f1d93c65979764634a7e2d546e2b2530558480423ee053",
+        "width": 429,
+        "height": 580,
+        "url": "https://vk.com/photo-62019209_382690419",
+        "platform": "vk",
+        "photoId": "-62019209_382690419"
+      }
+    ]
   },
   {
     "id": "proza-2023-03-22-829",
@@ -7444,7 +8645,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_345",
     "timestamp": 1445101313,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-21dbb75714a2780af706527af08fa92b2c3f1a2eafa0ed508b455de38de7181a.jpg",
+        "sha256": "21dbb75714a2780af706527af08fa92b2c3f1a2eafa0ed508b455de38de7181a",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_382811315",
+        "platform": "vk",
+        "photoId": "-62019209_382811315"
+      }
+    ]
   },
   {
     "id": "proza-2023-03-23-807",
@@ -7491,7 +8703,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_347",
     "timestamp": 1445191311,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f59c72692b16f1340d0040cbd33010e85fad9c298ca0739cf649431b1cdab312.jpg",
+        "sha256": "f59c72692b16f1340d0040cbd33010e85fad9c298ca0739cf649431b1cdab312",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_382967444",
+        "platform": "vk",
+        "photoId": "-62019209_382967444"
+      }
+    ]
   },
   {
     "id": "proza-2023-03-27-558",
@@ -7538,7 +8761,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_350",
     "timestamp": 1445274165,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-bef3bf7f469808dae27a29afe05fb9f77f236bfb031152ebab82e8575c82e1be.jpg",
+        "sha256": "bef3bf7f469808dae27a29afe05fb9f77f236bfb031152ebab82e8575c82e1be",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_383089528",
+        "platform": "vk",
+        "photoId": "-62019209_383089528"
+      }
+    ]
   },
   {
     "id": "proza-2023-04-09-1037",
@@ -7585,7 +8819,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_351",
     "timestamp": 1445360450,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-621a9468fd0d9d7813ef784bece565a948245f7bcedad0dc66f8b3c3126bf17d.jpg",
+        "sha256": "621a9468fd0d9d7813ef784bece565a948245f7bcedad0dc66f8b3c3126bf17d",
+        "width": 1476,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_383130477",
+        "platform": "vk",
+        "photoId": "-62019209_383130477"
+      }
+    ]
   },
   {
     "id": "proza-2023-04-14-1161",
@@ -7632,7 +8877,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_352",
     "timestamp": 1445451074,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-496098a5a7090e7840c728c588ff80815c67f40b7579589ef5203cbcbe0846eb.jpg",
+        "sha256": "496098a5a7090e7840c728c588ff80815c67f40b7579589ef5203cbcbe0846eb",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_383377195",
+        "platform": "vk",
+        "photoId": "-62019209_383377195"
+      }
+    ]
   },
   {
     "id": "proza-2023-04-15-1350",
@@ -7679,7 +8935,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_356",
     "timestamp": 1445538648,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-0173156cb942db9bd182bdefb0a5c113183feae8336f5453be190b86c8def9b5.jpg",
+        "sha256": "0173156cb942db9bd182bdefb0a5c113183feae8336f5453be190b86c8def9b5",
+        "width": 1920,
+        "height": 1036,
+        "url": "https://vk.com/photo-62019209_383479361",
+        "platform": "vk",
+        "photoId": "-62019209_383479361"
+      }
+    ]
   },
   {
     "id": "proza-2023-04-17-932",
@@ -7726,7 +8993,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_358",
     "timestamp": 1445626879,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-7ba2df1a664af93f3fdbafe29d2891421f06f9a80887536cfb32b952c71a4089.jpg",
+        "sha256": "7ba2df1a664af93f3fdbafe29d2891421f06f9a80887536cfb32b952c71a4089",
+        "width": 1253,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_383634182",
+        "platform": "vk",
+        "photoId": "-62019209_383634182"
+      }
+    ]
   },
   {
     "id": "proza-2023-04-22-593",
@@ -7773,7 +9051,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_359",
     "timestamp": 1445712282,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-09772fdea55e64db020d8021948623ed70a50da9f9d0163c8919b6d3e3933074.jpg",
+        "sha256": "09772fdea55e64db020d8021948623ed70a50da9f9d0163c8919b6d3e3933074",
+        "width": 1920,
+        "height": 1036,
+        "url": "https://vk.com/photo-62019209_383757000",
+        "platform": "vk",
+        "photoId": "-62019209_383757000"
+      }
+    ]
   },
   {
     "id": "proza-2023-04-27-437",
@@ -7813,10 +9102,7 @@
     "missingPhotoIds": [
       "-62019209_383858193"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-04-28-476",
@@ -7863,7 +9149,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_365",
     "timestamp": 1445887861,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-994c5d74398d6befae4aaff2aff412e5d92e82e5723fd2e0b05e026dadd17032.jpg",
+        "sha256": "994c5d74398d6befae4aaff2aff412e5d92e82e5723fd2e0b05e026dadd17032",
+        "width": 2415,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_384033350",
+        "platform": "vk",
+        "photoId": "-62019209_384033350"
+      }
+    ]
   },
   {
     "id": "proza-2023-05-01-707",
@@ -7910,7 +9207,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_368",
     "timestamp": 1445972436,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b0b6b0fddfe9b471725a15899c5f50b0a242f6ea253127b1cf914f3d79c956d8.jpg",
+        "sha256": "b0b6b0fddfe9b471725a15899c5f50b0a242f6ea253127b1cf914f3d79c956d8",
+        "width": 1620,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_384158637",
+        "platform": "vk",
+        "photoId": "-62019209_384158637"
+      }
+    ]
   },
   {
     "id": "vk-62019209-371",
@@ -7946,7 +9254,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_371",
     "timestamp": 1446832419,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-63adc45c3870d4ee8336ab3ed2a6260063d73f996a94bb130f13460764cf0894.jpg",
+        "sha256": "63adc45c3870d4ee8336ab3ed2a6260063d73f996a94bb130f13460764cf0894",
+        "width": 1620,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_385427545",
+        "platform": "vk",
+        "photoId": "-62019209_385427545"
+      }
+    ]
   },
   {
     "id": "proza-2023-05-04-584",
@@ -7986,10 +9305,7 @@
     "missingPhotoIds": [
       "-62019209_385853752"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-05-05-615",
@@ -8029,10 +9345,7 @@
     "missingPhotoIds": [
       "-62019209_385971605"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-05-08-506",
@@ -8079,7 +9392,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_378",
     "timestamp": 1447264970,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-88ae3b70cb7fcaba466ba1c2ed9c31c4004d5dc4a44b0e3530d47ada99fb3572.jpg",
+        "sha256": "88ae3b70cb7fcaba466ba1c2ed9c31c4004d5dc4a44b0e3530d47ada99fb3572",
+        "width": 1542,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_386101314",
+        "platform": "vk",
+        "photoId": "-62019209_386101314"
+      }
+    ]
   },
   {
     "id": "proza-2023-05-09-636",
@@ -8119,10 +9443,7 @@
     "missingPhotoIds": [
       "-62019209_386506428"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-05-14-548",
@@ -8162,10 +9483,7 @@
     "missingPhotoIds": [
       "-62019209_388310450"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-05-17-370",
@@ -8205,10 +9523,7 @@
     "missingPhotoIds": [
       "-62019209_388525127"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-05-19-363",
@@ -8255,7 +9570,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_390",
     "timestamp": 1449076715,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-889b1901f6946e4f81df57a905f5c6325e30d5cf7e319061b5e0c263d7f09a6c.jpg",
+        "sha256": "889b1901f6946e4f81df57a905f5c6325e30d5cf7e319061b5e0c263d7f09a6c",
+        "width": 2560,
+        "height": 1963,
+        "url": "https://vk.com/photo-62019209_388937767",
+        "platform": "vk",
+        "photoId": "-62019209_388937767"
+      }
+    ]
   },
   {
     "id": "proza-2023-05-22-477",
@@ -8302,7 +9628,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_393",
     "timestamp": 1449248442,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-c15458be04f729130cf1afd130486f542d044af065f95869c4da9498c9b69c9b.jpg",
+        "sha256": "c15458be04f729130cf1afd130486f542d044af065f95869c4da9498c9b69c9b",
+        "width": 2560,
+        "height": 1919,
+        "url": "https://vk.com/photo-62019209_389093473",
+        "platform": "vk",
+        "photoId": "-62019209_389093473"
+      }
+    ]
   },
   {
     "id": "proza-2023-05-23-302",
@@ -8349,7 +9686,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_394",
     "timestamp": 1449863650,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-6b5ae2016875bfb892711edc774ed677823b5714ceb784c1f7c9022f45d1087a.jpg",
+        "sha256": "6b5ae2016875bfb892711edc774ed677823b5714ceb784c1f7c9022f45d1087a",
+        "width": 2063,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_390155865",
+        "platform": "vk",
+        "photoId": "-62019209_390155865"
+      }
+    ]
   },
   {
     "id": "proza-2023-05-24-565",
@@ -8396,7 +9744,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_396",
     "timestamp": 1450114226,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-5961a809a87687d512c7fb0336241f8994a3f9f1ec034d9566453dc2ad05f859.jpg",
+        "sha256": "5961a809a87687d512c7fb0336241f8994a3f9f1ec034d9566453dc2ad05f859",
+        "width": 2560,
+        "height": 1878,
+        "url": "https://vk.com/photo-62019209_390447773",
+        "platform": "vk",
+        "photoId": "-62019209_390447773"
+      }
+    ]
   },
   {
     "id": "proza-2023-05-31-534",
@@ -8443,7 +9802,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_399",
     "timestamp": 1450719020,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-0e2e6af4366a26440bf05a45adbbafa7b16d7d26fb40442514acd6d239c0697c.jpg",
+        "sha256": "0e2e6af4366a26440bf05a45adbbafa7b16d7d26fb40442514acd6d239c0697c",
+        "width": 2560,
+        "height": 1822,
+        "url": "https://vk.com/photo-62019209_391390499",
+        "platform": "vk",
+        "photoId": "-62019209_391390499"
+      }
+    ]
   },
   {
     "id": "proza-2023-06-02-485",
@@ -8490,7 +9860,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_404",
     "timestamp": 1450890908,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f55403ea99146191043d957c1399f27ce104f510614b98b7089f3d2a10648196.jpg",
+        "sha256": "f55403ea99146191043d957c1399f27ce104f510614b98b7089f3d2a10648196",
+        "width": 2560,
+        "height": 1840,
+        "url": "https://vk.com/photo-62019209_391746969",
+        "platform": "vk",
+        "photoId": "-62019209_391746969"
+      }
+    ]
   },
   {
     "id": "proza-2023-06-08-455",
@@ -8537,7 +9918,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_406",
     "timestamp": 1456768879,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-29f6b32260c33b232e2ff74e9eabae4abbd048b743a81779ef12ad6bd95fa1a1.jpg",
+        "sha256": "29f6b32260c33b232e2ff74e9eabae4abbd048b743a81779ef12ad6bd95fa1a1",
+        "width": 1820,
+        "height": 982,
+        "url": "https://vk.com/photo-62019209_401649556",
+        "platform": "vk",
+        "photoId": "-62019209_401649556"
+      }
+    ]
   },
   {
     "id": "proza-2023-06-12-672",
@@ -8584,7 +9976,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_410",
     "timestamp": 1456855272,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-54cd12d4f00ef944e343ccc8b24715001512ea94b9e7eb00514bf1518922c7ad.jpg",
+        "sha256": "54cd12d4f00ef944e343ccc8b24715001512ea94b9e7eb00514bf1518922c7ad",
+        "width": 2560,
+        "height": 1875,
+        "url": "https://vk.com/photo-62019209_401737048",
+        "platform": "vk",
+        "photoId": "-62019209_401737048"
+      }
+    ]
   },
   {
     "id": "proza-2023-06-18-374",
@@ -8631,7 +10034,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_412",
     "timestamp": 1456939352,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b452bbd5a2543ad2f29c28d3bc2d31c016c9de77caca049d12f1e8fc3e5842f6.jpg",
+        "sha256": "b452bbd5a2543ad2f29c28d3bc2d31c016c9de77caca049d12f1e8fc3e5842f6",
+        "width": 2560,
+        "height": 1870,
+        "url": "https://vk.com/photo-62019209_401738407",
+        "platform": "vk",
+        "photoId": "-62019209_401738407"
+      }
+    ]
   },
   {
     "id": "vk-62019209-413",
@@ -8672,7 +10086,18 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": [
+      {
+        "path": "images/vk-1d4af87240c8722d8576bc26bdbdce5f68c8dad511e79345c2957adc9c6d88fd.jpg",
+        "sha256": "1d4af87240c8722d8576bc26bdbdce5f68c8dad511e79345c2957adc9c6d88fd",
+        "width": 2560,
+        "height": 1915,
+        "url": "https://vk.com/photo-62019209_401986766",
+        "platform": "vk",
+        "photoId": "-62019209_401986766"
+      }
+    ]
   },
   {
     "id": "proza-2023-06-26-571",
@@ -8714,7 +10139,8 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-421",
@@ -8752,7 +10178,8 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-437",
@@ -8790,7 +10217,8 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": []
   },
   {
     "id": "proza-2023-07-04-401",
@@ -8838,7 +10266,18 @@
     "vkPostId": "-62019209_439",
     "timestamp": 1457029825,
     "titleSource": "mirror",
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-6ab0e6cd8d184659f18fb3989789951844cf9bddf1f8b5c4b6f6ccf99a5b349e.jpg",
+        "sha256": "6ab0e6cd8d184659f18fb3989789951844cf9bddf1f8b5c4b6f6ccf99a5b349e",
+        "width": 2560,
+        "height": 1823,
+        "url": "https://vk.com/photo-62019209_402138811",
+        "platform": "vk",
+        "photoId": "-62019209_402138811"
+      }
+    ]
   },
   {
     "id": "vk-62019209-440",
@@ -8876,7 +10315,8 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": []
   },
   {
     "id": "proza-2023-07-11-610",
@@ -8924,7 +10364,18 @@
     "vkPostId": "-62019209_443",
     "timestamp": 1457114511,
     "titleSource": "mirror",
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-444567cbf86f922a455596c519c8fc78cdb8fce59897bb56e178ff1ddac46b5d.jpg",
+        "sha256": "444567cbf86f922a455596c519c8fc78cdb8fce59897bb56e178ff1ddac46b5d",
+        "width": 1582,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_402219598",
+        "platform": "vk",
+        "photoId": "-62019209_402219598"
+      }
+    ]
   },
   {
     "id": "proza-2023-07-17-415",
@@ -8965,10 +10416,7 @@
     "missingPhotoIds": [
       "-62019209_402260822"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-07-28-467",
@@ -9009,10 +10457,7 @@
     "missingPhotoIds": [
       "-62019209_402534569"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-08-02-641",
@@ -9060,7 +10505,18 @@
     "vkPostId": "-62019209_452",
     "timestamp": 1457373665,
     "titleSource": "mirror",
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-11549ab3710151420692e14e4a3a3ab701d8f12efbb86a274d7d98cdc02dd51f.jpg",
+        "sha256": "11549ab3710151420692e14e4a3a3ab701d8f12efbb86a274d7d98cdc02dd51f",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_402643355",
+        "platform": "vk",
+        "photoId": "-62019209_402643355"
+      }
+    ]
   },
   {
     "id": "proza-2023-08-07-528",
@@ -9101,10 +10557,7 @@
     "missingPhotoIds": [
       "-62019209_402850509"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-08-10-712",
@@ -9144,10 +10597,7 @@
     "missingPhotoIds": [
       "-62019209_403064849"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-08-15-579",
@@ -9194,7 +10644,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_468",
     "timestamp": 1457632950,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-28b9ce048b2712bae3a6c70693d677edaeda6813495aa12324ddd2a6738e6f24.jpg",
+        "sha256": "28b9ce048b2712bae3a6c70693d677edaeda6813495aa12324ddd2a6738e6f24",
+        "width": 768,
+        "height": 932,
+        "url": "https://vk.com/photo-62019209_403243098",
+        "platform": "vk",
+        "photoId": "-62019209_403243098"
+      }
+    ]
   },
   {
     "id": "proza-2023-08-21-487",
@@ -9241,7 +10702,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_473",
     "timestamp": 1457719250,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-542b60483462c4bf5e7954c44987de41644feedf9791f16de202fb418c5452db.jpg",
+        "sha256": "542b60483462c4bf5e7954c44987de41644feedf9791f16de202fb418c5452db",
+        "width": 2560,
+        "height": 1852,
+        "url": "https://vk.com/photo-62019209_403291567",
+        "platform": "vk",
+        "photoId": "-62019209_403291567"
+      }
+    ]
   },
   {
     "id": "proza-2023-08-28-328",
@@ -9281,10 +10753,7 @@
     "missingPhotoIds": [
       "-62019209_403482682"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-08-31-723",
@@ -9324,10 +10793,7 @@
     "missingPhotoIds": [
       "-62019209_404235708"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-09-11-472",
@@ -9374,7 +10840,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_494",
     "timestamp": 1459186226,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-1e1c955a44035c70acb68c524e8ba6151f79518ef543953ea15d32cfa8329132.jpg",
+        "sha256": "1e1c955a44035c70acb68c524e8ba6151f79518ef543953ea15d32cfa8329132",
+        "width": 1549,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_405751095",
+        "platform": "vk",
+        "photoId": "-62019209_405751095"
+      }
+    ]
   },
   {
     "id": "proza-2023-09-25-553",
@@ -9414,10 +10891,7 @@
     "missingPhotoIds": [
       "-62019209_410870933"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-10-09-471",
@@ -9457,10 +10931,7 @@
     "missingPhotoIds": [
       "-62019209_411010475"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-10-16-414",
@@ -9500,10 +10971,7 @@
     "missingPhotoIds": [
       "-62019209_420376185"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-10-23-502",
@@ -9550,7 +11018,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_509",
     "timestamp": 1468688548,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8f65e77e4600921e49fc025a2aa57d7a365dbf05cd23fb454dcbb706ae26d7c1.jpg",
+        "sha256": "8f65e77e4600921e49fc025a2aa57d7a365dbf05cd23fb454dcbb706ae26d7c1",
+        "width": 1784,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_421142200",
+        "platform": "vk",
+        "photoId": "-62019209_421142200"
+      }
+    ]
   },
   {
     "id": "proza-2023-11-14-727",
@@ -9590,10 +11069,7 @@
     "missingPhotoIds": [
       "-62019209_424152487"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-12-01-759",
@@ -9633,10 +11109,7 @@
     "missingPhotoIds": [
       "-62019209_428368030"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-522",
@@ -9665,10 +11138,7 @@
     "missingPhotoIds": [
       "-62019209_430343802"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-524",
@@ -9697,10 +11167,7 @@
     "missingPhotoIds": [
       "-62019209_430364969"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-526",
@@ -9729,10 +11196,7 @@
     "missingPhotoIds": [
       "-62019209_433778457"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-12-04-625",
@@ -9772,10 +11236,7 @@
     "missingPhotoIds": [
       "-62019209_434064689"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2023-12-08-591",
@@ -9815,10 +11276,7 @@
     "missingPhotoIds": [
       "-62019209_456239017"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-01-04-724",
@@ -9858,10 +11316,7 @@
     "missingPhotoIds": [
       "-62019209_456239019"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-01-22-623",
@@ -9901,10 +11356,7 @@
     "missingPhotoIds": [
       "-62019209_456239020"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-02-724",
@@ -9944,10 +11396,7 @@
     "missingPhotoIds": [
       "-62019209_456239021"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-04-977",
@@ -9987,10 +11436,7 @@
     "missingPhotoIds": [
       "-62019209_456239022"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-05-904",
@@ -10030,10 +11476,7 @@
     "missingPhotoIds": [
       "-62019209_456239023"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-06-1036",
@@ -10073,10 +11516,7 @@
     "missingPhotoIds": [
       "-62019209_456239024"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-07-700",
@@ -10116,10 +11556,7 @@
     "missingPhotoIds": [
       "-62019209_456239025"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-09-587",
@@ -10159,10 +11596,7 @@
     "missingPhotoIds": [
       "-62019209_456239026"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-12-592",
@@ -10202,10 +11636,7 @@
     "missingPhotoIds": [
       "-62019209_456239027"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-14-873",
@@ -10245,10 +11676,7 @@
     "missingPhotoIds": [
       "-62019209_456239029"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-15-861",
@@ -10288,10 +11716,7 @@
     "missingPhotoIds": [
       "-62019209_456239030"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-19-788",
@@ -10331,10 +11756,7 @@
     "missingPhotoIds": [
       "-62019209_456239031"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-21-785",
@@ -10374,10 +11796,7 @@
     "missingPhotoIds": [
       "-62019209_456239032"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-22-756",
@@ -10417,10 +11836,7 @@
     "missingPhotoIds": [
       "-62019209_456239034"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-576",
@@ -10449,10 +11865,7 @@
     "missingPhotoIds": [
       "-62019209_456239035"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-577",
@@ -10481,10 +11894,7 @@
     "missingPhotoIds": [
       "-62019209_456239037"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-23-727",
@@ -10524,10 +11934,7 @@
     "missingPhotoIds": [
       "-62019209_456239038"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-02-26-634",
@@ -10567,10 +11974,7 @@
     "missingPhotoIds": [
       "-62019209_456239039"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-03-04-854",
@@ -10610,10 +12014,7 @@
     "missingPhotoIds": [
       "-62019209_456239040"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-03-06-521",
@@ -10653,10 +12054,7 @@
     "missingPhotoIds": [
       "-62019209_456239041"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-03-07-698",
@@ -10696,10 +12094,7 @@
     "missingPhotoIds": [
       "-62019209_456239042"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-03-12-448",
@@ -10739,10 +12134,7 @@
     "missingPhotoIds": [
       "-62019209_456239043"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-03-14-704",
@@ -10782,10 +12174,7 @@
     "missingPhotoIds": [
       "-62019209_456239044"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-04-09-592",
@@ -10832,7 +12221,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_598",
     "timestamp": 1512316808,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-dbd3f85370522054b983a4c0ab763bd28ddaf71d983221befb2c10dac0e2c7e4.jpg",
+        "sha256": "dbd3f85370522054b983a4c0ab763bd28ddaf71d983221befb2c10dac0e2c7e4",
+        "width": 1620,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_456239045",
+        "platform": "vk",
+        "photoId": "-62019209_456239045"
+      }
+    ]
   },
   {
     "id": "proza-2024-04-23-408",
@@ -10872,10 +12272,7 @@
     "missingPhotoIds": [
       "-62019209_456239046"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-05-16-789",
@@ -10915,10 +12312,7 @@
     "missingPhotoIds": [
       "-62019209_456239047"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-05-22-855",
@@ -10958,10 +12352,7 @@
     "missingPhotoIds": [
       "-62019209_456239048"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-06-01-589",
@@ -11008,7 +12399,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_621",
     "timestamp": 1518539402,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-081278f23874c280babfccfd508940b757b0bb07b460e9b8361b01952c0a9e7b.jpg",
+        "sha256": "081278f23874c280babfccfd508940b757b0bb07b460e9b8361b01952c0a9e7b",
+        "width": 2250,
+        "height": 1500,
+        "url": "https://vk.com/photo-62019209_456239050",
+        "platform": "vk",
+        "photoId": "-62019209_456239050"
+      }
+    ]
   },
   {
     "id": "proza-2024-06-05-860",
@@ -11048,10 +12450,7 @@
     "missingPhotoIds": [
       "-62019209_456239051"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-06-06-700",
@@ -11098,7 +12497,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_630",
     "timestamp": 1541256539,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-812fc69c98a1bdf574ab8b4814c4733a9459d42fd74ce2d63d8d4f65bcd6a412.jpg",
+        "sha256": "812fc69c98a1bdf574ab8b4814c4733a9459d42fd74ce2d63d8d4f65bcd6a412",
+        "width": 1604,
+        "height": 1046,
+        "url": "https://vk.com/photo-62019209_456239055",
+        "platform": "vk",
+        "photoId": "-62019209_456239055"
+      }
+    ]
   },
   {
     "id": "vk-62019209-631",
@@ -11127,10 +12537,7 @@
     "missingPhotoIds": [
       "-62019209_456239054"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-635",
@@ -11159,10 +12566,7 @@
     "missingPhotoIds": [
       "-62019209_456239052"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-07-10-481",
@@ -11209,7 +12613,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_638",
     "timestamp": 1559836806,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-fc1d2e04d711ce34c0c231a579324a8ffbe348c44c66d4da5109dcff4c953ae9.jpg",
+        "sha256": "fc1d2e04d711ce34c0c231a579324a8ffbe348c44c66d4da5109dcff4c953ae9",
+        "width": 1620,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_456239056",
+        "platform": "vk",
+        "photoId": "-62019209_456239056"
+      }
+    ]
   },
   {
     "id": "proza-2024-07-15-613",
@@ -11249,10 +12664,7 @@
     "missingPhotoIds": [
       "-62019209_456239057"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-643",
@@ -11293,7 +12705,18 @@
     "contentNote": {
       "ru": "Название добавлено для каталога; в посте VK заголовка нет.",
       "en": "The title was added for the catalogue; the VK post has no heading."
-    }
+    },
+    "imageVariants": [
+      {
+        "path": "images/vk-0ced529ae4718ba211299d6faec490f04a8a1efd635363aa553ee3dc462b4a58.jpg",
+        "sha256": "0ced529ae4718ba211299d6faec490f04a8a1efd635363aa553ee3dc462b4a58",
+        "width": 1620,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_456239060",
+        "platform": "vk",
+        "photoId": "-62019209_456239060"
+      }
+    ]
   },
   {
     "id": "proza-2024-07-17-528",
@@ -11333,10 +12756,7 @@
     "missingPhotoIds": [
       "-62019209_456239058"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-07-26-948",
@@ -11376,10 +12796,7 @@
     "missingPhotoIds": [
       "-62019209_457239061"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-07-29-660",
@@ -11426,7 +12843,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_652",
     "timestamp": 1566493211,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-fba080e618f6bdd0e82c5aaa00e127662b4fc7e454076e782fa1b12c7b53eaa1.jpg",
+        "sha256": "fba080e618f6bdd0e82c5aaa00e127662b4fc7e454076e782fa1b12c7b53eaa1",
+        "width": 1543,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_457239062",
+        "platform": "vk",
+        "photoId": "-62019209_457239062"
+      }
+    ]
   },
   {
     "id": "proza-2024-08-01-765",
@@ -11473,7 +12901,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_656",
     "timestamp": 1574006407,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-d10aa1c611ae5c36c5b3cd358164a548f51d8468169662ca698c853690d16339.jpg",
+        "sha256": "d10aa1c611ae5c36c5b3cd358164a548f51d8468169662ca698c853690d16339",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_457239063",
+        "platform": "vk",
+        "photoId": "-62019209_457239063"
+      }
+    ]
   },
   {
     "id": "proza-2024-08-05-523",
@@ -11513,10 +12952,7 @@
     "missingPhotoIds": [
       "-62019209_457239064"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-08-09-821",
@@ -11556,10 +12992,7 @@
     "missingPhotoIds": [
       "-62019209_457239065"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-08-13-401",
@@ -11606,7 +13039,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_662",
     "timestamp": 1576690202,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-fb629b352ab5768be97fd1ba7dbe837f1405a45b28ad7c216604fc1bcb406c26.jpg",
+        "sha256": "fb629b352ab5768be97fd1ba7dbe837f1405a45b28ad7c216604fc1bcb406c26",
+        "width": 2059,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_457239066",
+        "platform": "vk",
+        "photoId": "-62019209_457239066"
+      }
+    ]
   },
   {
     "id": "proza-2024-08-26-1244",
@@ -11646,10 +13090,7 @@
     "missingPhotoIds": [
       "-62019209_457239067"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-10-07-839",
@@ -11689,10 +13130,7 @@
     "missingPhotoIds": [
       "-62019209_457239068"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "proza-2024-07-08-587",
@@ -11729,7 +13167,8 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_672",
     "timestamp": 1601827206,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": []
   },
   {
     "id": "proza-2024-07-09-507",
@@ -11776,7 +13215,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_674",
     "timestamp": 1602345607,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-df12fd9bf60f75e1f934b7be5b9c3181a99aa0667ba9ced7254c9da758079f6d.jpg",
+        "sha256": "df12fd9bf60f75e1f934b7be5b9c3181a99aa0667ba9ced7254c9da758079f6d",
+        "width": 2417,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_457239069",
+        "platform": "vk",
+        "photoId": "-62019209_457239069"
+      }
+    ]
   },
   {
     "id": "proza-2024-07-05-378",
@@ -11823,7 +13273,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_676",
     "timestamp": 1605290407,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ce039374982fe803271d96b479000a1e3b70fff6c1dfb9382c52331511b8109b.jpg",
+        "sha256": "ce039374982fe803271d96b479000a1e3b70fff6c1dfb9382c52331511b8109b",
+        "width": 1240,
+        "height": 1754,
+        "url": "https://vk.com/photo-62019209_457239070",
+        "platform": "vk",
+        "photoId": "-62019209_457239070"
+      }
+    ]
   },
   {
     "id": "proza-2024-11-11-913",
@@ -11871,7 +13332,18 @@
     "vkPostId": "-62019209_679",
     "timestamp": 1619888405,
     "titleSource": "mirror",
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-62ec813d689bc5c8105198580897c098df02709c202040ad9c1d236665f46ebd.jpg",
+        "sha256": "62ec813d689bc5c8105198580897c098df02709c202040ad9c1d236665f46ebd",
+        "width": 600,
+        "height": 540,
+        "url": "https://vk.com/photo-62019209_457239071",
+        "platform": "vk",
+        "photoId": "-62019209_457239071"
+      }
+    ]
   },
   {
     "id": "vk-62019209-694",
@@ -11907,7 +13379,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_694",
     "timestamp": 1731413884,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b00673d68fc42137dc0815cbdee54297011da1b137cf34c749f592481f3fa9bf.jpg",
+        "sha256": "b00673d68fc42137dc0815cbdee54297011da1b137cf34c749f592481f3fa9bf",
+        "width": 1620,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_457239073",
+        "platform": "vk",
+        "photoId": "-62019209_457239073"
+      }
+    ]
   },
   {
     "id": "vk-62019209-699",
@@ -11943,7 +13426,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_699",
     "timestamp": 1732806014,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b22804aba3fb818be408b37eadc6bc2ff9cc175efc0511bddffa328d18386776.jpg",
+        "sha256": "b22804aba3fb818be408b37eadc6bc2ff9cc175efc0511bddffa328d18386776",
+        "width": 2158,
+        "height": 2560,
+        "url": "https://vk.com/photo-62019209_457239074",
+        "platform": "vk",
+        "photoId": "-62019209_457239074"
+      }
+    ]
   },
   {
     "id": "vk-62019209-702",
@@ -11972,10 +13466,7 @@
     "missingPhotoIds": [
       "-62019209_457239075"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": []
   },
   {
     "id": "vk-62019209-704",
@@ -12011,7 +13502,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_704",
     "timestamp": 1736516541,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8bf9197f8603147fa4d4aa19a07992e18afd911befb2c55bed6d58eec7effb4c.jpg",
+        "sha256": "8bf9197f8603147fa4d4aa19a07992e18afd911befb2c55bed6d58eec7effb4c",
+        "width": 1566,
+        "height": 832,
+        "url": "https://vk.com/photo-62019209_457239076",
+        "platform": "vk",
+        "photoId": "-62019209_457239076"
+      }
+    ]
   },
   {
     "id": "vk-62019209-708",
@@ -12047,7 +13549,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_708",
     "timestamp": 1746555123,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-779a5debf7123957a6b39d6f5005d71d04f99fb5973490c795d0c109d7b40c94.jpg",
+        "sha256": "779a5debf7123957a6b39d6f5005d71d04f99fb5973490c795d0c109d7b40c94",
+        "width": 2560,
+        "height": 1839,
+        "url": "https://vk.com/photo-62019209_457239077",
+        "platform": "vk",
+        "photoId": "-62019209_457239077"
+      }
+    ]
   },
   {
     "id": "tg-008",
@@ -12094,7 +13607,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_712",
     "timestamp": 1747065219,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-0280441ef983c67efe112f4a8c84981dbca65efeebbe4249e0d7fdf16cdf1a54.jpg",
+        "sha256": "0280441ef983c67efe112f4a8c84981dbca65efeebbe4249e0d7fdf16cdf1a54",
+        "width": 2560,
+        "height": 1811,
+        "url": "https://vk.com/photo-62019209_457239078",
+        "platform": "vk",
+        "photoId": "-62019209_457239078"
+      }
+    ]
   },
   {
     "id": "tg-011",
@@ -12130,10 +13654,6 @@
         "url": "https://vk.com/photo-62019209_457239079",
         "platform": "vk",
         "photoId": "-62019209_457239079"
-      },
-      {
-        "path": "images/tg-011-1.jpg",
-        "sha256": "464bfc19eb2da5ab151bd1717c1aa3c4c6c2708d29342f08eb3d694247a06eb3"
       }
     ],
     "tags": [],
@@ -12145,7 +13665,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_715",
     "timestamp": 1747150821,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-2d5e730530edac466d80f22fbf2becc56e0f2946913a7c6106a4ce265e883055.jpg",
+        "sha256": "2d5e730530edac466d80f22fbf2becc56e0f2946913a7c6106a4ce265e883055",
+        "width": 2560,
+        "height": 1811,
+        "url": "https://vk.com/photo-62019209_457239079",
+        "platform": "vk",
+        "photoId": "-62019209_457239079"
+      },
+      {
+        "path": "images/tg-011-1.jpg",
+        "sha256": "464bfc19eb2da5ab151bd1717c1aa3c4c6c2708d29342f08eb3d694247a06eb3"
+      }
+    ]
   },
   {
     "id": "tg-012",
@@ -12181,10 +13716,6 @@
         "url": "https://vk.com/photo-62019209_457239080",
         "platform": "vk",
         "photoId": "-62019209_457239080"
-      },
-      {
-        "path": "images/tg-012-1.jpg",
-        "sha256": "5864122f1f46e45791bd40af75cf1f859a8137201bffd0b05ed477a31d6b7ecc"
       }
     ],
     "tags": [],
@@ -12196,7 +13727,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_717",
     "timestamp": 1747237203,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-70eeb86d8831db98fb3854867e04fa745be835d950fb7935fcf89a9cc038f339.jpg",
+        "sha256": "70eeb86d8831db98fb3854867e04fa745be835d950fb7935fcf89a9cc038f339",
+        "width": 2560,
+        "height": 1811,
+        "url": "https://vk.com/photo-62019209_457239080",
+        "platform": "vk",
+        "photoId": "-62019209_457239080"
+      },
+      {
+        "path": "images/tg-012-1.jpg",
+        "sha256": "5864122f1f46e45791bd40af75cf1f859a8137201bffd0b05ed477a31d6b7ecc"
+      }
+    ]
   },
   {
     "id": "tg-013",
@@ -12241,10 +13787,12 @@
     "missingPhotoIds": [
       "-62019209_457239081"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/tg-013-1.jpg",
+        "sha256": "8d5243491e9dab769d980b6f2b6273b678304da11c40533e916a6f62aeba8728"
+      }
+    ]
   },
   {
     "id": "tg-014",
@@ -12289,10 +13837,12 @@
     "missingPhotoIds": [
       "-62019209_457239082"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/tg-014-1.jpg",
+        "sha256": "3266339a81c6202fecee0472d18588390b1e2eb0490d8c014e2d792b59c2878e"
+      }
+    ]
   },
   {
     "id": "tg-015",
@@ -12328,10 +13878,6 @@
         "url": "https://vk.com/photo-62019209_457239083",
         "platform": "vk",
         "photoId": "-62019209_457239083"
-      },
-      {
-        "path": "images/tg-015-1.jpg",
-        "sha256": "5d3607ddbf9f8f6cc3982e9ba0023bda6dab37dcf9fef206f47d8c18b30657a6"
       }
     ],
     "tags": [],
@@ -12343,7 +13889,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_723",
     "timestamp": 1748014800,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-22ae9b9bf86ac1466439eb5094a128c8672062b64c5ecca3a8e92c7c054240e7.jpg",
+        "sha256": "22ae9b9bf86ac1466439eb5094a128c8672062b64c5ecca3a8e92c7c054240e7",
+        "width": 2338,
+        "height": 1654,
+        "url": "https://vk.com/photo-62019209_457239083",
+        "platform": "vk",
+        "photoId": "-62019209_457239083"
+      },
+      {
+        "path": "images/tg-015-1.jpg",
+        "sha256": "5d3607ddbf9f8f6cc3982e9ba0023bda6dab37dcf9fef206f47d8c18b30657a6"
+      }
+    ]
   },
   {
     "id": "tg-016",
@@ -12379,10 +13940,6 @@
         "url": "https://vk.com/photo-62019209_457239084",
         "platform": "vk",
         "photoId": "-62019209_457239084"
-      },
-      {
-        "path": "images/tg-016-1.jpg",
-        "sha256": "73f218b37eed9fe03051a6f4184b3398291a925490dd95a6e9d28c2836c42660"
       }
     ],
     "tags": [],
@@ -12394,7 +13951,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_724",
     "timestamp": 1748101200,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-147a18640ff70adc4efd2f60db4639f616e191aa7615c070222372ed751636a8.jpg",
+        "sha256": "147a18640ff70adc4efd2f60db4639f616e191aa7615c070222372ed751636a8",
+        "width": 1654,
+        "height": 2338,
+        "url": "https://vk.com/photo-62019209_457239084",
+        "platform": "vk",
+        "photoId": "-62019209_457239084"
+      },
+      {
+        "path": "images/tg-016-1.jpg",
+        "sha256": "73f218b37eed9fe03051a6f4184b3398291a925490dd95a6e9d28c2836c42660"
+      }
+    ]
   },
   {
     "id": "tg-017",
@@ -12430,10 +14002,6 @@
         "url": "https://vk.com/photo-62019209_457239085",
         "platform": "vk",
         "photoId": "-62019209_457239085"
-      },
-      {
-        "path": "images/tg-017-1.jpg",
-        "sha256": "63f9d6337475b361b839de7a120b565da71a6986614be7c443c221b767d0f1f2"
       }
     ],
     "tags": [],
@@ -12445,7 +14013,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_727",
     "timestamp": 1748619611,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8c8d3fc032ff0eea691dcef056e13c12e9a04aa00ee398f8dbcb89dab7ffcc35.jpg",
+        "sha256": "8c8d3fc032ff0eea691dcef056e13c12e9a04aa00ee398f8dbcb89dab7ffcc35",
+        "width": 2338,
+        "height": 1654,
+        "url": "https://vk.com/photo-62019209_457239085",
+        "platform": "vk",
+        "photoId": "-62019209_457239085"
+      },
+      {
+        "path": "images/tg-017-1.jpg",
+        "sha256": "63f9d6337475b361b839de7a120b565da71a6986614be7c443c221b767d0f1f2"
+      }
+    ]
   },
   {
     "id": "tg-018",
@@ -12492,7 +14075,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_728",
     "timestamp": 1748706000,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-ec4c007c825dce850136b48e90136bf40634382f5eb69c4a0661f17b0e113fc4.jpg",
+        "sha256": "ec4c007c825dce850136b48e90136bf40634382f5eb69c4a0661f17b0e113fc4",
+        "width": 2338,
+        "height": 1654,
+        "url": "https://vk.com/photo-62019209_457239086",
+        "platform": "vk",
+        "photoId": "-62019209_457239086"
+      }
+    ]
   },
   {
     "id": "tg-019",
@@ -12528,10 +14122,6 @@
         "url": "https://vk.com/photo-62019209_457239087",
         "platform": "vk",
         "photoId": "-62019209_457239087"
-      },
-      {
-        "path": "images/tg-019-1.jpg",
-        "sha256": "925a03aa5d6cb66c9cc4a3a549af271fdf424ca359ca1120ca829b850457ffec"
       }
     ],
     "tags": [],
@@ -12543,7 +14133,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_730",
     "timestamp": 1749397231,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-dce8aef1a73027aa9a70a437a5fa0a4c5a43eb31da1433c9e845302c294e0773.jpg",
+        "sha256": "dce8aef1a73027aa9a70a437a5fa0a4c5a43eb31da1433c9e845302c294e0773",
+        "width": 2560,
+        "height": 1643,
+        "url": "https://vk.com/photo-62019209_457239087",
+        "platform": "vk",
+        "photoId": "-62019209_457239087"
+      },
+      {
+        "path": "images/tg-019-1.jpg",
+        "sha256": "925a03aa5d6cb66c9cc4a3a549af271fdf424ca359ca1120ca829b850457ffec"
+      }
+    ]
   },
   {
     "id": "tg-020",
@@ -12590,7 +14195,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_732",
     "timestamp": 1750002001,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8ff8737956b6aca6948a68e8cba2a49ec1a9b8206e804468c9eb9f511d3a156e.jpg",
+        "sha256": "8ff8737956b6aca6948a68e8cba2a49ec1a9b8206e804468c9eb9f511d3a156e",
+        "width": 1902,
+        "height": 2560,
+        "url": "https://vk.com/photo-62019209_457239088",
+        "platform": "vk",
+        "photoId": "-62019209_457239088"
+      }
+    ]
   },
   {
     "id": "tg-021",
@@ -12637,7 +14253,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_734",
     "timestamp": 1750088566,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-657360b945b038810b3ccadfb81aeb52fefd53696d0d47dcc8ef9754982e62b7.jpg",
+        "sha256": "657360b945b038810b3ccadfb81aeb52fefd53696d0d47dcc8ef9754982e62b7",
+        "width": 2560,
+        "height": 1672,
+        "url": "https://vk.com/photo-62019209_457239089",
+        "platform": "vk",
+        "photoId": "-62019209_457239089"
+      }
+    ]
   },
   {
     "id": "tg-022",
@@ -12682,10 +14309,12 @@
     "missingPhotoIds": [
       "-62019209_457239090"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/tg-022-1.jpg",
+        "sha256": "b3730ed6fc0e12243da49f8e51cf929a4757bf2d791dbcce3c1d57344a8f8f23"
+      }
+    ]
   },
   {
     "id": "tg-023",
@@ -12721,10 +14350,6 @@
         "url": "https://vk.com/photo-62019209_457239092",
         "platform": "vk",
         "photoId": "-62019209_457239092"
-      },
-      {
-        "path": "images/tg-023-1.jpg",
-        "sha256": "f8331aa2ce93bcaac195e21ac073fe14125a0a6803d69b8acd6f1d4d0099e9b7"
       }
     ],
     "tags": [],
@@ -12736,7 +14361,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_739",
     "timestamp": 1756741240,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-df45f515cf8459ae7bd463e8ff061b93af73ca23c9a1333584cf5115b71e84d4.jpg",
+        "sha256": "df45f515cf8459ae7bd463e8ff061b93af73ca23c9a1333584cf5115b71e84d4",
+        "width": 1771,
+        "height": 2560,
+        "url": "https://vk.com/photo-62019209_457239092",
+        "platform": "vk",
+        "photoId": "-62019209_457239092"
+      },
+      {
+        "path": "images/tg-023-1.jpg",
+        "sha256": "f8331aa2ce93bcaac195e21ac073fe14125a0a6803d69b8acd6f1d4d0099e9b7"
+      }
+    ]
   },
   {
     "id": "tg-024",
@@ -12783,7 +14423,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_741",
     "timestamp": 1757346008,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-79ec3000c18733cf91febfdfe1f0359929a1472ae15b4d640e88383875cdcbc7.jpg",
+        "sha256": "79ec3000c18733cf91febfdfe1f0359929a1472ae15b4d640e88383875cdcbc7",
+        "width": 2054,
+        "height": 2560,
+        "url": "https://vk.com/photo-62019209_457239093",
+        "platform": "vk",
+        "photoId": "-62019209_457239093"
+      }
+    ]
   },
   {
     "id": "tg-025",
@@ -12828,10 +14479,12 @@
     "missingPhotoIds": [
       "-62019209_457239094"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/tg-025-1.jpg",
+        "sha256": "e4762f5eba45a7e7b8b9902b017a2379087cd079e6f022e9cfefeafa02f43f72"
+      }
+    ]
   },
   {
     "id": "tg-026",
@@ -12878,7 +14531,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_745",
     "timestamp": 1758296400,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-df555c9d6e368a3c72371bbbca263cb4aed7f88cc0e10657824eafef7e869fba.jpg",
+        "sha256": "df555c9d6e368a3c72371bbbca263cb4aed7f88cc0e10657824eafef7e869fba",
+        "width": 2338,
+        "height": 1654,
+        "url": "https://vk.com/photo-62019209_457239095",
+        "platform": "vk",
+        "photoId": "-62019209_457239095"
+      }
+    ]
   },
   {
     "id": "vk-62019209-747",
@@ -12904,7 +14568,8 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_747",
     "timestamp": 1762773578,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": []
   },
   {
     "id": "tg-027",
@@ -12951,7 +14616,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_749",
     "timestamp": 1765035613,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-209cea9bcb3515fbe85561105267b0fe1db19fd4c98bc5d4d0ab0f0a907c2dad.jpg",
+        "sha256": "209cea9bcb3515fbe85561105267b0fe1db19fd4c98bc5d4d0ab0f0a907c2dad",
+        "width": 2560,
+        "height": 1920,
+        "url": "https://vk.com/photo-62019209_457239096",
+        "platform": "vk",
+        "photoId": "-62019209_457239096"
+      }
+    ]
   },
   {
     "id": "tg-028",
@@ -12998,7 +14674,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_752",
     "timestamp": 1766245243,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-bdbaa96059a6af1b1f1e0b2c084c654a87fc4f8cccd267974566b38043621b63.jpg",
+        "sha256": "bdbaa96059a6af1b1f1e0b2c084c654a87fc4f8cccd267974566b38043621b63",
+        "width": 1654,
+        "height": 2338,
+        "url": "https://vk.com/photo-62019209_457239097",
+        "platform": "vk",
+        "photoId": "-62019209_457239097"
+      }
+    ]
   },
   {
     "id": "tg-029",
@@ -13045,7 +14732,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_753",
     "timestamp": 1766331600,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-77009cabfb04ed45cac049502282c35287d03b59c4180a220a2d58d01459a786.jpg",
+        "sha256": "77009cabfb04ed45cac049502282c35287d03b59c4180a220a2d58d01459a786",
+        "width": 2338,
+        "height": 1654,
+        "url": "https://vk.com/photo-62019209_457239098",
+        "platform": "vk",
+        "photoId": "-62019209_457239098"
+      }
+    ]
   },
   {
     "id": "tg-030",
@@ -13092,7 +14790,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_755",
     "timestamp": 1767973200,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-2461b1c0bec659b16780ed585759359ace800250a20f491141e64810c621dd74.jpg",
+        "sha256": "2461b1c0bec659b16780ed585759359ace800250a20f491141e64810c621dd74",
+        "width": 871,
+        "height": 1280,
+        "url": "https://vk.com/photo-62019209_457239099",
+        "platform": "vk",
+        "photoId": "-62019209_457239099"
+      }
+    ]
   },
   {
     "id": "tg-031",
@@ -13128,10 +14837,6 @@
         "url": "https://vk.com/photo-62019209_457239100",
         "platform": "vk",
         "photoId": "-62019209_457239100"
-      },
-      {
-        "path": "images/tg-031-1.jpg",
-        "sha256": "c25ba5c2b74e870621dff52f5a0cc6ef167fd61727284ea2d20033fa85514975"
       }
     ],
     "tags": [],
@@ -13143,7 +14848,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_757",
     "timestamp": 1772035841,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f4795d32dd3cdbf3d3eb46a7bdc8075a4317f0cd20b679eb581c3e42692841c8.jpg",
+        "sha256": "f4795d32dd3cdbf3d3eb46a7bdc8075a4317f0cd20b679eb581c3e42692841c8",
+        "width": 1812,
+        "height": 2560,
+        "url": "https://vk.com/photo-62019209_457239100",
+        "platform": "vk",
+        "photoId": "-62019209_457239100"
+      },
+      {
+        "path": "images/tg-031-1.jpg",
+        "sha256": "c25ba5c2b74e870621dff52f5a0cc6ef167fd61727284ea2d20033fa85514975"
+      }
+    ]
   },
   {
     "id": "tg-032",
@@ -13179,10 +14899,6 @@
         "url": "https://vk.com/photo-62019209_457239101",
         "platform": "vk",
         "photoId": "-62019209_457239101"
-      },
-      {
-        "path": "images/tg-032-1.jpg",
-        "sha256": "26e48bedef2816a3695a3db173b56c1d197131b46d387cb94051bf0679b5aa42"
       }
     ],
     "tags": [],
@@ -13194,7 +14910,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_759",
     "timestamp": 1772120400,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-71646f5b494142d379851a4abdcfe6b433afdf4375ae460fadcf759370c696b1.jpg",
+        "sha256": "71646f5b494142d379851a4abdcfe6b433afdf4375ae460fadcf759370c696b1",
+        "width": 2560,
+        "height": 1812,
+        "url": "https://vk.com/photo-62019209_457239101",
+        "platform": "vk",
+        "photoId": "-62019209_457239101"
+      },
+      {
+        "path": "images/tg-032-1.jpg",
+        "sha256": "26e48bedef2816a3695a3db173b56c1d197131b46d387cb94051bf0679b5aa42"
+      }
+    ]
   },
   {
     "id": "tg-033",
@@ -13239,10 +14970,12 @@
     "missingPhotoIds": [
       "-62019209_457239102"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/tg-033-1.jpg",
+        "sha256": "cbb3117f307300306d900f7895893a2a08e776c6abfd19b0e9799b71e3c110a4"
+      }
+    ]
   },
   {
     "id": "tg-034",
@@ -13289,7 +15022,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_763",
     "timestamp": 1773675600,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-a1479a014ffd88ab7b7e3e10369504575de74c315880e2cb1b9725f872cbf3f4.jpg",
+        "sha256": "a1479a014ffd88ab7b7e3e10369504575de74c315880e2cb1b9725f872cbf3f4",
+        "width": 2560,
+        "height": 1685,
+        "url": "https://vk.com/photo-62019209_457239103",
+        "platform": "vk",
+        "photoId": "-62019209_457239103"
+      }
+    ]
   },
   {
     "id": "tg-035",
@@ -13334,10 +15078,12 @@
     "missingPhotoIds": [
       "-62019209_457239104"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/tg-035-1.jpg",
+        "sha256": "875bcc75389faf60ca959d4134fd42f8162f438170f1aeea371022c26c9c8f51"
+      }
+    ]
   },
   {
     "id": "tg-036",
@@ -13373,10 +15119,6 @@
         "url": "https://vk.com/photo-62019209_457239105",
         "platform": "vk",
         "photoId": "-62019209_457239105"
-      },
-      {
-        "path": "images/tg-036-1.jpg",
-        "sha256": "40814d2ff4e932737bb74d63c194d300b13d49ef0e9001556aacc41c62691523"
       }
     ],
     "tags": [],
@@ -13388,7 +15130,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_766",
     "timestamp": 1774885200,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-4f170535495ef4c059c93bb9ea82fbdfd732b84b3ab36720c8c89a8aca8ce709.jpg",
+        "sha256": "4f170535495ef4c059c93bb9ea82fbdfd732b84b3ab36720c8c89a8aca8ce709",
+        "width": 1280,
+        "height": 1182,
+        "url": "https://vk.com/photo-62019209_457239105",
+        "platform": "vk",
+        "photoId": "-62019209_457239105"
+      },
+      {
+        "path": "images/tg-036-1.jpg",
+        "sha256": "40814d2ff4e932737bb74d63c194d300b13d49ef0e9001556aacc41c62691523"
+      }
+    ]
   },
   {
     "id": "vk-62019209-769",
@@ -13424,7 +15181,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_769",
     "timestamp": 1775403625,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-c9aef3909a31461469520889914ec51fc1fd1066ed05ab09e691e42a576046ba.jpg",
+        "sha256": "c9aef3909a31461469520889914ec51fc1fd1066ed05ab09e691e42a576046ba",
+        "width": 1441,
+        "height": 810,
+        "url": "https://vk.com/photo-62019209_457239106",
+        "platform": "vk",
+        "photoId": "-62019209_457239106"
+      }
+    ]
   },
   {
     "id": "tg-037",
@@ -13471,7 +15239,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_776",
     "timestamp": 1775490018,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-f04160fcc0de6c135db8ee6c5c0e18a77bc3317508e064cdc267a23a49c8bf82.jpg",
+        "sha256": "f04160fcc0de6c135db8ee6c5c0e18a77bc3317508e064cdc267a23a49c8bf82",
+        "width": 1811,
+        "height": 2560,
+        "url": "https://vk.com/photo-62019209_457239108",
+        "platform": "vk",
+        "photoId": "-62019209_457239108"
+      }
+    ]
   },
   {
     "id": "tg-038",
@@ -13518,7 +15297,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_779",
     "timestamp": 1775576400,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8a38bbc035ed1a433a99ffaab73bb8a597329c642a78e5246c0af3a32448a4f2.jpg",
+        "sha256": "8a38bbc035ed1a433a99ffaab73bb8a597329c642a78e5246c0af3a32448a4f2",
+        "width": 1811,
+        "height": 2560,
+        "url": "https://vk.com/photo-62019209_457239110",
+        "platform": "vk",
+        "photoId": "-62019209_457239110"
+      }
+    ]
   },
   {
     "id": "tg-039",
@@ -13565,7 +15355,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_780",
     "timestamp": 1775662800,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-0023a9449ed8ffdfc0c249d81fb097f9bea5fa758ad3a6b348a1cee225fda79b.jpg",
+        "sha256": "0023a9449ed8ffdfc0c249d81fb097f9bea5fa758ad3a6b348a1cee225fda79b",
+        "width": 2560,
+        "height": 1811,
+        "url": "https://vk.com/photo-62019209_457239109",
+        "platform": "vk",
+        "photoId": "-62019209_457239109"
+      }
+    ]
   },
   {
     "id": "tg-040",
@@ -13612,7 +15413,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_781",
     "timestamp": 1775749200,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-444d8a7a5287eef06d3f03cc61159b38b925225a62a90c3460662ad2507849c8.jpg",
+        "sha256": "444d8a7a5287eef06d3f03cc61159b38b925225a62a90c3460662ad2507849c8",
+        "width": 2560,
+        "height": 1821,
+        "url": "https://vk.com/photo-62019209_457239111",
+        "platform": "vk",
+        "photoId": "-62019209_457239111"
+      }
+    ]
   },
   {
     "id": "tg-041",
@@ -13648,10 +15460,6 @@
         "url": "https://vk.com/photo-62019209_457239113",
         "platform": "vk",
         "photoId": "-62019209_457239113"
-      },
-      {
-        "path": "images/tg-041-1.jpg",
-        "sha256": "74ac326b644323b78d2e9fe7d3817227ee2ed2cfe7a3797d71efa2a902d57552"
       }
     ],
     "tags": [],
@@ -13663,7 +15471,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_782",
     "timestamp": 1775835600,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-4ee5236114134badb32109d0fccbd1a3e885acb9a3c532cb5be5a9a46c058a75.jpg",
+        "sha256": "4ee5236114134badb32109d0fccbd1a3e885acb9a3c532cb5be5a9a46c058a75",
+        "width": 2497,
+        "height": 2244,
+        "url": "https://vk.com/photo-62019209_457239113",
+        "platform": "vk",
+        "photoId": "-62019209_457239113"
+      },
+      {
+        "path": "images/tg-041-1.jpg",
+        "sha256": "74ac326b644323b78d2e9fe7d3817227ee2ed2cfe7a3797d71efa2a902d57552"
+      }
+    ]
   },
   {
     "id": "tg-042",
@@ -13699,10 +15522,6 @@
         "url": "https://vk.com/photo-62019209_457239115",
         "platform": "vk",
         "photoId": "-62019209_457239115"
-      },
-      {
-        "path": "images/tg-042-1.jpg",
-        "sha256": "e39bea1a6d025b0659ab7721826f3aef22099eb930055fd83dacaaf9b2ea6026"
       }
     ],
     "tags": [],
@@ -13714,7 +15533,22 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_785",
     "timestamp": 1777650003,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-34c46bc1a48e2d570a8b71a49d8a520d66b6335252526da1e1bb93cc5ca092b3.jpg",
+        "sha256": "34c46bc1a48e2d570a8b71a49d8a520d66b6335252526da1e1bb93cc5ca092b3",
+        "width": 1114,
+        "height": 627,
+        "url": "https://vk.com/photo-62019209_457239115",
+        "platform": "vk",
+        "photoId": "-62019209_457239115"
+      },
+      {
+        "path": "images/tg-042-1.jpg",
+        "sha256": "e39bea1a6d025b0659ab7721826f3aef22099eb930055fd83dacaaf9b2ea6026"
+      }
+    ]
   },
   {
     "id": "tg-043",
@@ -13761,7 +15595,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_787",
     "timestamp": 1777736417,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-b9cb988585c0c86e8a4f8c19b97f2d9b1fec2abcfc7c3e96ff1f91b2e250678c.jpg",
+        "sha256": "b9cb988585c0c86e8a4f8c19b97f2d9b1fec2abcfc7c3e96ff1f91b2e250678c",
+        "width": 1024,
+        "height": 1024,
+        "url": "https://vk.com/photo-62019209_457239116",
+        "platform": "vk",
+        "photoId": "-62019209_457239116"
+      }
+    ]
   },
   {
     "id": "tg-044",
@@ -13808,7 +15653,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_790",
     "timestamp": 1779291600,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-81009d64c47e4f3e285c8f1a4e04b284d7cc2f7615c7793f03273adcd9035a2e.jpg",
+        "sha256": "81009d64c47e4f3e285c8f1a4e04b284d7cc2f7615c7793f03273adcd9035a2e",
+        "width": 948,
+        "height": 1265,
+        "url": "https://vk.com/photo-62019209_457239117",
+        "platform": "vk",
+        "photoId": "-62019209_457239117"
+      }
+    ]
   },
   {
     "id": "tg-045",
@@ -13855,7 +15711,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_793",
     "timestamp": 1779390001,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-d0cbeb9920bcad60dd3d7ef56c1e6dc2101b28ce3522153d55dc715b2a56a5fc.jpg",
+        "sha256": "d0cbeb9920bcad60dd3d7ef56c1e6dc2101b28ce3522153d55dc715b2a56a5fc",
+        "width": 948,
+        "height": 1265,
+        "url": "https://vk.com/photo-62019209_457239118",
+        "platform": "vk",
+        "photoId": "-62019209_457239118"
+      }
+    ]
   },
   {
     "id": "tg-046",
@@ -13902,7 +15769,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_795",
     "timestamp": 1779637200,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-2201a5ab0b1aaccc016fe133bee975abd518d3c5dbc92aa06b7947694daba52c.jpg",
+        "sha256": "2201a5ab0b1aaccc016fe133bee975abd518d3c5dbc92aa06b7947694daba52c",
+        "width": 1254,
+        "height": 1254,
+        "url": "https://vk.com/photo-62019209_457239119",
+        "platform": "vk",
+        "photoId": "-62019209_457239119"
+      }
+    ]
   },
   {
     "id": "tg-047",
@@ -13949,7 +15827,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_798",
     "timestamp": 1779723608,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-6b965e500f378447012238ef4f07a9c350faa6f758e7fef7bd8229566d27e0b3.jpg",
+        "sha256": "6b965e500f378447012238ef4f07a9c350faa6f758e7fef7bd8229566d27e0b3",
+        "width": 1265,
+        "height": 948,
+        "url": "https://vk.com/photo-62019209_457239120",
+        "platform": "vk",
+        "photoId": "-62019209_457239120"
+      }
+    ]
   },
   {
     "id": "tg-048",
@@ -13996,7 +15885,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_801",
     "timestamp": 1779982847,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-9d9b508cc0ae23ca325ffdec20a0f57d9c4d0752f06f2da96999cc9f1bdd7edb.jpg",
+        "sha256": "9d9b508cc0ae23ca325ffdec20a0f57d9c4d0752f06f2da96999cc9f1bdd7edb",
+        "width": 899,
+        "height": 817,
+        "url": "https://vk.com/photo-62019209_457239121",
+        "platform": "vk",
+        "photoId": "-62019209_457239121"
+      }
+    ]
   },
   {
     "id": "tg-049",
@@ -14043,7 +15943,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_804",
     "timestamp": 1780069256,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-8d22a690f2262eac851cb0b9bc800a5571ce73ac1d302c9ef8c2c5ab4125fca9.jpg",
+        "sha256": "8d22a690f2262eac851cb0b9bc800a5571ce73ac1d302c9ef8c2c5ab4125fca9",
+        "width": 1279,
+        "height": 934,
+        "url": "https://vk.com/photo-62019209_457239122",
+        "platform": "vk",
+        "photoId": "-62019209_457239122"
+      }
+    ]
   },
   {
     "id": "tg-050",
@@ -14090,7 +16001,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_807",
     "timestamp": 1780328405,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-161b4ebfa6b46a0f533611f187edfc739e20081289117b54a2a7a051ac586ef7.jpg",
+        "sha256": "161b4ebfa6b46a0f533611f187edfc739e20081289117b54a2a7a051ac586ef7",
+        "width": 925,
+        "height": 1233,
+        "url": "https://vk.com/photo-62019209_457239123",
+        "platform": "vk",
+        "photoId": "-62019209_457239123"
+      }
+    ]
   },
   {
     "id": "tg-051",
@@ -14137,7 +16059,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_810",
     "timestamp": 1780846852,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-bb9817057bf5a74354ccb2df028ac08fab1430d1446db5dec99b182ad533ec77.jpg",
+        "sha256": "bb9817057bf5a74354ccb2df028ac08fab1430d1446db5dec99b182ad533ec77",
+        "width": 948,
+        "height": 1265,
+        "url": "https://vk.com/photo-62019209_457239124",
+        "platform": "vk",
+        "photoId": "-62019209_457239124"
+      }
+    ]
   },
   {
     "id": "tg-052",
@@ -14184,7 +16117,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_814",
     "timestamp": 1781278830,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-83f17cf67bc45c7b0559219ae365ca03b9d31127af838ee25e2d72d1d9150b2e.jpg",
+        "sha256": "83f17cf67bc45c7b0559219ae365ca03b9d31127af838ee25e2d72d1d9150b2e",
+        "width": 1280,
+        "height": 936,
+        "url": "https://vk.com/photo-62019209_457239126",
+        "platform": "vk",
+        "photoId": "-62019209_457239126"
+      }
+    ]
   },
   {
     "id": "tg-053",
@@ -14231,7 +16175,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_816",
     "timestamp": 1781365224,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-caa0b7ff3d592304c1b77c6f09451611a68dfc02a3d1cb9a7c07493742db2ea4.jpg",
+        "sha256": "caa0b7ff3d592304c1b77c6f09451611a68dfc02a3d1cb9a7c07493742db2ea4",
+        "width": 1254,
+        "height": 1254,
+        "url": "https://vk.com/photo-62019209_457239127",
+        "platform": "vk",
+        "photoId": "-62019209_457239127"
+      }
+    ]
   },
   {
     "id": "tg-054",
@@ -14278,7 +16233,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_819",
     "timestamp": 1781624400,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-4be202a1edfeefbbd76ba87e30008d4ae6a61f14b783a6d7c1de93b856e85f78.jpg",
+        "sha256": "4be202a1edfeefbbd76ba87e30008d4ae6a61f14b783a6d7c1de93b856e85f78",
+        "width": 925,
+        "height": 1280,
+        "url": "https://vk.com/photo-62019209_457239128",
+        "platform": "vk",
+        "photoId": "-62019209_457239128"
+      }
+    ]
   },
   {
     "id": "tg-055",
@@ -14325,7 +16291,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_822",
     "timestamp": 1782056406,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-26eda017f3e9cbd9ecf3e59bec312f4c623990d16cc973e50da71a7bd6160f8a.jpg",
+        "sha256": "26eda017f3e9cbd9ecf3e59bec312f4c623990d16cc973e50da71a7bd6160f8a",
+        "width": 1950,
+        "height": 1402,
+        "url": "https://vk.com/photo-62019209_457239129",
+        "platform": "vk",
+        "photoId": "-62019209_457239129"
+      }
+    ]
   },
   {
     "id": "tg-056",
@@ -14370,10 +16347,12 @@
     "missingPhotoIds": [
       "-62019209_457239130"
     ],
-    "contentNote": {
-      "ru": "Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.",
-      "en": "The VK photo has not been downloaded yet. Available mirror illustrations are retained."
-    }
+    "imageVariants": [
+      {
+        "path": "images/tg-056-1.jpg",
+        "sha256": "bb9c4353dbf7b8b7f32b92c0f6c42f73e0fe5ef1e6d5c5852536bd7dd950457e"
+      }
+    ]
   },
   {
     "id": "tg-057",
@@ -14420,7 +16399,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_826",
     "timestamp": 1783870817,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-1c5daddab24aa845e2fb5fd933105495f662205ad1c1237e9b4d2b5f5b5becda.jpg",
+        "sha256": "1c5daddab24aa845e2fb5fd933105495f662205ad1c1237e9b4d2b5f5b5becda",
+        "width": 1254,
+        "height": 1254,
+        "url": "https://vk.com/photo-62019209_457239131",
+        "platform": "vk",
+        "photoId": "-62019209_457239131"
+      }
+    ]
   },
   {
     "id": "tg-058",
@@ -14467,7 +16457,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_828",
     "timestamp": 1784562053,
-    "missingPhotoIds": []
+    "missingPhotoIds": [],
+    "imageVariants": [
+      {
+        "path": "images/vk-da9ce3f4a5574aa7f3b6c35fd0619a3a167b7b82533a16e6ca95744e904d56e7.jpg",
+        "sha256": "da9ce3f4a5574aa7f3b6c35fd0619a3a167b7b82533a16e6ca95744e904d56e7",
+        "width": 1254,
+        "height": 1254,
+        "url": "https://vk.com/photo-62019209_457239132",
+        "platform": "vk",
+        "photoId": "-62019209_457239132"
+      }
+    ]
   },
   {
     "id": "proza-2023-07-10-497",
@@ -14497,7 +16498,8 @@
     "contentNote": {
       "ru": "Публикация из зеркала. Соответствующий пост VK не найден; указана дата зеркала.",
       "en": "A mirror publication. No matching VK post was found; the date is from the mirror."
-    }
+    },
+    "imageVariants": []
   },
   {
     "id": "proza-2024-12-16-1196",
@@ -14527,7 +16529,8 @@
     "contentNote": {
       "ru": "Публикация из зеркала. Соответствующий пост VK не найден; указана дата зеркала.",
       "en": "A mirror publication. No matching VK post was found; the date is from the mirror."
-    }
+    },
+    "imageVariants": []
   },
   {
     "id": "tg-006",
@@ -14557,6 +16560,7 @@
     "contentNote": {
       "ru": "Публикация из зеркала. Соответствующий пост VK не найден; указана дата зеркала.",
       "en": "A mirror publication. No matching VK post was found; the date is from the mirror."
-    }
+    },
+    "imageVariants": []
   }
 ]

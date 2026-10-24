@@ -26,7 +26,7 @@ export async function loadArchive({ requireTranslations = true } = {}) {
   const missing = [];
   for (const [index, story] of stories.entries()) {
     story.order = index + 1;
-    // Proza's Void record is a next-story navigation link; its surviving edition is visual.
+    // Void is intentionally wordless, as confirmed by the coauthor.
     if (story.id === 'proza-2017-07-18-1919') story.text.ru = '';
     const english = translations.get(story.id);
     if (english) {
@@ -52,6 +52,12 @@ export async function loadArchive({ requireTranslations = true } = {}) {
     contentNote: { ru: 'Сохранилась английская публикация. Русский оригинал пока не восстановлен.', en: 'Preserved from the original English edition. The Russian original has not yet been recovered.' },
     sources: [{ platform: 'tumblr', url: flame.url, date: flame.date }] });
   for (const story of stories) {
+    // Mirrors carry versions of the same illustration. One work shows one
+    // image; source editions remain preserved in the raw archive.
+    const candidates = [...(story.imageVariants || story.images)];
+    for (const image of story.images) if (!candidates.some(i => i.sha256 === image.sha256)) candidates.push(image);
+    story.imageVariants = candidates;
+    story.images = candidates.sort((a,b) => Number(b.platform === 'vk') - Number(a.platform === 'vk') || (b.width || 0)*(b.height || 0) - (a.width || 0)*(a.height || 0)).slice(0,1);
     story.sources = story.sources.filter((source, index, all) => all.findIndex(s => s.url === source.url) === index);
     for (const source of story.sources) source.role = source.platform === 'vk' ? 'primary' : 'mirror';
   }
@@ -59,8 +65,8 @@ export async function loadArchive({ requireTranslations = true } = {}) {
   return { stories, tags: taxonomy.tags.map(({ pattern, ...tag }) => tag), arcs: taxonomy.arcs,
     meta: { ...report, uniqueWorks: stories.length, englishDrafts: translations.size,
       illustrations: new Set(stories.flatMap(s => s.images.map(i => i.sha256))).size,
-      updated: '2026-10-24', author: 'drevendev и FreeSlave / Робот, которому грустно',
-      authors: [{ name: 'drevendev', url: 'https://github.com/drevendev' }, { name: 'FreeSlave', url: 'https://github.com/FreeSlave' }],
+      updated: '2026-10-24', author: 'Dreven и FreeSlave / Робот, которому грустно',
+      authors: [{ name: 'Dreven', url: 'https://github.com/drevendev' }, { name: 'FreeSlave', url: 'https://github.com/FreeSlave' }],
       primarySource: { platform: 'vk', url: 'https://vk.ru/sadrobo' },
       mirrorSources: [{ platform: 'telegram', url: 'https://t.me/sadrobo' },
         { platform: 'proza', url: 'https://proza.ru/avtor/sadrobo' },

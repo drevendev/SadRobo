@@ -1,9 +1,9 @@
 # Авторство и использование / Attribution and reuse
 
-**«Робот, которому грустно» / The Robot Who Is Sad — [drevendev](https://github.com/drevendev) и [FreeSlave](https://github.com/FreeSlave).**
+**«Робот, которому грустно» / The Robot Who Is Sad — [Dreven](https://github.com/drevendev) и [FreeSlave](https://github.com/FreeSlave).**
 
-Проект создан в соавторстве drevendev и FreeSlave.
-The project was created jointly by drevendev and FreeSlave.
+Проект создан в соавторстве Dreven и FreeSlave.
+The project was created jointly by Dreven and FreeSlave.
 
 Архив и рекомендуемый источник атрибуции: https://github.com/drevendev/SadRobo
 
@@ -30,13 +30,13 @@ VK имеет роль `primary`, остальные площадки — `mirro
 
 Пример:
 
-> «Робот, которому грустно» — drevendev и FreeSlave.
+> «Робот, которому грустно» — Dreven и FreeSlave.
 > Источник: https://github.com/drevendev/SadRobo. CC BY 4.0.
 > Изменения: [описание изменений, если были].
 
 English credit:
 
-> The Robot Who Is Sad — drevendev and FreeSlave.
+> The Robot Who Is Sad — Dreven and FreeSlave.
 > Source: https://github.com/drevendev/SadRobo. CC BY 4.0.
 > Changes: [describe any modifications].
 

@@ -53,6 +53,8 @@ test('every canonical work has a stable unique ID, English edition and provenanc
     assert.ok(story.sources.length, story.id);
     for (const source of story.sources) assert.match(source.url, /^https:\/\/(proza.ru|t.me|therobotwhoissad.tumblr.com|vk.com)\//);
     assert.equal(new Set(story.images.map(i => i.sha256)).size, story.images.length);
+    assert.ok(story.images.length <= 1, story.id);
+    assert.ok(!story.contentNote?.ru.includes('Фото из VK пока не скачано'),story.id);
     assert.ok(['ai-draft','source-english'].includes(story.translation.status));
   }
 });
@@ -111,8 +113,9 @@ test('recovered Russian and image-only records are explicitly represented', () =
   const voidStory=archive.stories.find(s=>s.id==='proza-2017-07-18-1919');
   assert.equal(voidStory.text.ru,'');
   assert.equal(voidStory.text.en,'');
-  assert.ok(voidStory.images.length>=1);
+  assert.equal(voidStory.images.length,1);
   assert.equal(archive.meta.vk.status,'imported');
+  assert.deepEqual(archive.meta.authors[0], {name:'Dreven',url:'https://github.com/drevendev'});
 });
 
 test('new translations and original editions are stored separately', async () => {

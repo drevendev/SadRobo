@@ -125,12 +125,13 @@ def import_export(export_root, root=ROOT):
             and not any(i['sha256'] in visual.get(h, []) for h in primary_hashes)]
         seen = set()
         story['images'] = [i for i in story['images'] if not (i['sha256'] in seen or seen.add(i['sha256']))]
+        story['imageVariants'] = copy.deepcopy(story['images'])
+        story['images'] = sorted(story['images'], key=lambda i: (
+            i.get('platform') == 'vk', (i.get('width') or 0)*(i.get('height') or 0)), reverse=True)[:1]
         story['missingPhotoIds'] = [l['id'] for l in post['photos'] if 'path' not in photo_records[l['id']]]
         notes = []
         if story.get('titleSource') == 'editorial':
             notes.append(('Название добавлено для каталога; в посте VK заголовка нет.', 'The title was added for the catalogue; the VK post has no heading.'))
-        if story['missingPhotoIds']:
-            notes.append(('Фото из VK пока не скачано. Доступные иллюстрации из зеркал сохранены.', 'The VK photo has not been downloaded yet. Available mirror illustrations are retained.'))
         if notes:
             story['contentNote'] = {lang:' '.join(n[index] for n in notes) for index,lang in enumerate(('ru','en'))}
         else:
