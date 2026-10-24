@@ -55,6 +55,39 @@ class FakeResponse:
 
 
 class VKExportTests(unittest.TestCase):
+    def test_falls_back_only_to_exposed_size_after_404(self):
+        sizes = [{'url': 'https://example.invalid/big', 'width': 2400, 'height': 1800},
+                 {'url': 'https://example.invalid/small', 'width': 1200, 'height': 900}]
+        client = FixtureClient([post(1, [photo(7, sizes)])], {
+            sizes[0]['url']: vk.ExportError('HTTP 404; export can be resumed.')})
+        state = self.export(client)
+        record = state['photos']['-42_7']
+        self.assertTrue(state['complete'])
+        self.assertTrue(record['used_fallback_size'])
+        self.assertEqual(record['image']['width'], 1200)
+        self.assertEqual(len(record['sizes']), 2)
+        self.assertEqual(client.downloads, [size['url'] for size in sizes])
+        client.images[sizes[0]['url']] = vk.ExportError('HTTP 403; export can be resumed.')
+        client.downloads.clear()
+        state = self.export(client)
+        self.assertEqual(client.downloads, [sizes[0]['url']])
+        self.assertTrue(vk.verified_file(self.root, state['photos']['-42_7']))
+        self.assertIn('upgrade_error', state['photos']['-42_7'])
+
+    def test_retry_after_and_persistent_rate_cooldown(self):
+        from urllib.error import HTTPError
+        calls, sleeps = [], []
+        def opener(request, timeout):
+            calls.append(request)
+            if len(calls) == 1:
+                raise HTTPError(request.full_url, 429, 'limited', {'Retry-After': '45'}, None)
+            return FakeResponse({'response': {'count': 0, 'items': []}})
+        client = vk.VKClient('TEST_ONLY_SECRET', opener=opener, sleep=sleeps.append)
+        client.wall_page('sadrobo', 0)
+        self.assertIn(45, sleeps)
+        self.assertGreaterEqual(client._cooldown, 2)
+        self.assertEqual(vk.retry_after({'Retry-After': 'bad'}), 0)
+
     def setUp(self):
         self.temporary = tempfile.TemporaryDirectory()
         self.root = Path(self.temporary.name)

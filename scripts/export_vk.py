@@ -14,6 +14,7 @@ import sys
 import time
 import warnings
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urlsplit
@@ -36,11 +37,12 @@ class VKClient:
         self._interval = max(interval, 0.4)
         self._opener, self._sleep, self._clock = opener, sleep, monotonic
         self._last_request = None
+        self._cooldown = 0
 
     def _request(self, request, image=False):
-        for attempt in range(3):
+        for attempt in range(5):
             if self._last_request is not None:
-                self._sleep(max(0, self._interval - (self._clock() - self._last_request)))
+                self._sleep(max(0, max(self._interval, self._cooldown) - (self._clock() - self._last_request)))
             self._last_request = self._clock()
             try:
                 with self._opener(request, timeout=40) as response:
@@ -52,12 +54,14 @@ class VKClient:
             except HTTPError as error:
                 status = error.code
                 if status == 429 or 500 <= status < 600:
-                    if attempt < 2:
-                        self._sleep(2 ** (attempt + 1))
+                    if status == 429:
+                        self._cooldown = min(30, max(2, self._cooldown * 2))
+                    if attempt < 4:
+                        self._sleep(max(2 ** (attempt + 1), retry_after(error.headers)))
                         continue
                 raise ExportError(f'HTTP {status}; export can be resumed.') from None
             except (URLError, TimeoutError, OSError):
-                if attempt < 2:
+                if attempt < 4:
                     self._sleep(2 ** (attempt + 1))
                     continue
                 raise ExportError('Network request failed; export can be resumed.') from None
@@ -122,8 +126,8 @@ def valid_image_url(value):
         return False
 
 
-def largest_photo(photo):
-    """Select the largest area VK actually exposes, without inventing CDN URLs."""
+def photo_sizes(photo):
+    """Keep all distinct sizes actually exposed by VK, largest first."""
     candidates = []
     for size in list(photo.get('sizes', [])) + list(photo.get('images', [])):
         if not isinstance(size, dict):
@@ -133,12 +137,32 @@ def largest_photo(photo):
         if (valid_image_url(url) and isinstance(width, int) and isinstance(height, int)
                 and width >= 0 and height >= 0):
             candidates.append({'url': url, 'width': width, 'height': height})
+    candidates.sort(key=lambda size: (size['width'] * size['height'],
+                                     max(size['width'], size['height'])), reverse=True)
+    unique = {}
+    for size in candidates:
+        unique.setdefault(size['url'], size)
+    return list(unique.values())
+
+
+def largest_photo(photo):
+    candidates = photo_sizes(photo)
     if candidates:
-        return max(candidates, key=lambda size: (size['width'] * size['height'],
-                                                max(size['width'], size['height'])))
+        return candidates[0]
     # A lone legacy URL does not expose enough dimensions to compare sizes.
     # Keep such a photo unresolved instead of inventing its resolution.
     return None
+
+
+def retry_after(headers):
+    value = headers.get('Retry-After', '') if headers else ''
+    try:
+        return min(300, max(0, float(value)))
+    except ValueError:
+        try:
+            return min(300, max(0, (parsedate_to_datetime(value) - datetime.now(timezone.utc)).total_seconds()))
+        except (ValueError, TypeError, OverflowError):
+            return 0
 
 
 def object_id(obj):
@@ -170,7 +194,8 @@ def normalize_post(post):
             candidate = largest_photo(photo)
             record = {'id': photo_key, 'owner_id': photo['owner_id'],
                       'photo_id': photo['id'], 'text': photo.get('text', ''),
-                      'url': f'https://vk.com/photo{photo_key}', 'image': candidate}
+                      'url': f'https://vk.com/photo{photo_key}', 'image': candidate,
+                      'sizes': photo_sizes(photo)}
             previous = photos.get(photo_key, {}).get('image')
             if (photo_key not in photos or (candidate and
                     (not previous or candidate['width'] * candidate['height'] >
@@ -222,8 +247,21 @@ def store_photo(client, root, record, previous):
         if verified_file(root, previous):
             return {**record, 'file': previous['file'], 'sha256': previous['sha256']}
         raise ExportError('VK did not expose a downloadable size for this photo.')
-    data = client.photo_bytes(candidate['url'])
-    extension = image_extension(data)
+    candidates = record.get('sizes') or [candidate]
+    failures = []
+    for candidate in candidates:
+        try:
+            data = client.photo_bytes(candidate['url'])
+            extension = image_extension(data)
+            break
+        except ExportError as error:
+            failures.append(str(error))
+            # Only a missing CDN object warrants trying another explicitly
+            # exposed size. Access denial, throttling and challenges stop here.
+            if not str(error).startswith('HTTP 404;'):
+                raise
+    else:
+        raise ExportError(failures[-1])
     digest = hashlib.sha256(data).hexdigest()
     # Different VK photo IDs with identical bytes share the same local file.
     relative = f'images/{digest}{extension}'
@@ -233,7 +271,8 @@ def store_photo(client, root, record, previous):
         temporary = target.with_suffix(target.suffix + '.tmp')
         temporary.write_bytes(data)
         replace_file(temporary, target)
-    return {**record, 'file': relative, 'sha256': digest}
+    return {**record, 'image': candidate, 'file': relative, 'sha256': digest,
+            'used_fallback_size': candidate != record['image']}
 
 
 def replace_file(temporary, target):
@@ -297,6 +336,10 @@ def export_wall(client, destination, domain='sadrobo', progress=print):
                 except ExportError as error:
                     # Keep association and URL for a later retry, but never claim success.
                     state['errors'].append({'photo_id': photo_key, 'message': str(error)})
+                    previous = state['photos'].get(photo_key, {})
+                    if verified_file(root, previous):
+                        record = {**record, 'file': previous['file'], 'sha256': previous['sha256'],
+                                  'image': previous.get('image'), 'upgrade_error': str(error)}
                 state['photos'][photo_key] = record
             save_state(root, state)
         offset += len(items)

@@ -9,6 +9,7 @@ export async function loadArchive({ requireTranslations = true } = {}) {
   const stories = await readJSON('content/stories.json');
   const taxonomy = await readJSON('content/taxonomy.json');
   const tumblr = await readJSON('content/tumblr.json');
+  const visualCopies = await readJSON('content/vk-image-equivalents.json');
   const translations = new Map();
   for (const name of await readdir(path.join(root, 'content/translations'))) {
     if (!name.endsWith('.json')) continue;
@@ -32,25 +33,26 @@ export async function loadArchive({ requireTranslations = true } = {}) {
       story.title.en = english.title;
       story.text.en = english.text;
       story.translation = { status: english.status, adaptationNote: english.adaptationNote || '', translatorNote: english.translatorNote || '' };
-    } else missing.push(story.id);
+    } else if (story.translation?.status !== 'source-english') missing.push(story.id);
     const partner = story.title.ru.replace(/^Робот, которому грустно,? и /, '');
     story.tags = taxonomy.tags.filter(tag => new RegExp(tag.pattern, 'i').test(partner)).map(tag => tag.id);
     if (!story.tags.length) story.tags = ['inner-world'];
     story.arcs = taxonomy.arcs.filter(arc => arc.ids?.includes(story.id) || (arc.from && story.date >= arc.from && story.date <= arc.to)).map(arc => arc.id);
     for (const oldEnglish of tumblr.filter(post => post.matchedStoryId === story.id)) {
       story.sources.push({ platform: 'tumblr', url: oldEnglish.url, date: oldEnglish.date });
-      for (const image of oldEnglish.images) if (!story.images.some(i => i.sha256 === image.sha256)) story.images.push(image);
+      for (const image of oldEnglish.images) if (!story.images.some(i => i.sha256 === image.sha256 || visualCopies[i.sha256]?.includes(image.sha256))) story.images.push(image);
     }
   }
   if (requireTranslations && missing.length) throw new Error(`Missing English translations (${missing.length}): ${missing.join(', ')}`);
-  // The Olympic Flame survives in the old English edition, without a recovered Russian original.
+  // The original English edition remains available alongside the recovered VK original.
   const flame = tumblr.find(post => post.title.includes('Olympic Flame'));
-  stories.push({ id: 'tumblr-' + flame.id, order: stories.length + 1, date: new Date(flame.date).toISOString().slice(0,10), kind: 'extra',
+  if (!stories.some(story => story.id === 'tumblr-' + flame.id)) stories.push({ id: 'tumblr-' + flame.id, order: stories.length + 1, date: new Date(flame.date).toISOString().slice(0,10), kind: 'extra',
     title: { ru: 'Робот, которому грустно, и Олимпийский огонь', en: flame.title }, text: { en: flame.text }, images: flame.images,
     tags: ['culture'], arcs: [], translation: { status: 'source-english' },
     contentNote: { ru: 'Сохранилась английская публикация. Русский оригинал пока не восстановлен.', en: 'Preserved from the original English edition. The Russian original has not yet been recovered.' },
     sources: [{ platform: 'tumblr', url: flame.url, date: flame.date }] });
   for (const story of stories) {
+    story.sources = story.sources.filter((source, index, all) => all.findIndex(s => s.url === source.url) === index);
     for (const source of story.sources) source.role = source.platform === 'vk' ? 'primary' : 'mirror';
   }
   const report = await readJSON('content/import-report.json');

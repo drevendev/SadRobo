@@ -13,7 +13,7 @@ export function filterStories(stories, { query = '', tag = '', arc = '', year = 
     const haystack = normalize([story.title.ru, story.title.en, story.text.ru, story.text.en].join(' '));
     return words.every(word => haystack.includes(word));
   });
-  return filtered.sort((a, b) => sort === 'newest' ? b.date.localeCompare(a.date) || b.order - a.order : sort === 'title' ? (a.title.ru || a.title.en).localeCompare(b.title.ru || b.title.en, 'ru') : a.date.localeCompare(b.date) || a.order - b.order);
+  return filtered.sort((a, b) => sort === 'newest' ? (b.timestamp ?? Date.parse(b.date) / 1000) - (a.timestamp ?? Date.parse(a.date) / 1000) || b.order - a.order : sort === 'title' ? (a.title.ru || a.title.en).localeCompare(b.title.ru || b.title.en, 'ru') : (a.timestamp ?? Date.parse(a.date) / 1000) - (b.timestamp ?? Date.parse(b.date) / 1000) || a.order - b.order);
 }
 
 export function excerpt(story, language = 'ru', query = '') {

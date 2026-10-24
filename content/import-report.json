@@ -1,7 +1,7 @@
 {
   "prozaWorks": 244,
   "telegramMessages": 55,
-  "uniqueWorks": 294,
+  "uniqueWorks": 325,
   "excluded": [
     {
       "source": "https://t.me/sadrobo/1",
@@ -24,14 +24,32 @@
       "reason": "service message, pin or archive announcement"
     }
   ],
-  "duplicatePolicy": "Identical normalized bodies only; title similarity never merges distinct stories.",
+  "duplicatePolicy": "Reviewed body matching; stable IDs retained. Four collected Martin monologues restored as four original VK posts.",
   "vk": {
-    "status": "blocked",
-    "reason": "Public endpoint returned access restriction; browser safety policy also blocks vk.ru. No VK completeness claim."
+    "status": "imported",
+    "posts": 322,
+    "reportedPosts": 322,
+    "photos": 317,
+    "downloadedPhotos": 208,
+    "missingPhotos": 109,
+    "exportUpdatedAt": "2026-10-24T18:36:35.707169+00:00",
+    "scan": {
+      "seen_posts": 322,
+      "reported_count": 322,
+      "offset": 322
+    },
+    "errorCounts": {
+      "HTTP 404; export can be resumed.": 87,
+      "HTTP 429; export can be resumed.": 5,
+      "HTTP 403; export can be resumed.": 16,
+      "HTTP 500; export can be resumed.": 1
+    },
+    "firstDate": "2013-11-28",
+    "lastDate": "2026-07-20"
   },
   "limitations": [
-    "Proza dates are mirror publication dates, not verified original VK dates.",
-    "VK-only texts and illustrations may be missing.",
-    "Proza contains no story illustrations."
+    "Missing VK photo downloads are listed individually in vk-missing-photos.json.",
+    "Three mirror-only supplementary publications retain mirror dates.",
+    "Coverage describes the exported wall; deleted or hidden VK posts cannot be inferred."
   ]
 }
