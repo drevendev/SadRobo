@@ -1,5 +1,6 @@
 import { cp, mkdir, writeFile, stat, readFile } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { loadArchive, root } from './archive.mjs';
 
 const archive = await loadArchive({ requireTranslations: !process.argv.includes('--preview') });
@@ -11,7 +12,26 @@ for (const story of archive.stories) {
 }
 await mkdir(path.join(root, 'dist'), { recursive: true });
 await cp(path.join(root, 'public'), path.join(root, 'dist'), { recursive: true });
-await writeFile(path.join(root, 'dist/archive.json'), JSON.stringify(archive));
+const serialized = JSON.stringify(archive);
+const fingerprint = (text) => createHash('sha256').update(text).digest('hex').slice(0,12);
+const archiveFile = `archive-${fingerprint(serialized)}.json`;
+await writeFile(path.join(root, 'dist/archive.json'), serialized);
+await writeFile(path.join(root, 'dist', archiveFile), serialized);
+// Content-addressed assets prevent a returning reader's cached edition from
+// mixing an old application/stylesheet with an updated archive on GitHub Pages.
+const search = await readFile(path.join(root, 'public/search.mjs'), 'utf8');
+const searchFile = `search-${fingerprint(search)}.mjs`;
+await writeFile(path.join(root, 'dist', searchFile), search);
+const app = (await readFile(path.join(root, 'public/app.mjs'), 'utf8'))
+  .replace('./search.mjs', './' + searchFile).replace('./archive.json', './' + archiveFile);
+const appFile = `app-${fingerprint(app)}.mjs`;
+await writeFile(path.join(root, 'dist', appFile), app);
+const css = await readFile(path.join(root, 'public/styles.css'), 'utf8');
+const cssFile = `styles-${fingerprint(css)}.css`;
+await writeFile(path.join(root, 'dist', cssFile), css);
+const html = (await readFile(path.join(root, 'public/index.html'), 'utf8'))
+  .replace('./app.mjs', './' + appFile).replace('./styles.css', './' + cssFile);
+await writeFile(path.join(root, 'dist/index.html'), html);
 await writeFile(path.join(root, 'dist/.nojekyll'), '');
 await mkdir(path.join(root, 'dist/downloads'), { recursive: true });
 await cp(path.join(root, 'content'), path.join(root, 'dist/downloads/content'), { recursive: true });
