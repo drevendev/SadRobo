@@ -54,5 +54,7 @@ export async function loadArchive({ requireTranslations = true } = {}) {
   return { stories, tags: taxonomy.tags.map(({ pattern, ...tag }) => tag), arcs: taxonomy.arcs,
     meta: { ...report, uniqueWorks: stories.length, englishDrafts: translations.size,
       illustrations: new Set(stories.flatMap(s => s.images.map(i => i.sha256))).size,
-      updated: '2026-10-24', author: 'drevendev / Робот, которому грустно', license: 'CC-BY-4.0' } };
+      updated: '2026-10-24', author: 'drevendev и FreeSlave / Робот, которому грустно',
+      authors: [{ name: 'drevendev', url: 'https://github.com/drevendev' }, { name: 'FreeSlave', url: 'https://github.com/FreeSlave' }],
+      license: 'CC-BY-4.0' } };
 }

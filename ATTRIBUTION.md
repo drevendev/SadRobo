@@ -1,6 +1,9 @@
 # Авторство и использование / Attribution and reuse
 
-**«Робот, которому грустно» / The Robot Who Is Sad — drevendev и авторы проекта.**
+**«Робот, которому грустно» / The Robot Who Is Sad — [drevendev](https://github.com/drevendev) и [FreeSlave](https://github.com/FreeSlave).**
+
+Проект создан в соавторстве drevendev и FreeSlave.
+The project was created jointly by drevendev and FreeSlave.
 
 Архив и рекомендуемый источник атрибуции: https://github.com/drevendev/SadRobo
 
@@ -16,19 +19,19 @@
 https://creativecommons.org/licenses/by/4.0/ — полный текст в `LICENSE`.
 
 Можно копировать, перерабатывать и использовать коммерчески. При использовании
-сохраните указание автора и источника, ссылку на лицензию и отметьте изменения.
+сохраните указание обоих авторов и источника, ссылку на лицензию и отметьте изменения.
 Ссылки на конкретные исходные публикации находятся в `sources` каждой записи.
-Не создавайте впечатление, что автор одобряет вашу переработку.
+Не создавайте впечатление, что авторы одобряют вашу переработку.
 
 Пример:
 
-> «Робот, которому грустно» — drevendev и авторы проекта.
+> «Робот, которому грустно» — drevendev и FreeSlave.
 > Источник: https://github.com/drevendev/SadRobo. CC BY 4.0.
 > Изменения: [описание изменений, если были].
 
 English credit:
 
-> The Robot Who Is Sad — drevendev and the project's authors.
+> The Robot Who Is Sad — drevendev and FreeSlave.
 > Source: https://github.com/drevendev/SadRobo. CC BY 4.0.
 > Changes: [describe any modifications].
 

@@ -2,6 +2,8 @@
 
 Двуязычный литературный архив и статическая читалка для GitHub Pages.
 
+**Соавторы проекта:** [drevendev](https://github.com/drevendev) и [FreeSlave](https://github.com/FreeSlave).
+
 **Читать:** https://drevendev.github.io/SadRobo/
 
 **Оригиналы:** [Telegram](https://t.me/sadrobo) · [ВКонтакте](https://vk.ru/sadrobo)
