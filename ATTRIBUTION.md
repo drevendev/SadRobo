@@ -58,3 +58,8 @@ Tumblr сохранены в `content/tumblr.json`.
 лицензии: `public/fonts/OFL.txt`. Источник:
 https://github.com/google/fonts/tree/main/ofl/russoone.
 Векторная схема робота в оформлении читалки — новый графический элемент проекта.
+
+Страница получения пользовательского ключа использует официальный VK Bridge
+3.0.2, © 2017–present V Kontakte, LLC, MIT. SDK хранится локально:
+`public/vendor/vk-bridge-3.0.2.min.js`; лицензия — `public/vendor/vk-bridge-LICENSE.txt`.
+Источник: https://github.com/VKCOM/vk-bridge, пакет `@vkontakte/vk-bridge@3.0.2`.

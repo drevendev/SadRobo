@@ -1,0 +1,8 @@
+:root{color-scheme:dark;font:17px/1.65 'Segoe UI',Arial,sans-serif;background:#182128;color:#e0e4df}
+*{box-sizing:border-box}body{margin:0;padding:36px 22px}main{max-width:660px;margin:auto}
+h1{font:normal clamp(26px,5vw,36px)/1.3 Georgia,serif}.eyebrow{font:12px/1.7 Consolas,monospace;text-transform:uppercase;letter-spacing:1px;color:#c8a67d}
+a{color:#bed5d6}button{font:inherit;color:#172027;background:#c3d5d4;border:1px solid #c3d5d4;border-radius:2px;padding:11px 16px;cursor:pointer}button:disabled{background:#34434d;color:#a6b2b8;border-color:#52636b;cursor:default}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #d7ad7a;outline-offset:4px}input{width:100%;font:14px/1.5 Consolas,monospace;padding:12px;color:#e0e4df;background:#10171c;border:1px solid #789098;border-radius:2px;margin:8px 0 14px}
+.actions{display:flex;flex-wrap:wrap;gap:9px}.actions button{font-size:14px;padding:8px 13px}#result{border-top:1px solid #52636b;margin-top:25px;padding-top:24px}[hidden]{display:none!important}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#10171c;border:1px solid #52636b;padding:14px;font:13px/1.7 Consolas,monospace}code{font-family:Consolas,monospace}.note{font-size:13px;color:#aebcc0}#status{color:#d9b88f;min-height:1.65em}
+@media(max-width:440px){body{padding:24px 16px}#authorize{width:100%;font-size:15px}}

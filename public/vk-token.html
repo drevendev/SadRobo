@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Ключ пользователя VK · SadRobo</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./vk-token.css">
+  <script src="./vendor/vk-bridge-3.0.2.min.js"></script>
+  <script type="module" src="./vk-token.mjs"></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">SadRobo / локальная выгрузка архива</p>
+    <h1>Пользовательский ключ VK</h1>
+    <p>Запросите ключ через своё мини-приложение VK. Разрешение: <strong>wall</strong> — работа со стеной. Другие права эта страница не запрашивает.</p>
+    <p id="context">Откройте эту страницу как мини-приложение внутри ВКонтакте. В настройках своего VK Mini Apps укажите её адрес как URL веб-версии, затем откройте приложение через VK.</p>
+    <button id="authorize" type="button" disabled>Получить пользовательский ключ</button>
+    <p id="status" role="status" aria-live="polite"></p>
+    <section id="result" hidden>
+      <label for="token">Полученный ключ</label>
+      <input id="token" type="password" readonly autocomplete="off" spellcheck="false">
+      <div class="actions">
+        <button id="copy" type="button">Скопировать</button>
+        <button id="toggle" type="button" aria-pressed="false">Показать</button>
+        <button id="clear" type="button">Очистить</button>
+      </div>
+      <p>Вставьте ключ в скрытый запрос скрипта в своём терминале:</p>
+      <pre>py scripts/export_vk.py --domain sadrobo --check</pre>
+      <p>После успешной проверки запустите команду без <code>--check</code>. Получение ключа само по себе ещё не подтверждает доступ к стене.</p>
+    </section>
+    <p class="note">Ключ остаётся в памяти этой страницы до очистки или закрытия. Страница не сохраняет его и не отправляет на сервер архива. Не присылайте ключ в чат.</p>
+    <p class="note"><a href="https://github.com/VKCOM/vk-bridge">Официальный VK Bridge</a> · <a href="./vendor/vk-bridge-LICENSE.txt">MIT</a> · <a href="./">Читалка SadRobo</a></p>
+  </main>
+</body>
+</html>
