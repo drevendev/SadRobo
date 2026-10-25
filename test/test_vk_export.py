@@ -55,6 +55,90 @@ class FakeResponse:
 
 
 class VKExportTests(unittest.TestCase):
+    def test_existing_fallback_is_not_downloaded_again_without_upgrade_option(self):
+        sizes = [{'url':'https://example.invalid/big','width':2400,'height':1800},
+                 {'url':'https://example.invalid/small','width':1200,'height':900}]
+        client = FixtureClient([post(1,[photo(7,sizes)])], {
+            sizes[0]['url']:vk.ExportError('HTTP 404; export can be resumed.')})
+        first = self.export(client)
+        client.downloads.clear()
+        second = self.export(client)
+        self.assertEqual(client.downloads,[])
+        self.assertTrue(second['complete'])
+        self.assertEqual(second['photos']['-42_7']['image'],sizes[1])
+        self.assertTrue(second['photos']['-42_7']['used_fallback_size'])
+        self.assertEqual(second['run_stats']['photos_reused'],1)
+        self.assertEqual(first['photos']['-42_7']['sha256'],second['photos']['-42_7']['sha256'])
+
+    def test_known_404_skips_same_urls_but_fresh_url_gets_a_chance(self):
+        url = 'https://example.invalid/7.png'
+        client = FixtureClient([post(1,[photo(7)])],{url:vk.ExportError('HTTP 404; export can be resumed.')})
+        self.export(client)
+        client.downloads.clear()
+        state = self.export(client)
+        self.assertEqual(client.downloads,[])
+        self.assertFalse(state['complete'])
+        self.assertEqual(state['missing_photo_ids'],['-42_7'])
+        self.assertEqual(state['run_stats']['urls_skipped_unavailable'],1)
+        fresh = 'https://example.invalid/7.png?fresh=1'
+        client.posts = [post(1,[photo(7,[{'url':fresh,'width':1024,'height':800}])])]
+        state = self.export(client)
+        self.assertEqual(client.downloads,[fresh])
+        self.assertTrue(state['complete'])
+
+    def test_migrates_old_errors_and_forced_retry_checks_them_again(self):
+        sizes = [{'url':'https://example.invalid/big','width':2400,'height':1800},
+                 {'url':'https://example.invalid/small','width':1200,'height':900}]
+        client = FixtureClient([post(1,[photo(7,sizes)])], {
+            s['url']:vk.ExportError('HTTP 404; export can be resumed.') for s in sizes})
+        state = self.export(client)
+        del state['photos']['-42_7']['unavailable_urls']
+        vk.save_state(self.root,state)
+        client.downloads.clear()
+        state = self.export(client)
+        self.assertEqual(client.downloads,[])
+        self.assertEqual(state['run_stats']['urls_skipped_unavailable'],2)
+        client.images.clear()
+        state = self.export(client,retry_unavailable=True)
+        self.assertEqual(client.downloads,[sizes[0]['url']])
+        self.assertTrue(state['complete'])
+
+    def test_temporary_failures_are_not_cached_as_unavailable(self):
+        url = 'https://example.invalid/7.png'
+        client = FixtureClient([post(1,[photo(7)])],{url:vk.ExportError('HTTP 500; export can be resumed.')})
+        self.export(client)
+        client.downloads.clear()
+        client.images.clear()
+        state = self.export(client)
+        self.assertEqual(client.downloads,[url])
+        self.assertTrue(state['complete'])
+
+    def test_legacy_403_does_not_invent_which_of_several_sizes_failed(self):
+        record = {'sizes':[{'url':'https://example.invalid/big'},
+                           {'url':'https://example.invalid/small'}]}
+        vk.seed_unavailable(record,'HTTP 403; export can be resumed.')
+        self.assertNotIn('unavailable_urls',record)
+
+    def test_request_attempt_budget_and_final_retry_after_apply_to_next_request(self):
+        from urllib.error import HTTPError
+        from urllib.request import Request
+        calls, sleeps = [], []
+        now = [0.0]
+        def sleep(seconds):
+            sleeps.append(seconds)
+            now[0] += seconds
+        def opener(request,timeout):
+            calls.append(request.full_url)
+            if len(calls)<=2:
+                raise HTTPError(request.full_url,429,'limited',{'Retry-After':'45'},None)
+            return FakeResponse({'response':{'count':0,'items':[]}})
+        client = vk.VKClient('TEST_ONLY_SECRET',opener=opener,sleep=sleep,monotonic=lambda:now[0])
+        with self.assertRaisesRegex(vk.ExportError,'HTTP 429'):
+            client.photo_bytes('https://example.invalid/one')
+        self.assertEqual(len(calls),2)
+        client.photo_bytes('https://example.invalid/two')
+        self.assertGreaterEqual(sleeps.count(45),2)
+
     def test_falls_back_only_to_exposed_size_after_404(self):
         sizes = [{'url': 'https://example.invalid/big', 'width': 2400, 'height': 1800},
                  {'url': 'https://example.invalid/small', 'width': 1200, 'height': 900}]
@@ -69,7 +153,7 @@ class VKExportTests(unittest.TestCase):
         self.assertEqual(client.downloads, [size['url'] for size in sizes])
         client.images[sizes[0]['url']] = vk.ExportError('HTTP 403; export can be resumed.')
         client.downloads.clear()
-        state = self.export(client)
+        state = self.export(client, upgrade_existing=True, retry_unavailable=True)
         self.assertEqual(client.downloads, [sizes[0]['url']])
         self.assertTrue(vk.verified_file(self.root, state['photos']['-42_7']))
         self.assertIn('upgrade_error', state['photos']['-42_7'])
@@ -93,8 +177,8 @@ class VKExportTests(unittest.TestCase):
         self.root = Path(self.temporary.name)
         self.addCleanup(self.temporary.cleanup)
 
-    def export(self, client):
-        return vk.export_wall(client, self.root, progress=lambda _: None)
+    def export(self, client, **options):
+        return vk.export_wall(client, self.root, progress=lambda _: None, **options)
 
     def test_chooses_largest_area_not_last_or_type_name(self):
         sizes = [{'url': 'https://example.invalid/big', 'width': 2400, 'height': 1800, 'type': 'z'},
@@ -162,7 +246,7 @@ class VKExportTests(unittest.TestCase):
         self.assertFalse(state['complete'])
         self.assertEqual(state['missing_photo_ids'], ['-42_7'])
         self.assertEqual(state['posts']['-42_1']['photos'][0]['id'], '-42_7')
-        state = self.export(FixtureClient([post(1, [photo(7)])]))
+        state = self.export(FixtureClient([post(1, [photo(7)])]), retry_unavailable=True)
         self.assertTrue(state['complete'])
         self.assertEqual(state['errors'], [])
 

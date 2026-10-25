@@ -32,17 +32,20 @@ class ExportError(Exception):
 
 class VKClient:
     def __init__(self, token, interval=0.5, opener=urlopen, sleep=time.sleep,
-                 monotonic=time.monotonic):
+                 monotonic=time.monotonic, attempts=2):
         self._token = token
         self._interval = max(interval, 0.4)
         self._opener, self._sleep, self._clock = opener, sleep, monotonic
         self._last_request = None
         self._cooldown = 0
+        self._attempts = max(1, min(5, attempts))
+        self._not_before = 0
 
     def _request(self, request, image=False):
-        for attempt in range(5):
+        for attempt in range(self._attempts):
             if self._last_request is not None:
-                self._sleep(max(0, max(self._interval, self._cooldown) - (self._clock() - self._last_request)))
+                self._sleep(max(0, self._not_before - self._clock(),
+                                max(self._interval, self._cooldown) - (self._clock() - self._last_request)))
             self._last_request = self._clock()
             try:
                 with self._opener(request, timeout=40) as response:
@@ -56,12 +59,16 @@ class VKClient:
                 if status == 429 or 500 <= status < 600:
                     if status == 429:
                         self._cooldown = min(30, max(2, self._cooldown * 2))
-                    if attempt < 4:
-                        self._sleep(max(2 ** (attempt + 1), retry_after(error.headers)))
+                    delay = max(2 ** (attempt + 1), retry_after(error.headers))
+                    if attempt < self._attempts - 1:
+                        self._sleep(delay)
                         continue
+                    # Even after the final failed attempt, honour the server's
+                    # delay before requesting the next photo or wall page.
+                    self._not_before = self._clock() + delay
                 raise ExportError(f'HTTP {status}; export can be resumed.') from None
             except (URLError, TimeoutError, OSError):
-                if attempt < 4:
+                if attempt < self._attempts - 1:
                     self._sleep(2 ** (attempt + 1))
                     continue
                 raise ExportError('Network request failed; export can be resumed.') from None
@@ -237,31 +244,87 @@ def verified_file(root, record):
     return hashlib.sha256(file.read_bytes()).hexdigest() == digest
 
 
-def store_photo(client, root, record, previous):
+def url_key(url):
+    return hashlib.sha256(url.encode('utf-8')).hexdigest()
+
+
+def unavailable_status(message):
+    match = re.match(r'^HTTP (403|404);', message)
+    return int(match[1]) if match else None
+
+
+def seed_unavailable(record, message):
+    """Migrate old manifests without re-requesting URLs already known to fail."""
+    if 'unavailable_urls' in record:
+        return
+    status = unavailable_status(message)
+    candidates = record.get('sizes') or ([record['image']] if record.get('image') else [])
+    # The old downloader exhausted all sizes on 404. A legacy 403 might have
+    # followed one or more 404s; only a single-size record identifies that URL
+    # unambiguously. Never guess which size was forbidden.
+    if status == 403 and len(candidates) != 1:
+        return
+    if status:
+        cache = record.setdefault('unavailable_urls', {})
+        for size in candidates:
+            cache[url_key(size['url'])] = status
+
+
+def store_photo(client, root, record, previous, *, upgrade_existing=False,
+                retry_unavailable=False, stats=None):
+    stats = stats if stats is not None else {}
+    def count(key):
+        stats[key] = stats.get(key, 0) + 1
+    cache = dict(previous.get('unavailable_urls', {}))
+    record['unavailable_urls'] = cache
     candidate, old_image = record['image'], previous.get('image')
-    if (verified_file(root, previous) and candidate and old_image and
-            candidate['width'] * candidate['height'] <=
-            old_image['width'] * old_image['height']):
-        return {**record, 'file': previous['file'], 'sha256': previous['sha256']}
+    have_file = verified_file(root, previous)
+    def reuse():
+        count('photos_reused')
+        return {**record, 'image': old_image, 'file': previous['file'],
+                'sha256': previous['sha256'],
+                'used_fallback_size': previous.get('used_fallback_size', False)}
+    if have_file and not upgrade_existing:
+        return reuse()
+    old_area = (old_image or {}).get('width', 0) * (old_image or {}).get('height', 0)
+    if (have_file and candidate and candidate['width'] * candidate['height'] <= old_area):
+        return reuse()
     if not candidate:
-        if verified_file(root, previous):
-            return {**record, 'file': previous['file'], 'sha256': previous['sha256']}
+        if have_file:
+            return reuse()
         raise ExportError('VK did not expose a downloadable size for this photo.')
     candidates = record.get('sizes') or [candidate]
     failures = []
     for candidate in candidates:
+        if have_file and candidate['width'] * candidate['height'] <= old_area:
+            continue
+        key = url_key(candidate['url'])
+        if key in cache and not retry_unavailable:
+            count('urls_skipped_unavailable')
+            status = cache[key]
+            failures.append(f'HTTP {status}; export can be resumed.')
+            if status == 403:
+                raise ExportError(failures[-1])
+            continue
         try:
+            count('urls_requested')
             data = client.photo_bytes(candidate['url'])
             extension = image_extension(data)
+            cache.pop(key, None)
             break
         except ExportError as error:
             failures.append(str(error))
+            status = unavailable_status(str(error))
+            if status:
+                cache[key] = status
             # Only a missing CDN object warrants trying another explicitly
             # exposed size. Access denial, throttling and challenges stop here.
             if not str(error).startswith('HTTP 404;'):
                 raise
     else:
-        raise ExportError(failures[-1])
+        if not failures and have_file:
+            return reuse()
+        raise ExportError(failures[-1] if failures else 'VK did not expose a downloadable size for this photo.')
     digest = hashlib.sha256(data).hexdigest()
     # Different VK photo IDs with identical bytes share the same local file.
     relative = f'images/{digest}{extension}'
@@ -271,6 +334,7 @@ def store_photo(client, root, record, previous):
         temporary = target.with_suffix(target.suffix + '.tmp')
         temporary.write_bytes(data)
         replace_file(temporary, target)
+    count('photos_downloaded')
     return {**record, 'image': candidate, 'file': relative, 'sha256': digest,
             'used_fallback_size': candidate != record['image']}
 
@@ -294,7 +358,8 @@ def save_state(root, state):
     replace_file(temporary, root / 'export.json')
 
 
-def export_wall(client, destination, domain='sadrobo', progress=print):
+def export_wall(client, destination, domain='sadrobo', progress=print, *,
+                upgrade_existing=False, retry_unavailable=False):
     root = Path(destination)
     root.mkdir(parents=True, exist_ok=True)
     manifest = root / 'export.json'
@@ -308,9 +373,15 @@ def export_wall(client, destination, domain='sadrobo', progress=print):
     else:
         state = {'schema_version': 1, 'domain': domain, 'api_version': API_VERSION,
                  'posts': {}, 'photos': {}}
+    for error in state.get('errors', []):
+        if error.get('photo_id') in state['photos']:
+            seed_unavailable(state['photos'][error['photo_id']], error.get('message', ''))
     state['complete'], state['errors'] = False, []
+    stats = state['run_stats'] = {'photos_reused':0, 'photos_downloaded':0,
+                                'photos_failed':0, 'urls_requested':0,
+                                'urls_skipped_unavailable':0}
     save_state(root, state)
-    offset, page_signatures, seen_posts = 0, set(), set()
+    offset, page_signatures, seen_posts, seen_photos = 0, set(), set(), set()
     while True:
         page = validate_page(client.wall_page(domain, offset))
         items = page['items']
@@ -331,13 +402,20 @@ def export_wall(client, destination, domain='sadrobo', progress=print):
             state['posts'][normalized['id']] = normalized
             seen_posts.add(normalized['id'])
             for photo_key, record in photos.items():
+                if photo_key in seen_photos:
+                    continue
+                seen_photos.add(photo_key)
                 try:
-                    record = store_photo(client, root, record, state['photos'].get(photo_key, {}))
+                    record = store_photo(client, root, record, state['photos'].get(photo_key, {}),
+                                         upgrade_existing=upgrade_existing,
+                                         retry_unavailable=retry_unavailable, stats=stats)
                 except ExportError as error:
+                    stats['photos_failed'] += 1
                     # Keep association and URL for a later retry, but never claim success.
                     state['errors'].append({'photo_id': photo_key, 'message': str(error)})
                     previous = state['photos'].get(photo_key, {})
                     if verified_file(root, previous):
+                        stats['photos_reused'] += 1
                         record = {**record, 'file': previous['file'], 'sha256': previous['sha256'],
                                   'image': previous.get('image'), 'upgrade_error': str(error)}
                 state['photos'][photo_key] = record
@@ -391,6 +469,12 @@ def main():
     parser.add_argument('--domain', default='sadrobo', help='VK short address (default: sadrobo)')
     parser.add_argument('--output', type=Path, default=ROOT / '.cache' / 'vk-export')
     parser.add_argument('--interval', type=float, default=0.5, help='Request interval; minimum 0.4 seconds')
+    parser.add_argument('--attempts', type=int, choices=range(1, 6), default=2,
+                        help='Attempts per URL for temporary errors (default: 2; 403/404 are never retried in place)')
+    parser.add_argument('--upgrade-existing', action='store_true',
+                        help='Try larger sizes for verified local photos (default: skip every valid local file)')
+    parser.add_argument('--retry-unavailable', action='store_true',
+                        help='Recheck exact URLs previously returning 403/404 (new URLs are always eligible)')
     parser.add_argument('--check', action='store_true',
                         help='Verify first/last wall pages and one photo without saving an export')
     args = parser.parse_args()
@@ -403,7 +487,7 @@ def main():
             token = getpass.getpass('VK API user or service access key (hidden; not saved): ').strip()
         if not token:
             raise ExportError('No token entered.')
-        client = VKClient(token, args.interval)
+        client = VKClient(token, args.interval, attempts=args.attempts)
         if args.check:
             result = check_access(client, args.domain)
             print(f'Wall read OK: {result["sampled_posts"]} posts sampled; '
@@ -417,10 +501,19 @@ def main():
                 return 0 if result['count_unchanged'] else 2
             print('No downloadable photo in the sampled pages; image access is not verified.')
             return 2
-        state = export_wall(client, args.output, args.domain)
+        state = export_wall(client, args.output, args.domain,
+                            upgrade_existing=args.upgrade_existing,
+                            retry_unavailable=args.retry_unavailable)
         print(f'Export saved: {args.output.resolve()}')
+        stats = state['run_stats']
+        print(f'Photos: reused {stats["photos_reused"]}; downloaded {stats["photos_downloaded"]}; '
+              f'missing {len(state["missing_photo_ids"])}. '
+              f'CDN URLs: requested {stats["urls_requested"]}; '
+              f'skipped known unavailable {stats["urls_skipped_unavailable"]}.')
         if not state['complete']:
-            print('Some photos could not be downloaded. Run the same command to retry.', file=sys.stderr)
+            print('Some photos are unresolved. New URLs are checked on the next scan; '
+                  'use --retry-unavailable to recheck previously failing URLs, '
+                  'or --upgrade-existing to retry optional resolution upgrades.', file=sys.stderr)
             return 1
         return 0
     except getpass.GetPassWarning:
