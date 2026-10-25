@@ -889,13 +889,13 @@
     ],
     "images": [
       {
-        "path": "images/vk-a8b6d12826c86058a7adf7ab178ff1e46665ba6c39fe55680679652cff549927.jpg",
-        "sha256": "a8b6d12826c86058a7adf7ab178ff1e46665ba6c39fe55680679652cff549927",
-        "width": 1886,
+        "path": "images/vk-8273c05e014766b10317b3cf49b1126b183e25557f9b4032e4fca70e9f74ecf8.jpg",
+        "sha256": "8273c05e014766b10317b3cf49b1126b183e25557f9b4032e4fca70e9f74ecf8",
+        "width": 2026,
         "height": 2048,
-        "url": "https://vk.com/photo-62019209_316231311",
+        "url": "https://vk.com/photo-62019209_316231310",
         "platform": "vk",
-        "photoId": "-62019209_316231311"
+        "photoId": "-62019209_316231310"
       }
     ],
     "tags": [],
@@ -909,10 +909,10 @@
     "timestamp": 1387179309,
     "imageVariants": [
       {
-        "path": "images/vk-b71ef65528f18a1eef56d3613ab7cb2354a3476ed8b0da67e7288e15d382204d.jpg",
-        "sha256": "b71ef65528f18a1eef56d3613ab7cb2354a3476ed8b0da67e7288e15d382204d",
-        "width": 1080,
-        "height": 1092,
+        "path": "images/vk-8273c05e014766b10317b3cf49b1126b183e25557f9b4032e4fca70e9f74ecf8.jpg",
+        "sha256": "8273c05e014766b10317b3cf49b1126b183e25557f9b4032e4fca70e9f74ecf8",
+        "width": 2026,
+        "height": 2048,
         "url": "https://vk.com/photo-62019209_316231310",
         "platform": "vk",
         "photoId": "-62019209_316231310"
@@ -1054,10 +1054,10 @@
     ],
     "images": [
       {
-        "path": "images/vk-e3a2991afd2cf67bf653d01c88892569c59082385f1744735b8964650e2ab9c9.jpg",
-        "sha256": "e3a2991afd2cf67bf653d01c88892569c59082385f1744735b8964650e2ab9c9",
-        "width": 1080,
-        "height": 807,
+        "path": "images/vk-5082d6acce9633667ac53f0f69ce6574c78d9b50474db60b8aca92f613664f6e.jpg",
+        "sha256": "5082d6acce9633667ac53f0f69ce6574c78d9b50474db60b8aca92f613664f6e",
+        "width": 2560,
+        "height": 1912,
         "url": "https://vk.com/photo-62019209_316476864",
         "platform": "vk",
         "photoId": "-62019209_316476864"
@@ -1074,10 +1074,10 @@
     "timestamp": 1387468797,
     "imageVariants": [
       {
-        "path": "images/vk-e3a2991afd2cf67bf653d01c88892569c59082385f1744735b8964650e2ab9c9.jpg",
-        "sha256": "e3a2991afd2cf67bf653d01c88892569c59082385f1744735b8964650e2ab9c9",
-        "width": 1080,
-        "height": 807,
+        "path": "images/vk-5082d6acce9633667ac53f0f69ce6574c78d9b50474db60b8aca92f613664f6e.jpg",
+        "sha256": "5082d6acce9633667ac53f0f69ce6574c78d9b50474db60b8aca92f613664f6e",
+        "width": 2560,
+        "height": 1912,
         "url": "https://vk.com/photo-62019209_316476864",
         "platform": "vk",
         "photoId": "-62019209_316476864"
@@ -2101,10 +2101,10 @@
     ],
     "images": [
       {
-        "path": "images/vk-a1c58916f3da4b02d98773f77fc2edb509b0e27536e1849f97ac6cd10c1f22bd.jpg",
-        "sha256": "a1c58916f3da4b02d98773f77fc2edb509b0e27536e1849f97ac6cd10c1f22bd",
-        "width": 108,
-        "height": 63,
+        "path": "images/vk-dce00b2712190bdadcbdc2ed0972ec70d81e9a2bce5c1fe0c521f560434b4de1.jpg",
+        "sha256": "dce00b2712190bdadcbdc2ed0972ec70d81e9a2bce5c1fe0c521f560434b4de1",
+        "width": 1024,
+        "height": 600,
         "url": "https://vk.com/photo-62019209_323475410",
         "platform": "vk",
         "photoId": "-62019209_323475410"
@@ -2121,10 +2121,10 @@
     "timestamp": 1394994901,
     "imageVariants": [
       {
-        "path": "images/vk-a1c58916f3da4b02d98773f77fc2edb509b0e27536e1849f97ac6cd10c1f22bd.jpg",
-        "sha256": "a1c58916f3da4b02d98773f77fc2edb509b0e27536e1849f97ac6cd10c1f22bd",
-        "width": 108,
-        "height": 63,
+        "path": "images/vk-dce00b2712190bdadcbdc2ed0972ec70d81e9a2bce5c1fe0c521f560434b4de1.jpg",
+        "sha256": "dce00b2712190bdadcbdc2ed0972ec70d81e9a2bce5c1fe0c521f560434b4de1",
+        "width": 1024,
+        "height": 600,
         "url": "https://vk.com/photo-62019209_323475410",
         "platform": "vk",
         "photoId": "-62019209_323475410"
@@ -4628,7 +4628,17 @@
         "title": "Робот, которому грустно, и Головная боль"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "path": "images/vk-a34c5336238ee4d197d1fa1f8f72871cf66a202a4b84950e74e55b253968065c.jpg",
+        "sha256": "a34c5336238ee4d197d1fa1f8f72871cf66a202a4b84950e74e55b253968065c",
+        "width": 360,
+        "height": 356,
+        "url": "https://vk.com/photo-62019209_356803503",
+        "platform": "vk",
+        "photoId": "-62019209_356803503"
+      }
+    ],
     "tags": [],
     "arcs": [],
     "translation": {
@@ -4638,10 +4648,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_156",
     "timestamp": 1427125966,
-    "imageVariants": [],
-    "missingPhotoIds": [
-      "-62019209_356803503"
-    ]
+    "imageVariants": [
+      {
+        "path": "images/vk-a34c5336238ee4d197d1fa1f8f72871cf66a202a4b84950e74e55b253968065c.jpg",
+        "sha256": "a34c5336238ee4d197d1fa1f8f72871cf66a202a4b84950e74e55b253968065c",
+        "width": 360,
+        "height": 356,
+        "url": "https://vk.com/photo-62019209_356803503",
+        "platform": "vk",
+        "photoId": "-62019209_356803503"
+      }
+    ],
+    "missingPhotoIds": []
   },
   {
     "id": "proza-2021-07-03-629",
@@ -6539,7 +6557,17 @@
         "title": "Робот, которому грустно, и Тарковский"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "path": "images/vk-401144b3d039d0d855c46482d560d1e33f852a05432a29d5371fb8a677cda44f.jpg",
+        "sha256": "401144b3d039d0d855c46482d560d1e33f852a05432a29d5371fb8a677cda44f",
+        "width": 1463,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_376846898",
+        "platform": "vk",
+        "photoId": "-62019209_376846898"
+      }
+    ],
     "tags": [],
     "arcs": [],
     "translation": {
@@ -6549,10 +6577,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_219",
     "timestamp": 1441123217,
-    "imageVariants": [],
-    "missingPhotoIds": [
-      "-62019209_376846898"
-    ]
+    "imageVariants": [
+      {
+        "path": "images/vk-401144b3d039d0d855c46482d560d1e33f852a05432a29d5371fb8a677cda44f.jpg",
+        "sha256": "401144b3d039d0d855c46482d560d1e33f852a05432a29d5371fb8a677cda44f",
+        "width": 1463,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_376846898",
+        "platform": "vk",
+        "photoId": "-62019209_376846898"
+      }
+    ],
+    "missingPhotoIds": []
   },
   {
     "id": "proza-2022-04-21-714",
@@ -7623,7 +7659,17 @@
         "title": "Робот, которому грустно, и Минисюжет"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "path": "images/vk-f9e5e424ea0d26e7248b1de394a93adc52f0952b6dcae85b4376873da5c1fb94.jpg",
+        "sha256": "f9e5e424ea0d26e7248b1de394a93adc52f0952b6dcae85b4376873da5c1fb94",
+        "width": 1463,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_379201254",
+        "platform": "vk",
+        "photoId": "-62019209_379201254"
+      }
+    ],
     "tags": [],
     "arcs": [],
     "translation": {
@@ -7633,10 +7679,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_262",
     "timestamp": 1442766317,
-    "imageVariants": [],
-    "missingPhotoIds": [
-      "-62019209_379201254"
-    ]
+    "imageVariants": [
+      {
+        "path": "images/vk-f9e5e424ea0d26e7248b1de394a93adc52f0952b6dcae85b4376873da5c1fb94.jpg",
+        "sha256": "f9e5e424ea0d26e7248b1de394a93adc52f0952b6dcae85b4376873da5c1fb94",
+        "width": 1463,
+        "height": 2048,
+        "url": "https://vk.com/photo-62019209_379201254",
+        "platform": "vk",
+        "photoId": "-62019209_379201254"
+      }
+    ],
+    "missingPhotoIds": []
   },
   {
     "id": "proza-2022-08-02-661",
@@ -8751,7 +8805,17 @@
         "title": "Робот, которому грустно, и Вода"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "path": "images/vk-6959a1bfeb5857a81992021911953cf44b935071361f9bd1cf11d5006a126e4d.jpg",
+        "sha256": "6959a1bfeb5857a81992021911953cf44b935071361f9bd1cf11d5006a126e4d",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_382111868",
+        "platform": "vk",
+        "photoId": "-62019209_382111868"
+      }
+    ],
     "tags": [],
     "arcs": [],
     "translation": {
@@ -8761,10 +8825,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_328",
     "timestamp": 1444595866,
-    "imageVariants": [],
-    "missingPhotoIds": [
-      "-62019209_382111868"
-    ]
+    "imageVariants": [
+      {
+        "path": "images/vk-6959a1bfeb5857a81992021911953cf44b935071361f9bd1cf11d5006a126e4d.jpg",
+        "sha256": "6959a1bfeb5857a81992021911953cf44b935071361f9bd1cf11d5006a126e4d",
+        "width": 2560,
+        "height": 1828,
+        "url": "https://vk.com/photo-62019209_382111868",
+        "platform": "vk",
+        "photoId": "-62019209_382111868"
+      }
+    ],
+    "missingPhotoIds": []
   },
   {
     "id": "proza-2022-09-20-670",
@@ -9887,7 +9959,17 @@
         "title": "Робот, которому грустно, и Телепаты"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "path": "images/vk-d612caceebb4aa3215058e1e45d1c640ed2b685545e7a8d5c5a0b609c2dbf5c3.jpg",
+        "sha256": "d612caceebb4aa3215058e1e45d1c640ed2b685545e7a8d5c5a0b609c2dbf5c3",
+        "width": 1694,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_386506428",
+        "platform": "vk",
+        "photoId": "-62019209_386506428"
+      }
+    ],
     "tags": [],
     "arcs": [],
     "translation": {
@@ -9897,10 +9979,18 @@
     "dateSource": "vk",
     "vkPostId": "-62019209_384",
     "timestamp": 1447525872,
-    "imageVariants": [],
-    "missingPhotoIds": [
-      "-62019209_386506428"
-    ]
+    "imageVariants": [
+      {
+        "path": "images/vk-d612caceebb4aa3215058e1e45d1c640ed2b685545e7a8d5c5a0b609c2dbf5c3.jpg",
+        "sha256": "d612caceebb4aa3215058e1e45d1c640ed2b685545e7a8d5c5a0b609c2dbf5c3",
+        "width": 1694,
+        "height": 2160,
+        "url": "https://vk.com/photo-62019209_386506428",
+        "platform": "vk",
+        "photoId": "-62019209_386506428"
+      }
+    ],
+    "missingPhotoIds": []
   },
   {
     "id": "proza-2023-05-14-548",
@@ -10859,7 +10949,17 @@
         "title": "Джордж Мартин, который убивает, и Ручная акула"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "path": "images/vk-e6e86cc32008b5d2ae1800caddf557c8cab1a59531036b79e579edc47dad657a.jpg",
+        "sha256": "e6e86cc32008b5d2ae1800caddf557c8cab1a59531036b79e579edc47dad657a",
+        "width": 2560,
+        "height": 2055,
+        "url": "https://vk.com/photo-62019209_402260822",
+        "platform": "vk",
+        "photoId": "-62019209_402260822"
+      }
+    ],
     "tags": [],
     "arcs": [],
     "translation": {
@@ -10870,10 +10970,18 @@
     "vkPostId": "-62019209_446",
     "timestamp": 1457200837,
     "titleSource": "mirror",
-    "imageVariants": [],
-    "missingPhotoIds": [
-      "-62019209_402260822"
-    ]
+    "imageVariants": [
+      {
+        "path": "images/vk-e6e86cc32008b5d2ae1800caddf557c8cab1a59531036b79e579edc47dad657a.jpg",
+        "sha256": "e6e86cc32008b5d2ae1800caddf557c8cab1a59531036b79e579edc47dad657a",
+        "width": 2560,
+        "height": 2055,
+        "url": "https://vk.com/photo-62019209_402260822",
+        "platform": "vk",
+        "photoId": "-62019209_402260822"
+      }
+    ],
+    "missingPhotoIds": []
   },
   {
     "id": "proza-2023-07-28-467",
@@ -14376,10 +14484,13 @@
     ],
     "images": [
       {
-        "path": "images/tg-013-1.jpg",
-        "sha256": "8d5243491e9dab769d980b6f2b6273b678304da11c40533e916a6f62aeba8728",
-        "width": 600,
-        "height": 800
+        "path": "images/vk-b4c5295d7c67b86edc8cb1bd50ca9b6b574d07985962c90ac817a8d433a02b8f.jpg",
+        "sha256": "b4c5295d7c67b86edc8cb1bd50ca9b6b574d07985962c90ac817a8d433a02b8f",
+        "width": 640,
+        "height": 853,
+        "url": "https://vk.com/photo-62019209_457239081",
+        "platform": "vk",
+        "photoId": "-62019209_457239081"
       }
     ],
     "tags": [],
@@ -14393,10 +14504,10 @@
     "timestamp": 1747509925,
     "imageVariants": [
       {
-        "path": "images/vk-e95563b222baa0e1ff5f85987056bdf20dedf9b253b6c30e0a24d157b2f4413c.jpg",
-        "sha256": "e95563b222baa0e1ff5f85987056bdf20dedf9b253b6c30e0a24d157b2f4413c",
-        "width": 540,
-        "height": 720,
+        "path": "images/vk-b4c5295d7c67b86edc8cb1bd50ca9b6b574d07985962c90ac817a8d433a02b8f.jpg",
+        "sha256": "b4c5295d7c67b86edc8cb1bd50ca9b6b574d07985962c90ac817a8d433a02b8f",
+        "width": 640,
+        "height": 853,
         "url": "https://vk.com/photo-62019209_457239081",
         "platform": "vk",
         "photoId": "-62019209_457239081"

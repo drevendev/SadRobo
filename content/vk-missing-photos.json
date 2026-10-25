@@ -598,19 +598,6 @@
     ]
   },
   {
-    "photoId": "-62019209_402260822",
-    "url": "https://vk.com/photo-62019209_402260822",
-    "error": "HTTP 403; export can be resumed.",
-    "works": [
-      {
-        "id": "proza-2023-07-17-415",
-        "title": "Джордж Мартин, который убивает, и Ручная акула",
-        "post": "https://vk.com/wall-62019209_446",
-        "mirrorIllustrationAvailable": false
-      }
-    ]
-  },
-  {
     "photoId": "-62019209_388525127",
     "url": "https://vk.com/photo-62019209_388525127",
     "error": "HTTP 404; export can be resumed.",
@@ -632,19 +619,6 @@
         "id": "proza-2023-05-14-548",
         "title": "Робот, которому грустно, и Корованы",
         "post": "https://vk.com/wall-62019209_386",
-        "mirrorIllustrationAvailable": false
-      }
-    ]
-  },
-  {
-    "photoId": "-62019209_386506428",
-    "url": "https://vk.com/photo-62019209_386506428",
-    "error": "HTTP 403; export can be resumed.",
-    "works": [
-      {
-        "id": "proza-2023-05-09-636",
-        "title": "Робот, которому грустно, и Телепаты",
-        "post": "https://vk.com/wall-62019209_384",
         "mirrorIllustrationAvailable": false
       }
     ]
@@ -689,22 +663,9 @@
     ]
   },
   {
-    "photoId": "-62019209_382111868",
-    "url": "https://vk.com/photo-62019209_382111868",
-    "error": "HTTP 403; export can be resumed.",
-    "works": [
-      {
-        "id": "proza-2022-09-19-682",
-        "title": "Робот, которому грустно, и Вода",
-        "post": "https://vk.com/wall-62019209_328",
-        "mirrorIllustrationAvailable": false
-      }
-    ]
-  },
-  {
     "photoId": "-62019209_381724883",
     "url": "https://vk.com/photo-62019209_381724883",
-    "error": "HTTP 404; export can be resumed.",
+    "error": "HTTP 403; export can be resumed.",
     "works": [
       {
         "id": "proza-2022-09-14-672",
@@ -754,32 +715,6 @@
     ]
   },
   {
-    "photoId": "-62019209_379201254",
-    "url": "https://vk.com/photo-62019209_379201254",
-    "error": "HTTP 403; export can be resumed.",
-    "works": [
-      {
-        "id": "proza-2022-08-01-592",
-        "title": "Робот, которому грустно, и Минисюжет",
-        "post": "https://vk.com/wall-62019209_262",
-        "mirrorIllustrationAvailable": false
-      }
-    ]
-  },
-  {
-    "photoId": "-62019209_376846898",
-    "url": "https://vk.com/photo-62019209_376846898",
-    "error": "HTTP 403; export can be resumed.",
-    "works": [
-      {
-        "id": "proza-2022-04-19-637",
-        "title": "Робот, которому грустно, и Тарковский",
-        "post": "https://vk.com/wall-62019209_219",
-        "mirrorIllustrationAvailable": false
-      }
-    ]
-  },
-  {
     "photoId": "-62019209_374863882",
     "url": "https://vk.com/photo-62019209_374863882",
     "error": "HTTP 404; export can be resumed.",
@@ -821,7 +756,7 @@
   {
     "photoId": "-62019209_362023084",
     "url": "https://vk.com/photo-62019209_362023084",
-    "error": "HTTP 404; export can be resumed.",
+    "error": "HTTP 403; export can be resumed.",
     "works": [
       {
         "id": "proza-2021-08-27-641",
@@ -840,19 +775,6 @@
         "id": "proza-2021-08-23-521",
         "title": "Робот, которому грустно, и Ведро наггетсов",
         "post": "https://vk.com/wall-62019209_161",
-        "mirrorIllustrationAvailable": false
-      }
-    ]
-  },
-  {
-    "photoId": "-62019209_356803503",
-    "url": "https://vk.com/photo-62019209_356803503",
-    "error": "HTTP 403; export can be resumed.",
-    "works": [
-      {
-        "id": "proza-2021-07-02-595",
-        "title": "Робот, которому грустно, и Головная боль",
-        "post": "https://vk.com/wall-62019209_156",
         "mirrorIllustrationAvailable": false
       }
     ]
