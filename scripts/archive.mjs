@@ -1,6 +1,7 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { applyAttribution } from './attribution.mjs';
 
 export const root = fileURLToPath(new URL('../', import.meta.url));
 const readJSON = async (file) => JSON.parse(await readFile(path.join(root, file), 'utf8'));
@@ -64,6 +65,7 @@ export async function loadArchive({ requireTranslations = true } = {}) {
     for (const source of story.sources) source.role = source.platform === 'vk' ? 'primary' : 'mirror';
   }
   const report = await readJSON('content/import-report.json');
+  const attribution = applyAttribution(stories, await readJSON('content/attribution.json'));
   return { stories, tags: taxonomy.tags.map(({ pattern, ...tag }) => tag), arcs: taxonomy.arcs,
     meta: { ...report, uniqueWorks: stories.length, englishDrafts: translations.size,
       illustrations: new Set(stories.flatMap(s => s.images.map(i => i.sha256))).size,
@@ -73,5 +75,5 @@ export async function loadArchive({ requireTranslations = true } = {}) {
       mirrorSources: [{ platform: 'telegram', url: 'https://t.me/sadrobo' },
         { platform: 'proza', url: 'https://proza.ru/avtor/sadrobo' },
         { platform: 'tumblr', url: 'https://therobotwhoissad.tumblr.com/' }],
-      license: 'CC-BY-4.0' } };
+      attribution, projectContentLicense: 'CC-BY-4.0', license: 'per-material' } };
 }

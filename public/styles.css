@@ -1,4 +1,5 @@
 @charset "UTF-8";
+.reading-sources>.work-credits{display:block;line-height:1.7;white-space:normal}.work-credits p{margin:6px 0;overflow-wrap:anywhere}
 @font-face{font-family:Russo One;src:url('./fonts/RussoOne-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
 :root{
   color-scheme:dark;
