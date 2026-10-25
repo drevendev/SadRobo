@@ -10,6 +10,7 @@ export async function loadArchive({ requireTranslations = true } = {}) {
   const taxonomy = await readJSON('content/taxonomy.json');
   const tumblr = await readJSON('content/tumblr.json');
   const visualCopies = await readJSON('content/vk-image-equivalents.json');
+  const dimensions = await readJSON('content/image-dimensions.json');
   const translations = new Map();
   for (const name of await readdir(path.join(root, 'content/translations'))) {
     if (!name.endsWith('.json')) continue;
@@ -57,7 +58,8 @@ export async function loadArchive({ requireTranslations = true } = {}) {
     const candidates = [...(story.imageVariants || story.images)];
     for (const image of story.images) if (!candidates.some(i => i.sha256 === image.sha256)) candidates.push(image);
     story.imageVariants = candidates;
-    story.images = candidates.sort((a,b) => Number(b.platform === 'vk') - Number(a.platform === 'vk') || (b.width || 0)*(b.height || 0) - (a.width || 0)*(a.height || 0)).slice(0,1);
+    for (const image of candidates) Object.assign(image, dimensions[image.sha256] || {});
+    story.images = candidates.sort((a,b) => (b.width || 0)*(b.height || 0) - (a.width || 0)*(a.height || 0) || Number(b.platform === 'vk') - Number(a.platform === 'vk')).slice(0,1);
     story.sources = story.sources.filter((source, index, all) => all.findIndex(s => s.url === source.url) === index);
     for (const source of story.sources) source.role = source.platform === 'vk' ? 'primary' : 'mirror';
   }
@@ -65,7 +67,7 @@ export async function loadArchive({ requireTranslations = true } = {}) {
   return { stories, tags: taxonomy.tags.map(({ pattern, ...tag }) => tag), arcs: taxonomy.arcs,
     meta: { ...report, uniqueWorks: stories.length, englishDrafts: translations.size,
       illustrations: new Set(stories.flatMap(s => s.images.map(i => i.sha256))).size,
-      updated: '2026-10-24', author: 'Dreven и FreeSlave / Робот, которому грустно',
+      updated: '2026-10-25', author: 'Dreven и FreeSlave / Робот, которому грустно',
       authors: [{ name: 'Dreven', url: 'https://github.com/drevendev' }, { name: 'FreeSlave', url: 'https://github.com/FreeSlave' }],
       primarySource: { platform: 'vk', url: 'https://vk.ru/sadrobo' },
       mirrorSources: [{ platform: 'telegram', url: 'https://t.me/sadrobo' },

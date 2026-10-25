@@ -51,6 +51,8 @@ def import_export(export_root, root=ROOT):
     mirrors = read(root / 'content/mirror-stories.json')
     old = {s['id']: s for s in mirrors}
     tumblr = read(root / 'content/tumblr.json')
+    dimensions_file = root / 'content/image-dimensions.json'
+    dimensions = read(dimensions_file) if dimensions_file.exists() else {}
     exact_files = {}
     for file in (root / 'public/images').iterdir():
         if file.is_file():
@@ -125,9 +127,11 @@ def import_export(export_root, root=ROOT):
             and not any(i['sha256'] in visual.get(h, []) for h in primary_hashes)]
         seen = set()
         story['images'] = [i for i in story['images'] if not (i['sha256'] in seen or seen.add(i['sha256']))]
+        for image in story['images']:
+            image.update(dimensions.get(image['sha256'], {}))
         story['imageVariants'] = copy.deepcopy(story['images'])
         story['images'] = sorted(story['images'], key=lambda i: (
-            i.get('platform') == 'vk', (i.get('width') or 0)*(i.get('height') or 0)), reverse=True)[:1]
+            (i.get('width') or 0)*(i.get('height') or 0), i.get('platform') == 'vk'), reverse=True)[:1]
         story['missingPhotoIds'] = [l['id'] for l in post['photos'] if 'path' not in photo_records[l['id']]]
         notes = []
         if story.get('titleSource') == 'editorial':

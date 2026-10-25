@@ -54,6 +54,10 @@ test('every canonical work has a stable unique ID, English edition and provenanc
     for (const source of story.sources) assert.match(source.url, /^https:\/\/(proza.ru|t.me|therobotwhoissad.tumblr.com|vk.com)\//);
     assert.equal(new Set(story.images.map(i => i.sha256)).size, story.images.length);
     assert.ok(story.images.length <= 1, story.id);
+    if (story.images.length) {
+      const selectedArea=(story.images[0].width||0)*(story.images[0].height||0);
+      assert.ok((story.imageVariants||[]).every(i=>(i.width||0)*(i.height||0)<=selectedArea),story.id);
+    }
     assert.ok(!story.contentNote?.ru.includes('Фото из VK пока не скачано'),story.id);
     assert.ok(['ai-draft','source-english'].includes(story.translation.status));
   }

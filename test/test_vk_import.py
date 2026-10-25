@@ -73,6 +73,21 @@ class VKImportTests(unittest.TestCase):
             self.run_import()
         self.assertFalse((self.root / 'content/stories.json').exists())
 
+    def test_smaller_vk_download_does_not_replace_higher_resolution_mirror(self):
+        mirror = self.root / 'public/images/mirror.jpg'
+        mirror.write_bytes(b'mirror fixture')
+        digest = hashlib.sha256(mirror.read_bytes()).hexdigest()
+        stories = read(self.root / 'content/mirror-stories.json')
+        stories[0]['images'] = [{'path':'images/mirror.jpg','sha256':digest}]
+        write(self.root / 'content/mirror-stories.json',stories)
+        write(self.root / 'content/image-dimensions.json',{digest:{'width':600,'height':800}})
+        result = self.run_import()[0]
+        self.assertEqual(len(result['images']),1)
+        self.assertEqual(result['images'][0]['path'],'images/mirror.jpg')
+        self.assertEqual(len(result['imageVariants']),2)
+        self.assertEqual(result['sources'][0]['platform'],'vk')
+        self.assertEqual(result['missingPhotoIds'],[])
+
 
 if __name__ == '__main__':
     unittest.main()

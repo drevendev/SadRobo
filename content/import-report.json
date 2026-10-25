@@ -30,19 +30,17 @@
     "posts": 322,
     "reportedPosts": 322,
     "photos": 317,
-    "downloadedPhotos": 208,
-    "missingPhotos": 109,
-    "exportUpdatedAt": "2026-10-24T18:36:35.707169+00:00",
+    "downloadedPhotos": 247,
+    "missingPhotos": 70,
+    "exportUpdatedAt": "2026-10-25T07:13:38.923018+00:00",
     "scan": {
       "seen_posts": 322,
       "reported_count": 322,
       "offset": 322
     },
     "errorCounts": {
-      "HTTP 404; export can be resumed.": 87,
-      "HTTP 429; export can be resumed.": 5,
-      "HTTP 403; export can be resumed.": 16,
-      "HTTP 500; export can be resumed.": 1
+      "HTTP 404; export can be resumed.": 64,
+      "HTTP 403; export can be resumed.": 6
     },
     "firstDate": "2013-11-28",
     "lastDate": "2026-07-20"
